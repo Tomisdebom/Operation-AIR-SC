@@ -382,12 +382,12 @@ Model {
 	  $ObjectID		  6
 	  IsActive		  [1]
 	  IsTabbed		  [1]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "276"
+	  ViewObjType		  "SimulinkTopLevel"
+	  LoadSaveID		  "0"
 	  Extents		  [1882.0, 824.0]
-	  ZoomFactor		  [1.1]
-	  Offset		  [-682.95454545454538, -292.59090909090907]
-	  SceneRectInView	  [-682.95454545454538, -292.59090909090907, 1710.9090909090908, 749.090909090909]
+	  ZoomFactor		  [1.1040221914008321]
+	  Offset		  [-785.37014587977865, -84.62632687694537]
+	  SceneRectInView	  [-785.37014587977865, -84.62632687694537, 1704.675879396985, 746.36180904522621]
 	}
 	Object {
 	  $ObjectID		  7
@@ -415,23 +415,23 @@ Model {
 	  $ObjectID		  9
 	  IsActive		  [0]
 	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkTopLevel"
-	  LoadSaveID		  "0"
-	  Extents		  [1882.0, 824.0]
-	  ZoomFactor		  [1.1040221914008321]
-	  Offset		  [-785.37014587977865, -84.62632687694537]
-	  SceneRectInView	  [-785.37014587977865, -84.62632687694537, 1704.675879396985, 746.36180904522621]
-	}
-	Object {
-	  $ObjectID		  10
-	  IsActive		  [0]
-	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
 	  LoadSaveID		  "256"
 	  Extents		  [1882.0, 824.0]
 	  ZoomFactor		  [1.1]
 	  Offset		  [-699.99999999999977, -342.409090909091]
 	  SceneRectInView	  [-699.99999999999977, -342.409090909091, 1710.9090909090908, 749.090909090909]
+	}
+	Object {
+	  $ObjectID		  10
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "276"
+	  Extents		  [1882.0, 824.0]
+	  ZoomFactor		  [1.1]
+	  Offset		  [-682.95454545454538, -292.59090909090907]
+	  SceneRectInView	  [-682.95454545454538, -292.59090909090907, 1710.9090909090908, 749.090909090909]
 	}
 	Object {
 	  $ObjectID		  11
@@ -519,7 +519,7 @@ Model {
   LastModifiedBy	  "mdepo"
   ModifiedDateFormat	  "%<Auto>"
   LastModifiedDate	  "Tue Mar 24 15:50:27 2020"
-  RTWModifiedTimeStamp	  506965820
+  RTWModifiedTimeStamp	  506965943
   ModelVersionFormat	  "1.%<AutoIncrement:95>"
   SampleTimeColors	  off
   SampleTimeAnnotations	  off
@@ -1723,7 +1723,7 @@ Model {
   System {
     Name		    "ssc_medical_ventilator_JW_R2018"
     Location		    [-8, -8, 1928, 1058]
-    Open		    off
+    Open		    on
     PortBlocksUseCompactNotation off
     SetExecutionDomain	    off
     ExecutionDomainType	    "Deduce"
@@ -3052,7 +3052,7 @@ Model {
       BlockType		      Goto
       Name		      "Goto1"
       SID		      "246"
-      Position		      [135, 231, 255, 249]
+      Position		      [265, 276, 385, 294]
       ZOrder		      5803
       GotoTag		      "Pos_valve_out"
     }
@@ -4374,7 +4374,7 @@ Model {
       "0.274509803921569 1;0.392156862745098 0.831372549019608 0.0745098039215686;0.0588235294117647 1 1;1 0.0745098039"
       "215686 0.650980392156863]),'DisplayLayoutDimensions',[4 1]),extmgr.Configuration('Tools','Plot Navigation',true,"
       "'OnceAtStop',false,'PreviousZoomMode','ZoomX','PreviousAutoscale','XY'),extmgr.Configuration('Tools','Measuremen"
-      "ts',true,'Version','2020a')),'Version','2020a','Position',[466 -160 1429 759],'VisibleAtModelOpen','on')"
+      "ts',true,'Version','2020a')),'Version','2020a','Position',[265 55 1429 759],'VisibleAtModelOpen','on')"
       NumInputPorts	      "4"
       Floating		      off
     }
@@ -5311,7 +5311,7 @@ Model {
       System {
 	Name			"Subsystem"
 	Location		[-8, -8, 1928, 1058]
-	Open			on
+	Open			off
 	PortBlocksUseCompactNotation off
 	SetExecutionDomain	off
 	ExecutionDomainType	"Deduce"
@@ -6520,8 +6520,18 @@ Model {
       ZOrder		      558
       SrcBlock		      "Transfer Fcn1"
       SrcPort		      1
-      DstBlock		      "Simulink-PS\nConverter1"
-      DstPort		      1
+      Points		      [2, 0]
+      Branch {
+	ZOrder			565
+	Points			[0, 105]
+	DstBlock		"Goto1"
+	DstPort			1
+      }
+      Branch {
+	ZOrder			564
+	DstBlock		"Simulink-PS\nConverter1"
+	DstPort			1
+      }
     }
     Line {
       ZOrder		      563
@@ -6536,9 +6546,7 @@ Model {
       }
       Branch {
 	ZOrder			555
-	Points			[0, 40]
-	DstBlock		"Goto1"
-	DstPort			1
+	Points			[0, 85; 52, 0]
       }
     }
     Annotation {
