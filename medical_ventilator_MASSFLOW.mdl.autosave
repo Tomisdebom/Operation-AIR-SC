@@ -1,5 +1,5 @@
 Model {
-  Name			  "ssc_medical_ventilator_JW_R2018"
+  Name			  "medical_ventilator_MASSFLOW"
   Version		  10.1
   SavedCharacterEncoding  "windows-1252"
   GraphicalInterface {
@@ -22,289 +22,289 @@ Model {
     NumExternalFileReferences 48
     ExternalFileReference {
       Reference		      "fl_lib/Moist Air/Sources/Moisture & Trace Gas\nSources/Moisture Source (MA)"
-      Path		      "ssc_medical_ventilator_JW_R2018/Added Moisture"
+      Path		      "medical_ventilator_MASSFLOW/Added Moisture"
       SID		      "82"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "fl_lib/Thermal/Thermal Sources/Temperature Source"
-      Path		      "ssc_medical_ventilator_JW_R2018/Body Temperature"
+      Path		      "medical_ventilator_MASSFLOW/Body Temperature"
       SID		      "75"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "fl_lib/Physical Signals/Functions/PS Gain"
-      Path		      "ssc_medical_ventilator_JW_R2018/Check Valve 1/Delay/PS Gain"
-      SID		      "6"
-      Type		      "LIBRARY_BLOCK"
-    }
-    ExternalFileReference {
-      Reference		      "fl_lib/Physical Signals/Linear Operators/PS Integrator"
-      Path		      "ssc_medical_ventilator_JW_R2018/Check Valve 1/Delay/PS Integrator"
-      SID		      "7"
-      Type		      "LIBRARY_BLOCK"
-    }
-    ExternalFileReference {
-      Reference		      "fl_lib/Physical Signals/Functions/PS Subtract"
-      Path		      "ssc_medical_ventilator_JW_R2018/Check Valve 1/Delay/PS Subtract"
-      SID		      "8"
-      Type		      "LIBRARY_BLOCK"
-    }
-    ExternalFileReference {
-      Reference		      "fl_lib/Moist Air/Sensors/Pressure &\nTemperature Sensor\n(MA)"
-      Path		      "ssc_medical_ventilator_JW_R2018/Check Valve 1/Pressure & Temperature Sensor (MA)"
-      SID		      "12"
-      Type		      "LIBRARY_BLOCK"
-    }
-    ExternalFileReference {
-      Reference		      "fl_lib/Physical Signals/Lookup Tables/PS Lookup Table (1D)"
-      Path		      "ssc_medical_ventilator_JW_R2018/Check Valve 1/Pressure to Area"
-      SID		      "11"
-      Type		      "LIBRARY_BLOCK"
-    }
-    ExternalFileReference {
-      Reference		      "fl_lib/Moist Air/Elements/Local Restriction\n(MA)"
-      Path		      "ssc_medical_ventilator_JW_R2018/Check Valve 1/Valve"
-      SID		      "167"
-      Type		      "LIBRARY_BLOCK"
-    }
-    ExternalFileReference {
-      Reference		      "fl_lib/Physical Signals/Functions/PS Gain"
-      Path		      "ssc_medical_ventilator_JW_R2018/Check Valve 2/Delay/PS Gain"
+      Path		      "medical_ventilator_MASSFLOW/Check Valve 2/Delay/PS Gain"
       SID		      "31"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "fl_lib/Physical Signals/Linear Operators/PS Integrator"
-      Path		      "ssc_medical_ventilator_JW_R2018/Check Valve 2/Delay/PS Integrator"
+      Path		      "medical_ventilator_MASSFLOW/Check Valve 2/Delay/PS Integrator"
       SID		      "32"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "fl_lib/Physical Signals/Functions/PS Subtract"
-      Path		      "ssc_medical_ventilator_JW_R2018/Check Valve 2/Delay/PS Subtract"
+      Path		      "medical_ventilator_MASSFLOW/Check Valve 2/Delay/PS Subtract"
       SID		      "33"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "fl_lib/Moist Air/Sensors/Pressure &\nTemperature Sensor\n(MA)"
-      Path		      "ssc_medical_ventilator_JW_R2018/Check Valve 2/Pressure & Temperature Sensor (MA)"
+      Path		      "medical_ventilator_MASSFLOW/Check Valve 2/Pressure & Temperature Sensor (MA)"
       SID		      "36"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "fl_lib/Physical Signals/Lookup Tables/PS Lookup Table (1D)"
-      Path		      "ssc_medical_ventilator_JW_R2018/Check Valve 2/Pressure to Area"
+      Path		      "medical_ventilator_MASSFLOW/Check Valve 2/Pressure to Area"
       SID		      "37"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "fl_lib/Moist Air/Elements/Local Restriction\n(MA)"
-      Path		      "ssc_medical_ventilator_JW_R2018/Check Valve 2/Valve"
+      Path		      "medical_ventilator_MASSFLOW/Check Valve 2/Valve"
       SID		      "168"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
-      Reference		      "fl_lib/Mechanical/Translational\nElements/Translational Spring"
-      Path		      "ssc_medical_ventilator_JW_R2018/Elastance"
-      SID		      "41"
+      Reference		      "fl_lib/Physical Signals/Functions/PS Gain"
+      Path		      "medical_ventilator_MASSFLOW/Check Valve 3/Delay/PS Gain"
+      SID		      "304"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "fl_lib/Physical Signals/Linear Operators/PS Integrator"
+      Path		      "medical_ventilator_MASSFLOW/Check Valve 3/Delay/PS Integrator"
+      SID		      "305"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "fl_lib/Physical Signals/Functions/PS Subtract"
+      Path		      "medical_ventilator_MASSFLOW/Check Valve 3/Delay/PS Subtract"
+      SID		      "306"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "fl_lib/Moist Air/Sensors/Pressure &\nTemperature Sensor\n(MA)"
+      Path		      "medical_ventilator_MASSFLOW/Check Valve 3/Pressure & Temperature Sensor (MA)"
+      SID		      "309"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "fl_lib/Physical Signals/Lookup Tables/PS Lookup Table (1D)"
+      Path		      "medical_ventilator_MASSFLOW/Check Valve 3/Pressure to Area"
+      SID		      "310"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "fl_lib/Moist Air/Elements/Local Restriction\n(MA)"
-      Path		      "ssc_medical_ventilator_JW_R2018/Expiratory Valve"
-      SID		      "166"
-      Type		      "LIBRARY_BLOCK"
-    }
-    ExternalFileReference {
-      Reference		      "fl_lib/Moist Air/Elements/Local Restriction\n(MA)"
-      Path		      "ssc_medical_ventilator_JW_R2018/Expiratory Valve1"
-      SID		      "209"
-      Type		      "LIBRARY_BLOCK"
-    }
-    ExternalFileReference {
-      Reference		      "fl_lib/Thermal/Thermal Elements/Convective Heat\nTransfer"
-      Path		      "ssc_medical_ventilator_JW_R2018/Lung Heat Transfer"
-      SID		      "80"
-      Type		      "LIBRARY_BLOCK"
-    }
-    ExternalFileReference {
-      Reference		      "fl_lib/Moist Air/Elements/Translational\nMechanical Converter\n(MA)"
-      Path		      "ssc_medical_ventilator_JW_R2018/Lungs"
-      SID		      "1"
-      Type		      "LIBRARY_BLOCK"
-    }
-    ExternalFileReference {
-      Reference		      "fl_lib/Moist Air/Elements/Constant Volume\nChamber (MA)"
-      Path		      "ssc_medical_ventilator_JW_R2018/Mask"
-      SID		      "164"
-      Type		      "LIBRARY_BLOCK"
-    }
-    ExternalFileReference {
-      Reference		      "fl_lib/Mechanical/Translational\nElements/Mechanical\nTranslational\nReference"
-      Path		      "ssc_medical_ventilator_JW_R2018/Mechanical Translational Reference"
-      SID		      "45"
-      Type		      "LIBRARY_BLOCK"
-    }
-    ExternalFileReference {
-      Reference		      "fl_lib/Moist Air/Utilities/Moist Air Properties\n(MA)"
-      Path		      "ssc_medical_ventilator_JW_R2018/Moist Air Properties (MA)"
-      SID		      "3"
-      Type		      "LIBRARY_BLOCK"
-    }
-    ExternalFileReference {
-      Reference		      "fl_lib/Mechanical/Mechanical Sources/Ideal Force Source"
-      Path		      "ssc_medical_ventilator_JW_R2018/Muscle Pressure"
-      SID		      "44"
+      Path		      "medical_ventilator_MASSFLOW/Check Valve 3/Valve"
+      SID		      "311"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "simulink/Continuous/PID Controller"
-      Path		      "ssc_medical_ventilator_JW_R2018/PID Controller"
+      Path		      "medical_ventilator_MASSFLOW/Controller/PID Controller"
       SID		      "220"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "simulink/Continuous/PID Controller"
-      Path		      "ssc_medical_ventilator_JW_R2018/PID Controller1"
+      Path		      "medical_ventilator_MASSFLOW/Controller/PID Controller1"
       SID		      "227"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
+      Reference		      "fl_lib/Mechanical/Translational\nElements/Translational Spring"
+      Path		      "medical_ventilator_MASSFLOW/Elastance"
+      SID		      "41"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "fl_lib/Moist Air/Elements/Local Restriction\n(MA)"
+      Path		      "medical_ventilator_MASSFLOW/Expiratory Valve"
+      SID		      "166"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "fl_lib/Moist Air/Elements/Local Restriction\n(MA)"
+      Path		      "medical_ventilator_MASSFLOW/Expiratory Valve1"
+      SID		      "209"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "fl_lib/Thermal/Thermal Elements/Convective Heat\nTransfer"
+      Path		      "medical_ventilator_MASSFLOW/Lung Heat Transfer"
+      SID		      "80"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "fl_lib/Moist Air/Elements/Translational\nMechanical Converter\n(MA)"
+      Path		      "medical_ventilator_MASSFLOW/Lungs"
+      SID		      "1"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "fl_lib/Moist Air/Elements/Constant Volume\nChamber (MA)"
+      Path		      "medical_ventilator_MASSFLOW/Mask"
+      SID		      "164"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "fl_lib/Mechanical/Translational\nElements/Mechanical\nTranslational\nReference"
+      Path		      "medical_ventilator_MASSFLOW/Mechanical Translational Reference"
+      SID		      "45"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "fl_lib/Moist Air/Utilities/Moist Air Properties\n(MA)"
+      Path		      "medical_ventilator_MASSFLOW/Moist Air Properties (MA)"
+      SID		      "3"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "fl_lib/Mechanical/Mechanical Sources/Ideal Force Source"
+      Path		      "medical_ventilator_MASSFLOW/Muscle Pressure"
+      SID		      "44"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
       Reference		      "fl_lib/Physical Signals/Sources/PS Constant"
-      Path		      "ssc_medical_ventilator_JW_R2018/PS Constant"
+      Path		      "medical_ventilator_MASSFLOW/PS Constant"
       SID		      "114"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "fl_lib/Thermal/Thermal Elements/Perfect Insulator"
-      Path		      "ssc_medical_ventilator_JW_R2018/Perfect Insulator"
+      Path		      "medical_ventilator_MASSFLOW/Perfect Insulator"
       SID		      "72"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "fl_lib/Mechanical/Translational\nElements/Translational Damper"
-      Path		      "ssc_medical_ventilator_JW_R2018/Resistance"
+      Path		      "medical_ventilator_MASSFLOW/Resistance"
       SID		      "43"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "fl_lib/Moist Air/Elements/Reservoir (MA)"
-      Path		      "ssc_medical_ventilator_JW_R2018/Room Air Sink"
+      Path		      "medical_ventilator_MASSFLOW/Room Air Sink"
       SID		      "58"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "fl_lib/Moist Air/Elements/Reservoir (MA)"
-      Path		      "ssc_medical_ventilator_JW_R2018/Room Air Source"
+      Path		      "medical_ventilator_MASSFLOW/Room Air Source"
       SID		      "57"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "fl_lib/Moist Air/Elements/Absolute Reference\n(MA)"
-      Path		      "ssc_medical_ventilator_JW_R2018/Sensors/Absolute Reference (MA)"
+      Path		      "medical_ventilator_MASSFLOW/Sensors/Absolute Reference (MA)"
       SID		      "161"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "fl_lib/Moist Air/Sensors/Humidity & Trace Gas\nSensor (MA)"
-      Path		      "ssc_medical_ventilator_JW_R2018/Sensors/Humidity & Trace Gas Sensor (MA)"
+      Path		      "medical_ventilator_MASSFLOW/Sensors/Humidity & Trace Gas Sensor (MA)"
       SID		      "97"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "nesl_utility/PS-Simulink\nConverter"
-      Path		      "ssc_medical_ventilator_JW_R2018/Sensors/PS-Simulink Converter"
+      Path		      "medical_ventilator_MASSFLOW/Sensors/PS-Simulink Converter"
       SID		      "98"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "nesl_utility/PS-Simulink\nConverter"
-      Path		      "ssc_medical_ventilator_JW_R2018/Sensors/PS-Simulink Converter1"
+      Path		      "medical_ventilator_MASSFLOW/Sensors/PS-Simulink Converter1"
       SID		      "99"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "fl_lib/Moist Air/Sensors/Pressure &\nTemperature Sensor\n(MA)"
-      Path		      "ssc_medical_ventilator_JW_R2018/Sensors/Pressure & Temperature Sensor (MA)"
+      Path		      "medical_ventilator_MASSFLOW/Sensors/Pressure & Temperature Sensor (MA)"
       SID		      "96"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "fl_lib/Moist Air/Sensors/Volumetric Flow Rate\nSensor (MA)"
-      Path		      "ssc_medical_ventilator_JW_R2018/Sensors/Volumetric Flow Rate Sensor (MA)"
+      Path		      "medical_ventilator_MASSFLOW/Sensors/Volumetric Flow Rate Sensor (MA)"
       SID		      "95"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "fl_lib/Moist Air/Elements/Absolute Reference\n(MA)"
-      Path		      "ssc_medical_ventilator_JW_R2018/Sensors1/Absolute Reference (MA)"
+      Path		      "medical_ventilator_MASSFLOW/Sensors1/Absolute Reference (MA)"
       SID		      "187"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "fl_lib/Moist Air/Sensors/Humidity & Trace Gas\nSensor (MA)"
-      Path		      "ssc_medical_ventilator_JW_R2018/Sensors1/Humidity & Trace Gas Sensor (MA)"
+      Path		      "medical_ventilator_MASSFLOW/Sensors1/Humidity & Trace Gas Sensor (MA)"
       SID		      "191"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "nesl_utility/PS-Simulink\nConverter"
-      Path		      "ssc_medical_ventilator_JW_R2018/Sensors1/PS-Simulink Converter"
+      Path		      "medical_ventilator_MASSFLOW/Sensors1/PS-Simulink Converter"
       SID		      "192"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "nesl_utility/PS-Simulink\nConverter"
-      Path		      "ssc_medical_ventilator_JW_R2018/Sensors1/PS-Simulink Converter1"
+      Path		      "medical_ventilator_MASSFLOW/Sensors1/PS-Simulink Converter1"
       SID		      "193"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "fl_lib/Moist Air/Sensors/Pressure &\nTemperature Sensor\n(MA)"
-      Path		      "ssc_medical_ventilator_JW_R2018/Sensors1/Pressure & Temperature Sensor (MA)"
+      Path		      "medical_ventilator_MASSFLOW/Sensors1/Pressure & Temperature Sensor (MA)"
       SID		      "194"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "fl_lib/Moist Air/Sensors/Volumetric Flow Rate\nSensor (MA)"
-      Path		      "ssc_medical_ventilator_JW_R2018/Sensors1/Volumetric Flow Rate Sensor (MA)"
+      Path		      "medical_ventilator_MASSFLOW/Sensors1/Volumetric Flow Rate Sensor (MA)"
       SID		      "197"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "nesl_utility/Simulink-PS\nConverter"
-      Path		      "ssc_medical_ventilator_JW_R2018/Simulink-PS Converter1"
+      Path		      "medical_ventilator_MASSFLOW/Simulink-PS Converter1"
       SID		      "150"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "nesl_utility/Simulink-PS\nConverter"
-      Path		      "ssc_medical_ventilator_JW_R2018/Simulink-PS Converter2"
+      Path		      "medical_ventilator_MASSFLOW/Simulink-PS Converter2"
       SID		      "214"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "nesl_utility/Solver\nConfiguration"
-      Path		      "ssc_medical_ventilator_JW_R2018/Solver Configuration"
+      Path		      "medical_ventilator_MASSFLOW/Solver Configuration"
       SID		      "2"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "fl_lib/Moist Air/Elements/Pipe (MA)"
-      Path		      "ssc_medical_ventilator_JW_R2018/Trachea"
+      Path		      "medical_ventilator_MASSFLOW/Trachea"
       SID		      "64"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "fl_lib/Mechanical/Mechanical Sensors/Ideal Translational\nMotion Sensor"
-      Path		      "ssc_medical_ventilator_JW_R2018/Volume Data/Ideal Translational Motion Sensor"
+      Path		      "medical_ventilator_MASSFLOW/Volume Data/Ideal Translational Motion Sensor"
       SID		      "83"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "nesl_utility/PS-Simulink\nConverter"
-      Path		      "ssc_medical_ventilator_JW_R2018/Volume Data/PS-Simulink Converter"
+      Path		      "medical_ventilator_MASSFLOW/Volume Data/PS-Simulink Converter"
       SID		      "89"
       Type		      "LIBRARY_BLOCK"
     }
@@ -377,11 +377,33 @@ Model {
       }
       Array {
 	Type			"Simulink.EditorInfo"
-	Dimension		9
+	Dimension		12
 	Object {
 	  $ObjectID		  6
+	  IsActive		  [0]
+	  IsTabbed		  [1]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "256"
+	  Extents		  [1882.0, 824.0]
+	  ZoomFactor		  [1.1]
+	  Offset		  [-699.99999999999977, -342.409090909091]
+	  SceneRectInView	  [-699.99999999999977, -342.409090909091, 1710.9090909090908, 749.090909090909]
+	}
+	Object {
+	  $ObjectID		  7
 	  IsActive		  [1]
 	  IsTabbed		  [1]
+	  ViewObjType		  "SimulinkTopLevel"
+	  LoadSaveID		  "0"
+	  Extents		  [1882.0, 824.0]
+	  ZoomFactor		  [0.8]
+	  Offset		  [-1110.0325259108045, -315.52721875836119]
+	  SceneRectInView	  [-1110.0325259108045, -315.52721875836119, 2352.5, 1030.0]
+	}
+	Object {
+	  $ObjectID		  8
+	  IsActive		  [0]
+	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
 	  LoadSaveID		  "186"
 	  Extents		  [1882.0, 824.0]
@@ -390,7 +412,7 @@ Model {
 	  SceneRectInView	  [-126.90844508354962, -71.403132915538833, 1098.2001151872576, 480.82725553363457]
 	}
 	Object {
-	  $ObjectID		  7
+	  $ObjectID		  9
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -401,18 +423,40 @@ Model {
 	  SceneRectInView	  [-682.95454545454538, -292.59090909090907, 1710.9090909090908, 749.090909090909]
 	}
 	Object {
-	  $ObjectID		  8
+	  $ObjectID		  10
 	  IsActive		  [0]
 	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkTopLevel"
-	  LoadSaveID		  "0"
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "285"
 	  Extents		  [1882.0, 824.0]
 	  ZoomFactor		  [1.0]
-	  Offset		  [-850.94803532701485, -151.71175401262383]
-	  SceneRectInView	  [-850.94803532701485, -151.71175401262383, 1882.0, 824.0]
+	  Offset		  [-621.7421875, -311.0]
+	  SceneRectInView	  [-621.7421875, -311.0, 1882.0, 824.0]
 	}
 	Object {
-	  $ObjectID		  9
+	  $ObjectID		  11
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "4"
+	  Extents		  [1882.0, 824.0]
+	  ZoomFactor		  [1.0]
+	  Offset		  [-706.0, -272.0001]
+	  SceneRectInView	  [-706.0, -272.0001, 1882.0, 824.0]
+	}
+	Object {
+	  $ObjectID		  12
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "281"
+	  Extents		  [1882.0, 824.0]
+	  ZoomFactor		  [1.0]
+	  Offset		  [-656.7421875, -313.5]
+	  SceneRectInView	  [-656.7421875, -313.5, 1882.0, 824.0]
+	}
+	Object {
+	  $ObjectID		  13
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -423,18 +467,7 @@ Model {
 	  SceneRectInView	  [-92.6860186652624, -105.0996250195885, 1098.2001151872576, 480.82725553363457]
 	}
 	Object {
-	  $ObjectID		  10
-	  IsActive		  [0]
-	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "256"
-	  Extents		  [1882.0, 824.0]
-	  ZoomFactor		  [1.1]
-	  Offset		  [-699.99999999999977, -342.409090909091]
-	  SceneRectInView	  [-699.99999999999977, -342.409090909091, 1710.9090909090908, 749.090909090909]
-	}
-	Object {
-	  $ObjectID		  11
+	  $ObjectID		  14
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -445,7 +478,7 @@ Model {
 	  SceneRectInView	  [-726.0, -358.5, 1882.0, 824.0]
 	}
 	Object {
-	  $ObjectID		  12
+	  $ObjectID		  15
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -456,7 +489,7 @@ Model {
 	  SceneRectInView	  [0.0, 0.0, 0.0, 0.0]
 	}
 	Object {
-	  $ObjectID		  13
+	  $ObjectID		  16
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -467,7 +500,7 @@ Model {
 	  SceneRectInView	  [0.0, 0.0, 0.0, 0.0]
 	}
 	Object {
-	  $ObjectID		  14
+	  $ObjectID		  17
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -481,7 +514,7 @@ Model {
       }
       Object {
 	$PropName		"DockComponentsInfo"
-	$ObjectID		15
+	$ObjectID		18
 	$ClassName		"Simulink.DockComponentInfo"
 	Type			"GLUE2:PropertyInspector"
 	ID			"Property Inspector"
@@ -519,7 +552,7 @@ Model {
   LastModifiedBy	  "mdepo"
   ModifiedDateFormat	  "%<Auto>"
   LastModifiedDate	  "Wed Mar 25 09:36:03 2020"
-  RTWModifiedTimeStamp	  507035186
+  RTWModifiedTimeStamp	  507040309
   ModelVersionFormat	  "1.%<AutoIncrement:97>"
   SampleTimeColors	  off
   SampleTimeAnnotations	  off
@@ -578,14 +611,14 @@ Model {
   TryForcingSFcnDF	  off
   Object {
     $PropName		    "DataLoggingOverride"
-    $ObjectID		    16
+    $ObjectID		    19
     $ClassName		    "Simulink.SimulationData.ModelLoggingInfo"
-    model_		    "ssc_medical_ventilator_JW_R2018"
+    model_		    "medical_ventilator_MASSFLOW"
     overrideMode_	    [0.0]
     Array {
       Type		      "Cell"
       Dimension		      1
-      Cell		      "ssc_medical_ventilator_JW_R2018"
+      Cell		      "medical_ventilator_MASSFLOW"
       PropName		      "logAsSpecifiedByModels_"
     }
     Array {
@@ -623,7 +656,7 @@ Model {
     Type		    "Handle"
     Dimension		    1
     Simulink.ConfigSet {
-      $ObjectID		      17
+      $ObjectID		      20
       Version		      "20.0.1"
       DisabledProps	      []
       Description	      ""
@@ -631,7 +664,7 @@ Model {
 	Type			"Handle"
 	Dimension		11
 	Simulink.SolverCC {
-	  $ObjectID		  18
+	  $ObjectID		  21
 	  Version		  "20.0.1"
 	  DisabledProps		  []
 	  Description		  ""
@@ -674,7 +707,7 @@ Model {
 	  ODENIntegrationMethod	  "ode3"
 	}
 	Simulink.DataIOCC {
-	  $ObjectID		  19
+	  $ObjectID		  22
 	  Version		  "20.0.1"
 	  DisabledProps		  []
 	  Description		  ""
@@ -716,7 +749,7 @@ Model {
 	  LoggingIntervals	  "[-inf, inf]"
 	}
 	Simulink.OptimizationCC {
-	  $ObjectID		  20
+	  $ObjectID		  23
 	  Version		  "20.0.1"
 	  Array {
 	    Type		    "Cell"
@@ -790,7 +823,7 @@ Model {
 	  EfficientTunableParamExpr off
 	}
 	Simulink.DebuggingCC {
-	  $ObjectID		  21
+	  $ObjectID		  24
 	  Version		  "20.0.1"
 	  Array {
 	    Type		    "Cell"
@@ -911,7 +944,7 @@ Model {
 	  ArithmeticOperatorsInVariantConditions "warning"
 	}
 	Simulink.HardwareCC {
-	  $ObjectID		  22
+	  $ObjectID		  25
 	  Version		  "20.0.1"
 	  DisabledProps		  []
 	  Description		  ""
@@ -961,7 +994,7 @@ Model {
 	  HardwareBoardFeatureSet "EmbeddedCoderHSP"
 	}
 	Simulink.ModelReferenceCC {
-	  $ObjectID		  23
+	  $ObjectID		  26
 	  Version		  "20.0.1"
 	  DisabledProps		  []
 	  Description		  ""
@@ -981,7 +1014,7 @@ Model {
 	  SupportModelReferenceSimTargetCustomCode off
 	}
 	Simulink.SFSimCC {
-	  $ObjectID		  24
+	  $ObjectID		  27
 	  Version		  "20.0.1"
 	  DisabledProps		  []
 	  Description		  ""
@@ -1016,7 +1049,7 @@ Model {
 	}
 	Simulink.RTWCC {
 	  $BackupClass		  "Simulink.RTWCC"
-	  $ObjectID		  25
+	  $ObjectID		  28
 	  Version		  "20.0.1"
 	  Array {
 	    Type		    "Cell"
@@ -1105,7 +1138,7 @@ Model {
 	    Type		    "Handle"
 	    Dimension		    2
 	    Simulink.CodeAppCC {
-	      $ObjectID		      26
+	      $ObjectID		      29
 	      Version		      "20.0.1"
 	      Array {
 		Type			"Cell"
@@ -1195,7 +1228,7 @@ Model {
 	    }
 	    Simulink.GRTTargetCC {
 	      $BackupClass	      "Simulink.TargetCC"
-	      $ObjectID		      27
+	      $ObjectID		      30
 	      Version		      "20.0.1"
 	      Array {
 		Type			"Cell"
@@ -1300,7 +1333,7 @@ Model {
 	  }
 	}
 	SlCovCC.ConfigComp {
-	  $ObjectID		  28
+	  $ObjectID		  31
 	  Version		  "20.0.1"
 	  DisabledProps		  []
 	  Description		  "Simulink Coverage Configuration Component"
@@ -1341,7 +1374,7 @@ Model {
 	  CovMcdcMode		  "Masking"
 	}
 	hdlcoderui.hdlcc {
-	  $ObjectID		  29
+	  $ObjectID		  32
 	  Version		  "20.0.1"
 	  DisabledProps		  []
 	  Description		  "HDL Coder custom configuration component"
@@ -1356,7 +1389,7 @@ Model {
 	  HDLCActiveTab		  "0"
 	}
 	SSC.SimscapeCC {
-	  $ObjectID		  30
+	  $ObjectID		  33
 	  Version		  "1.18.0"
 	  DisabledProps		  []
 	  Description		  ""
@@ -1364,7 +1397,7 @@ Model {
 	    Type		    "Handle"
 	    Dimension		    1
 	    simmechanics.ConfigurationSet {
-	      $ObjectID		      31
+	      $ObjectID		      34
 	      Version		      "20.0.1"
 	      DisabledProps	      []
 	      Description	      "Simscape Multibody"
@@ -1372,7 +1405,7 @@ Model {
 		Type			"Handle"
 		Dimension		2
 		simmechanics.DiagnosticsConfigSet {
-		  $ObjectID		  32
+		  $ObjectID		  35
 		  DisabledProps		  []
 		  Description		  "Diagnostics"
 		  Components		  []
@@ -1388,7 +1421,7 @@ Model {
 		  SimMechanicsJointTargetOverSpecification "error"
 		}
 		simmechanics.ExplorerConfigSet {
-		  $ObjectID		  33
+		  $ObjectID		  36
 		  DisabledProps		  []
 		  Description		  "Explorer"
 		  Components		  []
@@ -1434,11 +1467,11 @@ Model {
   }
   Simulink.ConfigSet {
     $PropName		    "ActiveConfigurationSet"
-    $ObjectID		    17
+    $ObjectID		    20
   }
   Object {
     $PropName		    "DataTransfer"
-    $ObjectID		    34
+    $ObjectID		    37
     $ClassName		    "Simulink.GlobalDataTransfer"
     DefaultTransitionBetweenSyncTasks "Ensure deterministic transfer (maximum delay)"
     DefaultTransitionBetweenAsyncTasks "Ensure data integrity only"
@@ -1721,9 +1754,9 @@ Model {
     }
   }
   System {
-    Name		    "ssc_medical_ventilator_JW_R2018"
+    Name		    "medical_ventilator_MASSFLOW"
     Location		    [-8, -8, 1928, 1058]
-    Open		    off
+    Open		    on
     PortBlocksUseCompactNotation off
     SetExecutionDomain	    off
     ExecutionDomainType	    "Deduce"
@@ -1737,10 +1770,18 @@ Model {
     TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
     TiledPageScale	    1
     ShowPageBoundaries	    off
-    ZoomFactor		    "100"
+    ZoomFactor		    "80"
     ReportName		    "simulink-default.rpt"
-    SIDHighWatermark	    "278"
+    SIDHighWatermark	    "320"
     SimulinkSubDomain	    "Simulink"
+    Block {
+      BlockType		      TransferFcn
+      Name		      "Actuator MFC"
+      SID		      "289"
+      Position		      [-110, 69, -15, 111]
+      ZOrder		      5823
+      Denominator	      "[0.01 1]"
+    }
     Block {
       BlockType		      Reference
       Name		      "Added\nMoisture"
@@ -1806,534 +1847,17 @@ Model {
     }
     Block {
       BlockType		      SubSystem
-      Name		      "Check Valve 1"
-      SID		      "4"
-      Tag		      "PublishSubsystem"
-      Ports		      [0, 0, 0, 0, 0, 1, 1]
-      Position		      [385, 39, 425, 71]
-      ZOrder		      21
-      RequestExecContextInheritance off
-      ContentPreviewEnabled   on
-      Object {
-	$PropName		"MaskObject"
-	$ObjectID		35
-	$ClassName		"Simulink.Mask"
-	Type			"Check Valve"
-	Description		"This subsystem models a check valve that permits flow from port A to port B but restricts flow from por"
-	"t B to port A."
-	RunInitForIconRedraw	"off"
-	Array {
-	  Type			  "Simulink.MaskParameter"
-	  Dimension		  7
-	  Object {
-	    $ObjectID		    36
-	    Type		    "edit"
-	    Name		    "p_max"
-	    Prompt		    "Max opening pressure differential (Pa)"
-	    Value		    "1e3"
-	  }
-	  Object {
-	    $ObjectID		    37
-	    Type		    "edit"
-	    Name		    "p_crack"
-	    Prompt		    "Cracking pressure differential (Pa)"
-	    Value		    "10"
-	  }
-	  Object {
-	    $ObjectID		    38
-	    Type		    "edit"
-	    Name		    "A_max"
-	    Prompt		    "Max opening area (m^2)"
-	    Value		    "pi*(0.9*D_tube)^2/4"
-	  }
-	  Object {
-	    $ObjectID		    39
-	    Type		    "edit"
-	    Name		    "A_leak"
-	    Prompt		    "Leakage area (m^2)"
-	    Value		    "1e-10"
-	  }
-	  Object {
-	    $ObjectID		    40
-	    Type		    "edit"
-	    Name		    "A_port"
-	    Prompt		    "Connecting port area (m^2)"
-	    Value		    "pi*D_tube^2/4"
-	  }
-	  Object {
-	    $ObjectID		    41
-	    Type		    "edit"
-	    Name		    "Cd"
-	    Prompt		    "Discharge coefficient"
-	    Value		    "0.8"
-	  }
-	  Object {
-	    $ObjectID		    42
-	    Type		    "edit"
-	    Name		    "tau"
-	    Prompt		    "Opening time constant (s)"
-	    Value		    "0.1"
-	  }
-	  PropName		  "Parameters"
-	}
-	Array {
-	  Type			  "Simulink.dialog.Group"
-	  Dimension		  2
-	  Object {
-	    $ObjectID		    43
-	    Prompt		    "%<MaskType>"
-	    Object {
-	      $PropName		      "DialogControls"
-	      $ObjectID		      44
-	      $ClassName	      "Simulink.dialog.Text"
-	      Prompt		      "%<MaskDescription>"
-	      Name		      "DescTextVar"
-	    }
-	    Name		    "DescGroupVar"
-	  }
-	  Object {
-	    $ObjectID		    45
-	    Prompt		    "Simulink:studio:ToolBarParametersMenu"
-	    Array {
-	      Type		      "Simulink.dialog.parameter.Edit"
-	      Dimension		      7
-	      Object {
-		$ObjectID		46
-		Name			"p_max"
-	      }
-	      Object {
-		$ObjectID		47
-		Name			"p_crack"
-	      }
-	      Object {
-		$ObjectID		48
-		Name			"A_max"
-	      }
-	      Object {
-		$ObjectID		49
-		Name			"A_leak"
-	      }
-	      Object {
-		$ObjectID		50
-		Name			"A_port"
-	      }
-	      Object {
-		$ObjectID		51
-		Name			"Cd"
-	      }
-	      Object {
-		$ObjectID		52
-		Name			"tau"
-	      }
-	      PropName		      "DialogControls"
-	    }
-	    Name		    "ParameterGroupVar"
-	  }
-	  PropName		  "DialogControls"
-	}
-      }
-      System {
-	Name			"Check Valve 1"
-	Location		[1, 10, 845, 728]
-	Open			off
-	PortBlocksUseCompactNotation off
-	SetExecutionDomain	off
-	ExecutionDomainType	"Deduce"
-	ModelBrowserVisibility	off
-	ModelBrowserWidth	200
-	ScreenColor		"white"
-	PaperOrientation	"landscape"
-	PaperPositionMode	"auto"
-	PaperType		"usletter"
-	PaperUnits		"inches"
-	TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
-	TiledPageScale		1
-	ShowPageBoundaries	off
-	ZoomFactor		"100"
-	SimulinkSubDomain	"Simulink"
-	Block {
-	  BlockType		  SubSystem
-	  Name			  "Delay"
-	  SID			  "5"
-	  Ports			  [0, 0, 0, 0, 0, 1, 1]
-	  Position		  [170, 122, 210, 148]
-	  ZOrder		  27
-	  BlockMirror		  on
-	  RequestExecContextInheritance	off
-	  ContentPreviewEnabled	  on
-	  Object {
-	    $PropName		    "MaskObject"
-	    $ObjectID		    53
-	    $ClassName		    "Simulink.Mask"
-	    RunInitForIconRedraw    "off"
-	    Array {
-	      Type		      "Simulink.MaskParameter"
-	      Dimension		      2
-	      Object {
-		$ObjectID		54
-		Type			"edit"
-		Name			"tau"
-		Prompt			"Time constant (s)"
-		Value			"tau"
-	      }
-	      Object {
-		$ObjectID		55
-		Type			"edit"
-		Name			"x0"
-		Prompt			"Initial output"
-		Value			"A_leak"
-	      }
-	      PropName		      "Parameters"
-	    }
-	  }
-	  System {
-	    Name		    "Delay"
-	    Location		    [1, 10, 845, 728]
-	    Open		    off
-	    PortBlocksUseCompactNotation off
-	    SetExecutionDomain	    off
-	    ExecutionDomainType	    "Deduce"
-	    ModelBrowserVisibility  off
-	    ModelBrowserWidth	    200
-	    ScreenColor		    "white"
-	    PaperOrientation	    "landscape"
-	    PaperPositionMode	    "auto"
-	    PaperType		    "usletter"
-	    PaperUnits		    "inches"
-	    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
-	    TiledPageScale	    1
-	    ShowPageBoundaries	    off
-	    ZoomFactor		    "100"
-	    SimulinkSubDomain	    "Simulink"
-	    Block {
-	      BlockType		      Reference
-	      Name		      "PS Gain"
-	      SID		      "6"
-	      Ports		      [0, 0, 0, 0, 0, 1, 1]
-	      Position		      [205, 45, 235, 75]
-	      ZOrder		      24
-	      LibraryVersion	      "10001000.1"
-	      SourceBlock	      "fl_lib/Physical Signals/Functions/PS Gain"
-	      SourceType	      "PS Gain"
-	      SourceProductBaseCode   "SS"
-	      LogSimulationData	      off
-	      SourceFile	      "foundation.signal.functions.gain"
-	      InternalSimscapePortConfiguration	"{\"Bottom\":[],\"Left\":[{\"id\":\"I\",\"label\":\"\",\"type\":\"input\"}],\""
-	      "Right\":[{\"id\":\"O\",\"label\":\"\",\"type\":\"output\"}],\"Top\":[]}"
-	      ComponentPath	      "foundation.signal.functions.gain"
-	      ComponentVariants	      "foundation.signal.functions.gain"
-	      ComponentVariantNames   "gain"
-	      ClassName		      "gain"
-	      SchemaVersion	      "1"
-	      gain		      "1/tau"
-	      gain_unit		      "1/s"
-	      gain_conf		      "compiletime"
-	    }
-	    Block {
-	      BlockType		      Reference
-	      Name		      "PS Integrator"
-	      SID		      "7"
-	      Ports		      [0, 0, 0, 0, 0, 1, 1]
-	      Position		      [265, 45, 295, 75]
-	      ZOrder		      26
-	      LibraryVersion	      "10001000.1"
-	      SourceBlock	      "fl_lib/Physical Signals/Linear Operators/PS Integrator"
-	      SourceType	      "PS Integrator"
-	      SourceProductBaseCode   "SS"
-	      LogSimulationData	      off
-	      SourceFile	      "foundation.signal.linear.integrator"
-	      InternalSimscapePortConfiguration	"{\"Bottom\":[],\"Left\":[{\"id\":\"I\",\"label\":\"\",\"type\":\"input\"}],\""
-	      "Right\":[{\"id\":\"O\",\"label\":\"\",\"type\":\"output\"}],\"Top\":[]}"
-	      ComponentPath	      "foundation.signal.linear.integrator"
-	      ComponentVariants	      "foundation.signal.linear.integrator"
-	      ComponentVariantNames   "integrator"
-	      ClassName		      "integrator"
-	      SchemaVersion	      "1"
-	      x0		      "x0"
-	      x0_unit		      "m^2"
-	      x0_conf		      "compiletime"
-	    }
-	    Block {
-	      BlockType		      Reference
-	      Name		      "PS Subtract"
-	      SID		      "8"
-	      Ports		      [0, 0, 0, 0, 0, 2, 1]
-	      Position		      [150, 42, 170, 73]
-	      ZOrder		      25
-	      ShowName		      off
-	      LibraryVersion	      "10001000.1"
-	      SourceBlock	      "fl_lib/Physical Signals/Functions/PS Subtract"
-	      SourceType	      "PS Subtract"
-	      SourceProductBaseCode   "SS"
-	      LogSimulationData	      off
-	      SourceFile	      "foundation.signal.functions.subtract"
-	      InternalSimscapePortConfiguration	"{\"Bottom\":[],\"Left\":[{\"id\":\"I1\",\"label\":\"\",\"type\":\"input\"},{"
-	      "\"id\":\"I2\",\"label\":\"\",\"type\":\"input\"}],\"Right\":[{\"id\":\"O\",\"label\":\"\",\"type\":\"output\"}]"
-	      ",\"Top\":[]}"
-	      ComponentPath	      "foundation.signal.functions.subtract"
-	      ComponentVariants	      "foundation.signal.functions.subtract"
-	      ComponentVariantNames   "subtract"
-	      ClassName		      "subtract"
-	      SchemaVersion	      "1"
-	    }
-	    Block {
-	      BlockType		      PMIOPort
-	      Name		      "A"
-	      SID		      "9"
-	      Position		      [60, 43, 90, 57]
-	      ZOrder		      27
-	      Side		      "Left"
-	    }
-	    Block {
-	      BlockType		      PMIOPort
-	      Name		      "B"
-	      SID		      "10"
-	      Position		      [355, 53, 385, 67]
-	      ZOrder		      28
-	      BlockMirror	      on
-	      Port		      "2"
-	      Side		      "Right"
-	    }
-	    Line {
-	      LineType		      "Connection"
-	      ZOrder		      1
-	      SrcBlock		      "PS Integrator"
-	      SrcPort		      RConn1
-	      Points		      [23, 0]
-	      Branch {
-		ConnectType		"DEST_SRC"
-		Points			[0, 49; -220, 0; 0, -44]
-		DstBlock		"PS Subtract"
-		DstPort			LConn2
-	      }
-	      Branch {
-		ConnectType		"DEST_SRC"
-		DstBlock		"B"
-		DstPort			RConn1
-	      }
-	    }
-	    Line {
-	      LineType		      "Connection"
-	      ZOrder		      4
-	      SrcBlock		      "PS Subtract"
-	      SrcPort		      RConn1
-	      DstBlock		      "PS Gain"
-	      DstPort		      LConn1
-	    }
-	    Line {
-	      LineType		      "Connection"
-	      ZOrder		      5
-	      SrcBlock		      "PS Subtract"
-	      SrcPort		      LConn1
-	      DstBlock		      "A"
-	      DstPort		      RConn1
-	    }
-	    Line {
-	      LineType		      "Connection"
-	      ZOrder		      6
-	      SrcBlock		      "PS Integrator"
-	      SrcPort		      LConn1
-	      DstBlock		      "PS Gain"
-	      DstPort		      RConn1
-	    }
-	  }
-	}
-	Block {
-	  BlockType		  Reference
-	  Name			  "Pressure &\nTemperature Sensor\n(MA)"
-	  SID			  "12"
-	  Ports			  [0, 0, 0, 0, 0, 1, 3]
-	  Position		  [215, 195, 255, 235]
-	  ZOrder		  22
-	  BlockRotation		  180
-	  BlockMirror		  on
-	  LibraryVersion	  "10001000.1"
-	  SourceBlock		  "fl_lib/Moist Air/Sensors/Pressure &\nTemperature Sensor\n(MA)"
-	  SourceType		  "Pressure &\nTemperature Sensor\n(MA)"
-	  SourceProductBaseCode	  "SS"
-	  LogSimulationData	  off
-	  SourceFile		  "foundation.moist_air.sensors.pressure_temperature_sensor"
-	  InternalSimscapePortConfiguration "{\"Bottom\":[],\"Left\":[{\"id\":\"A\",\"label\":\"A\",\"type\":\"foundation.moi"
-	  "st_air.moist_air\"}],\"Right\":[{\"id\":\"B\",\"label\":\"B\",\"type\":\"foundation.moist_air.moist_air\"},{\"id\":"
-	  "\"P\",\"label\":\"P\",\"type\":\"output\"},{\"id\":\"T\",\"label\":\"T\",\"type\":\"output\"}],\"Top\":[]}"
-	  ComponentPath		  "foundation.moist_air.sensors.pressure_temperature_sensor"
-	  ComponentVariants	  "foundation.moist_air.sensors.pressure_temperature_sensor"
-	  ComponentVariantNames	  "pressure_temperature_sensor"
-	  ClassName		  "pressure_temperature_sensor"
-	  SchemaVersion		  "1"
-	}
-	Block {
-	  BlockType		  Reference
-	  Name			  "Pressure to Area"
-	  SID			  "11"
-	  Ports			  [0, 0, 0, 0, 0, 1, 1]
-	  Position		  [245, 111, 295, 159]
-	  ZOrder		  23
-	  BlockMirror		  on
-	  LibraryVersion	  "10001000.1"
-	  SourceBlock		  "fl_lib/Physical Signals/Lookup Tables/PS Lookup Table (1D)"
-	  SourceType		  "PS Lookup Table (1D)"
-	  SourceProductBaseCode	  "SS"
-	  LogSimulationData	  off
-	  SourceFile		  "foundation.signal.lookup_tables.one_dimensional"
-	  InternalSimscapePortConfiguration "{\"Bottom\":[],\"Left\":[{\"id\":\"I\",\"label\":\"x\",\"type\":\"input\"}],\"Ri"
-	  "ght\":[{\"id\":\"O\",\"label\":\"f\",\"type\":\"output\"}],\"Top\":[]}"
-	  ComponentPath		  "foundation.signal.lookup_tables.one_dimensional"
-	  ComponentVariants	  "foundation.signal.lookup_tables.one_dimensional"
-	  ComponentVariantNames	  "one_dimensional"
-	  ClassName		  "one_dimensional"
-	  SchemaVersion		  "1"
-	  x			  "[-0.2 -0.1 0 0.2 0.5 0.8 1 1.1 1.2]*(p_max - p_crack) + p_crack"
-	  x_unit		  "Pa"
-	  x_conf		  "compiletime"
-	  f			  "[0 0 0 0.2 0.5 0.8 1 1 1]*(A_max - A_leak) + A_leak"
-	  f_unit		  "m^2"
-	  f_conf		  "compiletime"
-	  interp_method		  "simscape.enum.interpolation.smooth"
-	  interp_method_unit	  "1"
-	  interp_method_conf	  "compiletime"
-	  extrap_method		  "simscape.enum.extrapolation.linear"
-	  extrap_method_unit	  "1"
-	  extrap_method_conf	  "compiletime"
-	}
-	Block {
-	  BlockType		  Reference
-	  Name			  "Valve"
-	  SID			  "167"
-	  Ports			  [0, 0, 0, 0, 0, 2, 1]
-	  Position		  [210, 45, 270, 85]
-	  ZOrder		  28
-	  LibraryVersion	  "10001000.1"
-	  SourceBlock		  "fl_lib/Moist Air/Elements/Local Restriction\n(MA)"
-	  SourceType		  "Local Restriction\n(MA)"
-	  SourceProductBaseCode	  "SS"
-	  LogSimulationData	  off
-	  SourceFile		  "foundation.moist_air.elements.local_restriction"
-	  InternalSimscapePortConfiguration "{\"Bottom\":[],\"Left\":[{\"id\":\"A\",\"label\":\"A\",\"type\":\"foundation.moi"
-	  "st_air.moist_air\"},{\"id\":\"AR\",\"label\":\"AR\",\"type\":\"input\"}],\"Right\":[{\"id\":\"B\",\"label\":\"B\",\""
-	  "type\":\"foundation.moist_air.moist_air\"}],\"Top\":[]}"
-	  ComponentPath		  "foundation.moist_air.elements.local_restriction"
-	  ComponentVariants	  "foundation.moist_air.elements.local_restriction"
-	  ComponentVariantNames	  "local_restriction"
-	  ClassName		  "local_restriction"
-	  SchemaVersion		  "1"
-	  restriction_type	  "foundation.enum.restriction_type.variable"
-	  restriction_type_unit	  "1"
-	  restriction_type_conf	  "compiletime"
-	  restriction_area	  "0.001"
-	  restriction_area_unit	  "m^2"
-	  restriction_area_conf	  "compiletime"
-	  min_area		  "A_leak/2"
-	  min_area_unit		  "m^2"
-	  min_area_conf		  "compiletime"
-	  max_area		  "(A_max + A_port)/2"
-	  max_area_unit		  "m^2"
-	  max_area_conf		  "compiletime"
-	  area			  "A_port"
-	  area_unit		  "m^2"
-	  area_conf		  "compiletime"
-	  Cd			  "Cd"
-	  Cd_unit		  "1"
-	  Cd_conf		  "compiletime"
-	  B_lam			  "0.999"
-	  B_lam_unit		  "1"
-	  B_lam_conf		  "compiletime"
-	}
-	Block {
-	  BlockType		  PMIOPort
-	  Name			  "A"
-	  SID			  "14"
-	  Position		  [70, 48, 100, 62]
-	  ZOrder		  19
-	  Side			  "Left"
-	}
-	Block {
-	  BlockType		  PMIOPort
-	  Name			  "B"
-	  SID			  "15"
-	  Position		  [370, 58, 400, 72]
-	  ZOrder		  20
-	  BlockMirror		  on
-	  Port			  "2"
-	  Side			  "Right"
-	}
-	Line {
-	  LineType		  "Connection"
-	  ZOrder		  1
-	  SrcBlock		  "Pressure &\nTemperature Sensor\n(MA)"
-	  SrcPort		  LConn1
-	  Points		  [-69, 0; 0, -160]
-	  Branch {
-	    ConnectType		    "DEST_DEST"
-	    SrcBlock		    "Valve"
-	    SrcPort		    LConn1
-	    Points		    [-64, 0]
-	  }
-	  Branch {
-	    ConnectType		    "DEST_SRC"
-	    DstBlock		    "A"
-	    DstPort		    RConn1
-	  }
-	}
-	Line {
-	  LineType		  "Connection"
-	  ZOrder		  4
-	  SrcBlock		  "Pressure &\nTemperature Sensor\n(MA)"
-	  SrcPort		  RConn1
-	  Points		  [69, 0; 0, -165]
-	  Branch {
-	    ConnectType		    "DEST_DEST"
-	    SrcBlock		    "Valve"
-	    SrcPort		    RConn1
-	    Points		    [54, 0]
-	  }
-	  Branch {
-	    ConnectType		    "DEST_SRC"
-	    DstBlock		    "B"
-	    DstPort		    RConn1
-	  }
-	}
-	Line {
-	  LineType		  "Connection"
-	  ZOrder		  26
-	  SrcBlock		  "Pressure &\nTemperature Sensor\n(MA)"
-	  SrcPort		  RConn2
-	  Points		  [55, 0; 0, -80]
-	  DstBlock		  "Pressure to Area"
-	  DstPort		  LConn1
-	}
-	Line {
-	  LineType		  "Connection"
-	  ZOrder		  27
-	  SrcBlock		  "Pressure to Area"
-	  SrcPort		  RConn1
-	  DstBlock		  "Delay"
-	  DstPort		  LConn1
-	}
-	Line {
-	  LineType		  "Connection"
-	  ZOrder		  31
-	  SrcBlock		  "Valve"
-	  SrcPort		  LConn2
-	  Points		  [-46, 0; 0, 60]
-	  DstBlock		  "Delay"
-	  DstPort		  RConn1
-	}
-      }
-    }
-    Block {
-      BlockType		      SubSystem
       Name		      "Check Valve 2"
       SID		      "29"
       Ports		      [0, 0, 0, 0, 0, 1, 1]
-      Position		      [625, 164, 665, 196]
+      Position		      [640, 239, 680, 271]
       ZOrder		      24
       BlockMirror	      on
       RequestExecContextInheritance off
       ContentPreviewEnabled   on
       Object {
 	$PropName		"MaskObject"
-	$ObjectID		56
+	$ObjectID		38
 	$ClassName		"Simulink.Mask"
 	Type			"Check Valve"
 	Description		"This subsystem models a check valve that permits flow from port A to port B but restricts flow from por"
@@ -2343,49 +1867,49 @@ Model {
 	  Type			  "Simulink.MaskParameter"
 	  Dimension		  7
 	  Object {
-	    $ObjectID		    57
+	    $ObjectID		    39
 	    Type		    "edit"
 	    Name		    "p_max"
 	    Prompt		    "Max opening pressure differential (Pa)"
 	    Value		    "1e3"
 	  }
 	  Object {
-	    $ObjectID		    58
+	    $ObjectID		    40
 	    Type		    "edit"
 	    Name		    "p_crack"
 	    Prompt		    "Cracking pressure differential (Pa)"
 	    Value		    "10"
 	  }
 	  Object {
-	    $ObjectID		    59
+	    $ObjectID		    41
 	    Type		    "edit"
 	    Name		    "A_max"
 	    Prompt		    "Max opening area (m^2)"
 	    Value		    "pi*(0.9*D_tube)^2/4"
 	  }
 	  Object {
-	    $ObjectID		    60
+	    $ObjectID		    42
 	    Type		    "edit"
 	    Name		    "A_leak"
 	    Prompt		    "Leakage area (m^2)"
 	    Value		    "1e-10"
 	  }
 	  Object {
-	    $ObjectID		    61
+	    $ObjectID		    43
 	    Type		    "edit"
 	    Name		    "A_port"
 	    Prompt		    "Connecting port area (m^2)"
 	    Value		    "pi*D_tube^2/4"
 	  }
 	  Object {
-	    $ObjectID		    62
+	    $ObjectID		    44
 	    Type		    "edit"
 	    Name		    "Cd"
 	    Prompt		    "Discharge coefficient"
 	    Value		    "0.8"
 	  }
 	  Object {
-	    $ObjectID		    63
+	    $ObjectID		    45
 	    Type		    "edit"
 	    Name		    "tau"
 	    Prompt		    "Opening time constant (s)"
@@ -2425,21 +1949,21 @@ Model {
 	  ContentPreviewEnabled	  on
 	  Object {
 	    $PropName		    "MaskObject"
-	    $ObjectID		    64
+	    $ObjectID		    46
 	    $ClassName		    "Simulink.Mask"
 	    RunInitForIconRedraw    "off"
 	    Array {
 	      Type		      "Simulink.MaskParameter"
 	      Dimension		      2
 	      Object {
-		$ObjectID		65
+		$ObjectID		47
 		Type			"edit"
 		Name			"tau"
 		Prompt			"Time constant (s)"
 		Value			"tau"
 	      }
 	      Object {
-		$ObjectID		66
+		$ObjectID		48
 		Type			"edit"
 		Name			"x0"
 		Prompt			"Initial output"
@@ -2787,19 +2311,1470 @@ Model {
       }
     }
     Block {
-      BlockType		      Constant
-      Name		      "Constant2"
-      SID		      "232"
-      Position		      [-555, 107, -415, 133]
-      ZOrder		      5790
-      Value		      "10"
+      BlockType		      SubSystem
+      Name		      "Check Valve 3"
+      SID		      "302"
+      Tag		      "PublishSubsystem"
+      Ports		      [0, 0, 0, 0, 0, 1, 1]
+      Position		      [704, 109, 736, 149]
+      ZOrder		      5833
+      BlockRotation	      270
+      BlockMirror	      on
+      NameLocation	      "left"
+      RequestExecContextInheritance off
+      ContentPreviewEnabled   on
+      Object {
+	$PropName		"MaskObject"
+	$ObjectID		49
+	$ClassName		"Simulink.Mask"
+	Type			"Check Valve"
+	Description		"This subsystem models a check valve that permits flow from port A to port B but restricts flow from por"
+	"t B to port A."
+	RunInitForIconRedraw	"off"
+	Array {
+	  Type			  "Simulink.MaskParameter"
+	  Dimension		  7
+	  Object {
+	    $ObjectID		    50
+	    Type		    "edit"
+	    Name		    "p_max"
+	    Prompt		    "Max opening pressure differential (Pa)"
+	    Value		    "1e3"
+	  }
+	  Object {
+	    $ObjectID		    51
+	    Type		    "edit"
+	    Name		    "p_crack"
+	    Prompt		    "Cracking pressure differential (Pa)"
+	    Value		    "10"
+	  }
+	  Object {
+	    $ObjectID		    52
+	    Type		    "edit"
+	    Name		    "A_max"
+	    Prompt		    "Max opening area (m^2)"
+	    Value		    "pi*(0.9*D_tube)^2/4"
+	  }
+	  Object {
+	    $ObjectID		    53
+	    Type		    "edit"
+	    Name		    "A_leak"
+	    Prompt		    "Leakage area (m^2)"
+	    Value		    "1e-10"
+	  }
+	  Object {
+	    $ObjectID		    54
+	    Type		    "edit"
+	    Name		    "A_port"
+	    Prompt		    "Connecting port area (m^2)"
+	    Value		    "pi*D_tube^2/4"
+	  }
+	  Object {
+	    $ObjectID		    55
+	    Type		    "edit"
+	    Name		    "Cd"
+	    Prompt		    "Discharge coefficient"
+	    Value		    "0.8"
+	  }
+	  Object {
+	    $ObjectID		    56
+	    Type		    "edit"
+	    Name		    "tau"
+	    Prompt		    "Opening time constant (s)"
+	    Value		    "0.1"
+	  }
+	  PropName		  "Parameters"
+	}
+	Array {
+	  Type			  "Simulink.dialog.Group"
+	  Dimension		  2
+	  Object {
+	    $ObjectID		    57
+	    Prompt		    "%<MaskType>"
+	    Object {
+	      $PropName		      "DialogControls"
+	      $ObjectID		      58
+	      $ClassName	      "Simulink.dialog.Text"
+	      Prompt		      "%<MaskDescription>"
+	      Name		      "DescTextVar"
+	    }
+	    Name		    "DescGroupVar"
+	  }
+	  Object {
+	    $ObjectID		    59
+	    Prompt		    "Simulink:studio:ToolBarParametersMenu"
+	    Array {
+	      Type		      "Simulink.dialog.parameter.Edit"
+	      Dimension		      7
+	      Object {
+		$ObjectID		60
+		Name			"p_max"
+	      }
+	      Object {
+		$ObjectID		61
+		Name			"p_crack"
+	      }
+	      Object {
+		$ObjectID		62
+		Name			"A_max"
+	      }
+	      Object {
+		$ObjectID		63
+		Name			"A_leak"
+	      }
+	      Object {
+		$ObjectID		64
+		Name			"A_port"
+	      }
+	      Object {
+		$ObjectID		65
+		Name			"Cd"
+	      }
+	      Object {
+		$ObjectID		66
+		Name			"tau"
+	      }
+	      PropName		      "DialogControls"
+	    }
+	    Name		    "ParameterGroupVar"
+	  }
+	  PropName		  "DialogControls"
+	}
+      }
+      System {
+	Name			"Check Valve 3"
+	Location		[1, 10, 845, 728]
+	Open			off
+	PortBlocksUseCompactNotation off
+	SetExecutionDomain	off
+	ExecutionDomainType	"Deduce"
+	ModelBrowserVisibility	off
+	ModelBrowserWidth	200
+	ScreenColor		"white"
+	PaperOrientation	"landscape"
+	PaperPositionMode	"auto"
+	PaperType		"usletter"
+	PaperUnits		"inches"
+	TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
+	TiledPageScale		1
+	ShowPageBoundaries	off
+	ZoomFactor		"100"
+	SimulinkSubDomain	"Simulink"
+	Block {
+	  BlockType		  SubSystem
+	  Name			  "Delay"
+	  SID			  "303"
+	  Ports			  [0, 0, 0, 0, 0, 1, 1]
+	  Position		  [170, 122, 210, 148]
+	  ZOrder		  27
+	  BlockMirror		  on
+	  RequestExecContextInheritance	off
+	  ContentPreviewEnabled	  on
+	  Object {
+	    $PropName		    "MaskObject"
+	    $ObjectID		    67
+	    $ClassName		    "Simulink.Mask"
+	    RunInitForIconRedraw    "off"
+	    Array {
+	      Type		      "Simulink.MaskParameter"
+	      Dimension		      2
+	      Object {
+		$ObjectID		68
+		Type			"edit"
+		Name			"tau"
+		Prompt			"Time constant (s)"
+		Value			"tau"
+	      }
+	      Object {
+		$ObjectID		69
+		Type			"edit"
+		Name			"x0"
+		Prompt			"Initial output"
+		Value			"A_leak"
+	      }
+	      PropName		      "Parameters"
+	    }
+	  }
+	  System {
+	    Name		    "Delay"
+	    Location		    [1, 10, 845, 728]
+	    Open		    off
+	    PortBlocksUseCompactNotation off
+	    SetExecutionDomain	    off
+	    ExecutionDomainType	    "Deduce"
+	    ModelBrowserVisibility  off
+	    ModelBrowserWidth	    200
+	    ScreenColor		    "white"
+	    PaperOrientation	    "landscape"
+	    PaperPositionMode	    "auto"
+	    PaperType		    "usletter"
+	    PaperUnits		    "inches"
+	    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
+	    TiledPageScale	    1
+	    ShowPageBoundaries	    off
+	    ZoomFactor		    "100"
+	    SimulinkSubDomain	    "Simulink"
+	    Block {
+	      BlockType		      Reference
+	      Name		      "PS Gain"
+	      SID		      "304"
+	      Ports		      [0, 0, 0, 0, 0, 1, 1]
+	      Position		      [205, 45, 235, 75]
+	      ZOrder		      24
+	      LibraryVersion	      "10001000.1"
+	      SourceBlock	      "fl_lib/Physical Signals/Functions/PS Gain"
+	      SourceType	      "PS Gain"
+	      SourceProductBaseCode   "SS"
+	      LogSimulationData	      off
+	      SourceFile	      "foundation.signal.functions.gain"
+	      InternalSimscapePortConfiguration	"{\"Bottom\":[],\"Left\":[{\"id\":\"I\",\"label\":\"\",\"type\":\"input\"}],\""
+	      "Right\":[{\"id\":\"O\",\"label\":\"\",\"type\":\"output\"}],\"Top\":[]}"
+	      ComponentPath	      "foundation.signal.functions.gain"
+	      ComponentVariants	      "foundation.signal.functions.gain"
+	      ComponentVariantNames   "gain"
+	      ClassName		      "gain"
+	      SchemaVersion	      "1"
+	      gain		      "1/tau"
+	      gain_unit		      "1/s"
+	      gain_conf		      "compiletime"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "PS Integrator"
+	      SID		      "305"
+	      Ports		      [0, 0, 0, 0, 0, 1, 1]
+	      Position		      [265, 45, 295, 75]
+	      ZOrder		      26
+	      LibraryVersion	      "10001000.1"
+	      SourceBlock	      "fl_lib/Physical Signals/Linear Operators/PS Integrator"
+	      SourceType	      "PS Integrator"
+	      SourceProductBaseCode   "SS"
+	      LogSimulationData	      off
+	      SourceFile	      "foundation.signal.linear.integrator"
+	      InternalSimscapePortConfiguration	"{\"Bottom\":[],\"Left\":[{\"id\":\"I\",\"label\":\"\",\"type\":\"input\"}],\""
+	      "Right\":[{\"id\":\"O\",\"label\":\"\",\"type\":\"output\"}],\"Top\":[]}"
+	      ComponentPath	      "foundation.signal.linear.integrator"
+	      ComponentVariants	      "foundation.signal.linear.integrator"
+	      ComponentVariantNames   "integrator"
+	      ClassName		      "integrator"
+	      SchemaVersion	      "1"
+	      x0		      "x0"
+	      x0_unit		      "m^2"
+	      x0_conf		      "compiletime"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "PS Subtract"
+	      SID		      "306"
+	      Ports		      [0, 0, 0, 0, 0, 2, 1]
+	      Position		      [150, 42, 170, 73]
+	      ZOrder		      25
+	      ShowName		      off
+	      LibraryVersion	      "10001000.1"
+	      SourceBlock	      "fl_lib/Physical Signals/Functions/PS Subtract"
+	      SourceType	      "PS Subtract"
+	      SourceProductBaseCode   "SS"
+	      LogSimulationData	      off
+	      SourceFile	      "foundation.signal.functions.subtract"
+	      InternalSimscapePortConfiguration	"{\"Bottom\":[],\"Left\":[{\"id\":\"I1\",\"label\":\"\",\"type\":\"input\"},{"
+	      "\"id\":\"I2\",\"label\":\"\",\"type\":\"input\"}],\"Right\":[{\"id\":\"O\",\"label\":\"\",\"type\":\"output\"}]"
+	      ",\"Top\":[]}"
+	      ComponentPath	      "foundation.signal.functions.subtract"
+	      ComponentVariants	      "foundation.signal.functions.subtract"
+	      ComponentVariantNames   "subtract"
+	      ClassName		      "subtract"
+	      SchemaVersion	      "1"
+	    }
+	    Block {
+	      BlockType		      PMIOPort
+	      Name		      "A"
+	      SID		      "307"
+	      Position		      [60, 43, 90, 57]
+	      ZOrder		      27
+	      Side		      "Left"
+	    }
+	    Block {
+	      BlockType		      PMIOPort
+	      Name		      "B"
+	      SID		      "308"
+	      Position		      [355, 53, 385, 67]
+	      ZOrder		      28
+	      BlockMirror	      on
+	      Port		      "2"
+	      Side		      "Right"
+	    }
+	    Line {
+	      LineType		      "Connection"
+	      ZOrder		      1
+	      SrcBlock		      "PS Integrator"
+	      SrcPort		      RConn1
+	      Points		      [23, 0]
+	      Branch {
+		ConnectType		"DEST_SRC"
+		Points			[0, 49; -220, 0; 0, -44]
+		DstBlock		"PS Subtract"
+		DstPort			LConn2
+	      }
+	      Branch {
+		ConnectType		"DEST_SRC"
+		DstBlock		"B"
+		DstPort			RConn1
+	      }
+	    }
+	    Line {
+	      LineType		      "Connection"
+	      ZOrder		      4
+	      SrcBlock		      "PS Subtract"
+	      SrcPort		      RConn1
+	      DstBlock		      "PS Gain"
+	      DstPort		      LConn1
+	    }
+	    Line {
+	      LineType		      "Connection"
+	      ZOrder		      5
+	      SrcBlock		      "PS Subtract"
+	      SrcPort		      LConn1
+	      DstBlock		      "A"
+	      DstPort		      RConn1
+	    }
+	    Line {
+	      LineType		      "Connection"
+	      ZOrder		      6
+	      SrcBlock		      "PS Integrator"
+	      SrcPort		      LConn1
+	      DstBlock		      "PS Gain"
+	      DstPort		      RConn1
+	    }
+	  }
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Pressure &\nTemperature Sensor\n(MA)"
+	  SID			  "309"
+	  Ports			  [0, 0, 0, 0, 0, 1, 3]
+	  Position		  [215, 195, 255, 235]
+	  ZOrder		  22
+	  BlockRotation		  180
+	  BlockMirror		  on
+	  LibraryVersion	  "10001000.1"
+	  SourceBlock		  "fl_lib/Moist Air/Sensors/Pressure &\nTemperature Sensor\n(MA)"
+	  SourceType		  "Pressure &\nTemperature Sensor\n(MA)"
+	  SourceProductBaseCode	  "SS"
+	  LogSimulationData	  off
+	  SourceFile		  "foundation.moist_air.sensors.pressure_temperature_sensor"
+	  InternalSimscapePortConfiguration "{\"Bottom\":[],\"Left\":[{\"id\":\"A\",\"label\":\"A\",\"type\":\"foundation.moi"
+	  "st_air.moist_air\"}],\"Right\":[{\"id\":\"B\",\"label\":\"B\",\"type\":\"foundation.moist_air.moist_air\"},{\"id\":"
+	  "\"P\",\"label\":\"P\",\"type\":\"output\"},{\"id\":\"T\",\"label\":\"T\",\"type\":\"output\"}],\"Top\":[]}"
+	  ComponentPath		  "foundation.moist_air.sensors.pressure_temperature_sensor"
+	  ComponentVariants	  "foundation.moist_air.sensors.pressure_temperature_sensor"
+	  ComponentVariantNames	  "pressure_temperature_sensor"
+	  ClassName		  "pressure_temperature_sensor"
+	  SchemaVersion		  "1"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Pressure to Area"
+	  SID			  "310"
+	  Ports			  [0, 0, 0, 0, 0, 1, 1]
+	  Position		  [245, 111, 295, 159]
+	  ZOrder		  23
+	  BlockMirror		  on
+	  LibraryVersion	  "10001000.1"
+	  SourceBlock		  "fl_lib/Physical Signals/Lookup Tables/PS Lookup Table (1D)"
+	  SourceType		  "PS Lookup Table (1D)"
+	  SourceProductBaseCode	  "SS"
+	  LogSimulationData	  off
+	  SourceFile		  "foundation.signal.lookup_tables.one_dimensional"
+	  InternalSimscapePortConfiguration "{\"Bottom\":[],\"Left\":[{\"id\":\"I\",\"label\":\"x\",\"type\":\"input\"}],\"Ri"
+	  "ght\":[{\"id\":\"O\",\"label\":\"f\",\"type\":\"output\"}],\"Top\":[]}"
+	  ComponentPath		  "foundation.signal.lookup_tables.one_dimensional"
+	  ComponentVariants	  "foundation.signal.lookup_tables.one_dimensional"
+	  ComponentVariantNames	  "one_dimensional"
+	  ClassName		  "one_dimensional"
+	  SchemaVersion		  "1"
+	  x			  "[-0.2 -0.1 0 0.2 0.5 0.8 1 1.1 1.2]*(p_max - p_crack) + p_crack"
+	  x_unit		  "Pa"
+	  x_conf		  "compiletime"
+	  f			  "[0 0 0 0.2 0.5 0.8 1 1 1]*(A_max - A_leak) + A_leak"
+	  f_unit		  "m^2"
+	  f_conf		  "compiletime"
+	  interp_method		  "simscape.enum.interpolation.smooth"
+	  interp_method_unit	  "1"
+	  interp_method_conf	  "compiletime"
+	  extrap_method		  "simscape.enum.extrapolation.linear"
+	  extrap_method_unit	  "1"
+	  extrap_method_conf	  "compiletime"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Valve"
+	  SID			  "311"
+	  Ports			  [0, 0, 0, 0, 0, 2, 1]
+	  Position		  [210, 45, 270, 85]
+	  ZOrder		  28
+	  LibraryVersion	  "10001000.1"
+	  SourceBlock		  "fl_lib/Moist Air/Elements/Local Restriction\n(MA)"
+	  SourceType		  "Local Restriction\n(MA)"
+	  SourceProductBaseCode	  "SS"
+	  LogSimulationData	  off
+	  SourceFile		  "foundation.moist_air.elements.local_restriction"
+	  InternalSimscapePortConfiguration "{\"Bottom\":[],\"Left\":[{\"id\":\"A\",\"label\":\"A\",\"type\":\"foundation.moi"
+	  "st_air.moist_air\"},{\"id\":\"AR\",\"label\":\"AR\",\"type\":\"input\"}],\"Right\":[{\"id\":\"B\",\"label\":\"B\",\""
+	  "type\":\"foundation.moist_air.moist_air\"}],\"Top\":[]}"
+	  ComponentPath		  "foundation.moist_air.elements.local_restriction"
+	  ComponentVariants	  "foundation.moist_air.elements.local_restriction"
+	  ComponentVariantNames	  "local_restriction"
+	  ClassName		  "local_restriction"
+	  SchemaVersion		  "1"
+	  restriction_type	  "foundation.enum.restriction_type.variable"
+	  restriction_type_unit	  "1"
+	  restriction_type_conf	  "compiletime"
+	  restriction_area	  "0.001"
+	  restriction_area_unit	  "m^2"
+	  restriction_area_conf	  "compiletime"
+	  min_area		  "A_leak/2"
+	  min_area_unit		  "m^2"
+	  min_area_conf		  "compiletime"
+	  max_area		  "(A_max + A_port)/2"
+	  max_area_unit		  "m^2"
+	  max_area_conf		  "compiletime"
+	  area			  "A_port"
+	  area_unit		  "m^2"
+	  area_conf		  "compiletime"
+	  Cd			  "Cd"
+	  Cd_unit		  "1"
+	  Cd_conf		  "compiletime"
+	  B_lam			  "0.999"
+	  B_lam_unit		  "1"
+	  B_lam_conf		  "compiletime"
+	}
+	Block {
+	  BlockType		  PMIOPort
+	  Name			  "A"
+	  SID			  "312"
+	  Position		  [70, 48, 100, 62]
+	  ZOrder		  19
+	  Side			  "Left"
+	}
+	Block {
+	  BlockType		  PMIOPort
+	  Name			  "B"
+	  SID			  "313"
+	  Position		  [370, 58, 400, 72]
+	  ZOrder		  20
+	  BlockMirror		  on
+	  Port			  "2"
+	  Side			  "Right"
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  1
+	  SrcBlock		  "Pressure &\nTemperature Sensor\n(MA)"
+	  SrcPort		  LConn1
+	  Points		  [-69, 0; 0, -160]
+	  Branch {
+	    ConnectType		    "DEST_DEST"
+	    SrcBlock		    "Valve"
+	    SrcPort		    LConn1
+	    Points		    [-64, 0]
+	  }
+	  Branch {
+	    ConnectType		    "DEST_SRC"
+	    DstBlock		    "A"
+	    DstPort		    RConn1
+	  }
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  4
+	  SrcBlock		  "Pressure &\nTemperature Sensor\n(MA)"
+	  SrcPort		  RConn1
+	  Points		  [69, 0; 0, -165]
+	  Branch {
+	    ConnectType		    "DEST_DEST"
+	    SrcBlock		    "Valve"
+	    SrcPort		    RConn1
+	    Points		    [54, 0]
+	  }
+	  Branch {
+	    ConnectType		    "DEST_SRC"
+	    DstBlock		    "B"
+	    DstPort		    RConn1
+	  }
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  7
+	  SrcBlock		  "Pressure &\nTemperature Sensor\n(MA)"
+	  SrcPort		  RConn2
+	  Points		  [55, 0; 0, -80]
+	  DstBlock		  "Pressure to Area"
+	  DstPort		  LConn1
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  8
+	  SrcBlock		  "Pressure to Area"
+	  SrcPort		  RConn1
+	  DstBlock		  "Delay"
+	  DstPort		  LConn1
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  9
+	  SrcBlock		  "Valve"
+	  SrcPort		  LConn2
+	  Points		  [-46, 0; 0, 60]
+	  DstBlock		  "Delay"
+	  DstPort		  RConn1
+	}
+      }
+    }
+    Block {
+      BlockType		      SubSystem
+      Name		      "Controller"
+      SID		      "285"
+      Ports		      [2, 2]
+      Position		      [-290, 79, -200, 121]
+      ZOrder		      5822
+      RequestExecContextInheritance off
+      ContentPreviewEnabled   on
+      PortSchema	      "{\"entries\":[{\"content\":{\"sides\":[{\"content\":{\"connectorIds\":[\"In1\"]},\"type\":\"Co"
+      "nnectorPlacement.EquallySpacedRectSide\",\"uuid\":\"ae761914-d8b3-41ff-aad9-aad7d198d611\"},{\"content\":{\"conn"
+      "ectorIds\":[\"Out1\",\"Out2\"],\"side\":\"RIGHT\"},\"type\":\"ConnectorPlacement.EquallySpacedRectSide\",\"uuid\""
+      ":\"2b59c06b-0981-41e1-8224-8525532b720b\"},{\"content\":{\"connectorIds\":[\"In2\"],\"side\":\"TOP\"},\"type\":\""
+      "ConnectorPlacement.EquallySpacedRectSide\",\"uuid\":\"a9b43127-4e4c-41fd-9560-49790fb65f10\"}]},\"type\":\"Conne"
+      "ctorPlacement.EquallySpacedConnector\",\"uuid\":\"dff88c60-5376-4527-b2bb-2d29d71fada1\"}],\"packageUris\":[\"ht"
+      "tp://schema.mathworks.com/mf0/Connector/19700101\"],\"version\":\"1.0\"}"
+      System {
+	Name			"Controller"
+	Location		[-8, -8, 1928, 1058]
+	Open			off
+	PortBlocksUseCompactNotation off
+	SetExecutionDomain	off
+	ExecutionDomainType	"Deduce"
+	ModelBrowserVisibility	off
+	ModelBrowserWidth	200
+	ScreenColor		"white"
+	PaperOrientation	"landscape"
+	PaperPositionMode	"auto"
+	PaperType		"usletter"
+	PaperUnits		"inches"
+	TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
+	TiledPageScale		1
+	ShowPageBoundaries	off
+	ZoomFactor		"100"
+	SimulinkSubDomain	"Simulink"
+	Block {
+	  BlockType		  Inport
+	  Name			  "P_error"
+	  SID			  "286"
+	  Position		  [20, 43, 50, 57]
+	  ZOrder		  5820
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "Vdot_in"
+	  SID			  "297"
+	  Position		  [190, -77, 220, -63]
+	  ZOrder		  5823
+	  Port			  "2"
+	}
+	Block {
+	  BlockType		  Constant
+	  Name			  "Constant"
+	  SID			  "300"
+	  Position		  [190, -30, 220, 0]
+	  ZOrder		  5826
+	  Value			  "0"
+	}
+	Block {
+	  BlockType		  Gain
+	  Name			  "Gain"
+	  SID			  "315"
+	  Position		  [485, -43, 545, -17]
+	  ZOrder		  5827
+	  Gain			  "1/600"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "PID Controller"
+	  SID			  "220"
+	  Ports			  [1, 1]
+	  Position		  [305, 22, 345, 58]
+	  ZOrder		  5779
+	  LibraryVersion	  "1.465"
+	  SourceBlock		  "simulink/Continuous/PID Controller"
+	  SourceType		  "PID 1dof"
+	  SourceProductBaseCode	  "SL"
+	  RTWMemSecFuncInitTerm	  "Inherit from model"
+	  RTWMemSecFuncExecute	  "Inherit from model"
+	  RTWMemSecDataConstants  "Inherit from model"
+	  RTWMemSecDataInternal	  "Inherit from model"
+	  RTWMemSecDataParameters "Inherit from model"
+	  ContentPreviewEnabled	  on
+	  Controller		  "PID"
+	  Form			  "Parallel"
+	  TimeDomain		  "Continuous-time"
+	  UseExternalTs		  off
+	  SampleTime		  "-1"
+	  IntegratorMethod	  "Forward Euler"
+	  FilterMethod		  "Forward Euler"
+	  ControllerParametersSource "internal"
+	  P			  "1"
+	  I			  "0"
+	  D			  "0"
+	  UseFilter		  on
+	  N			  "100"
+	  TunerSelectOption	  "Transfer Function Based (PID Tuner App)"
+	  ZeroCross		  on
+	  InitialConditionSource  "internal"
+	  InitialConditionForIntegrator	"0"
+	  InitialConditionForFilter "0"
+	  DifferentiatorICPrevScaledInput "0"
+	  ExternalReset		  "none"
+	  IgnoreLimit		  off
+	  TrackingMode		  off
+	  Kt			  "1"
+	  LimitOutput		  off
+	  UpperSaturationLimit	  "1"
+	  LowerSaturationLimit	  "0"
+	  LinearizeAsGain	  on
+	  AntiWindupMode	  "none"
+	  Kb			  "1"
+	  RndMeth		  "Floor"
+	  SaturateOnIntegerOverflow off
+	  LockScale		  off
+	  PGainOutDataTypeStr	  "Inherit: Inherit via internal rule"
+	  PProdOutDataTypeStr	  "Inherit: Inherit via internal rule"
+	  POutMin		  "[]"
+	  POutMax		  "[]"
+	  IGainOutDataTypeStr	  "Inherit: Inherit via internal rule"
+	  IProdOutDataTypeStr	  "Inherit: Inherit via internal rule"
+	  IOutMin		  "[]"
+	  IOutMax		  "[]"
+	  DGainOutDataTypeStr	  "Inherit: Inherit via internal rule"
+	  DProdOutDataTypeStr	  "Inherit: Inherit via internal rule"
+	  DOutMin		  "[]"
+	  DOutMax		  "[]"
+	  NGainOutDataTypeStr	  "Inherit: Inherit via internal rule"
+	  NProdOutDataTypeStr	  "Inherit: Inherit via internal rule"
+	  NOutMin		  "[]"
+	  NOutMax		  "[]"
+	  SumOutDataTypeStr	  "Inherit: Inherit via internal rule"
+	  SumOutMin		  "[]"
+	  SumOutMax		  "[]"
+	  SaturationOutDataTypeStr "Inherit: Same as input"
+	  SaturationOutMin	  "[]"
+	  SaturationOutMax	  "[]"
+	  PParamDataTypeStr	  "Inherit: Inherit via internal rule"
+	  PParamMin		  "[]"
+	  PParamMax		  "[]"
+	  IParamDataTypeStr	  "Inherit: Inherit via internal rule"
+	  IParamMin		  "[]"
+	  IParamMax		  "[]"
+	  DParamDataTypeStr	  "Inherit: Inherit via internal rule"
+	  DParamMin		  "[]"
+	  DParamMax		  "[]"
+	  NParamDataTypeStr	  "Inherit: Inherit via internal rule"
+	  NParamMin		  "[]"
+	  NParamMax		  "[]"
+	  KbParamDataTypeStr	  "Inherit: Inherit via internal rule"
+	  KbParamMin		  "[]"
+	  KbParamMax		  "[]"
+	  KtParamDataTypeStr	  "Inherit: Inherit via internal rule"
+	  KtParamMin		  "[]"
+	  KtParamMax		  "[]"
+	  KbOutDataTypeStr	  "Inherit: Inherit via internal rule"
+	  KbOutMin		  "[]"
+	  KbOutMax		  "[]"
+	  KtOutDataTypeStr	  "Inherit: Inherit via internal rule"
+	  KtOutMin		  "[]"
+	  KtOutMax		  "[]"
+	  IntegratorOutDataTypeStr "Inherit: Inherit via internal rule"
+	  IntegratorOutMin	  "[]"
+	  IntegratorOutMax	  "[]"
+	  FilterOutDataTypeStr	  "Inherit: Inherit via internal rule"
+	  FilterOutMin		  "[]"
+	  FilterOutMax		  "[]"
+	  SumI1OutDataTypeStr	  "Inherit: Inherit via internal rule"
+	  SumI1OutMin		  "[]"
+	  SumI1OutMax		  "[]"
+	  SumI2OutDataTypeStr	  "Inherit: Inherit via internal rule"
+	  SumI2OutMin		  "[]"
+	  SumI2OutMax		  "[]"
+	  SumI3OutDataTypeStr	  "Inherit: Inherit via internal rule"
+	  SumI3OutMin		  "[]"
+	  SumI3OutMax		  "[]"
+	  SumI4OutDataTypeStr	  "Inherit: Inherit via internal rule"
+	  SumI4OutMin		  "[]"
+	  SumI4OutMax		  "[]"
+	  SumDOutDataTypeStr	  "Inherit: Inherit via internal rule"
+	  SumDOutMin		  "[]"
+	  SumDOutMax		  "[]"
+	  SumAccumDataTypeStr	  "Inherit: Inherit via internal rule"
+	  SumI1AccumDataTypeStr	  "Inherit: Inherit via internal rule"
+	  SumI2AccumDataTypeStr	  "Inherit: Inherit via internal rule"
+	  SumI3AccumDataTypeStr	  "Inherit: Inherit via internal rule"
+	  SumI4AccumDataTypeStr	  "Inherit: Inherit via internal rule"
+	  SumDAccumDataTypeStr	  "Inherit: Inherit via internal rule"
+	  DifferentiatorOutDataTypeStr "Inherit: Inherit via internal rule"
+	  DifferentiatorOutMin	  "[]"
+	  DifferentiatorOutMax	  "[]"
+	  FilterDiffNumProductOutputDataTypeStr	"Inherit: Inherit via internal rule"
+	  FilterDiffDenProductOutputDataTypeStr	"Inherit: Inherit via internal rule"
+	  FilterDiffNumAccumDataTypeStr	"Inherit: Inherit via internal rule"
+	  FilterDiffDenAccumDataTypeStr	"Inherit: Inherit via internal rule"
+	  FilterDiffOutCoefDataTypeStr "Inherit: Inherit via internal rule"
+	  FilterDiffOutCoefMin	  "[]"
+	  FilterDiffOutCoefMax	  "[]"
+	  ReciprocalOutDataTypeStr "Inherit: Inherit via internal rule"
+	  ReciprocalOutMin	  "[]"
+	  ReciprocalOutMax	  "[]"
+	  SumDenOutDataTypeStr	  "Inherit: Inherit via internal rule"
+	  SumDenOutMin		  "[]"
+	  SumDenOutMax		  "[]"
+	  SumNumOutDataTypeStr	  "Inherit: Inherit via internal rule"
+	  SumNumOutMin		  "[]"
+	  SumNumOutMax		  "[]"
+	  SumDenAccumDataTypeStr  "Inherit: Inherit via internal rule"
+	  SumNumAccumDataTypeStr  "Inherit: Inherit via internal rule"
+	  DivideOutDataTypeStr	  "Inherit: Inherit via internal rule"
+	  DivideOutMin		  "[]"
+	  DivideOutMax		  "[]"
+	  UdiffTsProdOutDataTypeStr "Inherit: Inherit via internal rule"
+	  UdiffTsProdOutMin	  "[]"
+	  UdiffTsProdOutMax	  "[]"
+	  NTsProdOutDataTypeStr	  "Inherit: Inherit via internal rule"
+	  NTsProdOutMin		  "[]"
+	  NTsProdOutMax		  "[]"
+	  UintegralTsProdOutDataTypeStr	"Inherit: Inherit via internal rule"
+	  UintegralTsProdOutMin	  "[]"
+	  UintegralTsProdOutMax	  "[]"
+	  UngainTsProdOutDataTypeStr "Inherit: Inherit via internal rule"
+	  UngainTsProdOutMin	  "[]"
+	  UngainTsProdOutMax	  "[]"
+	  IntegratorContinuousStateAttributes "''"
+	  IntegratorStateMustResolveToSignalObject off
+	  IntegratorRTWStateStorageClass "Auto"
+	  FilterContinuousStateAttributes "''"
+	  FilterStateMustResolveToSignalObject off
+	  FilterRTWStateStorageClass "Auto"
+	  ParallelPVariant	  "InternalParameters"
+	  IdealPVariant		  "Disabled"
+	  IVariant		  "InternalParameters"
+	  DVariant		  "InternalParameters"
+	  IntegratorVariant	  "Continuous"
+	  SatVariant		  "Disabled"
+	  AWVariant		  "Passthrough"
+	  PCopyVariant		  "Disabled"
+	  TRVariant		  "Disabled"
+	  FdbkBlocksVariant	  "Forward"
+	  IdealPFdbkVariant	  "Disabled"
+	  SatFdbkVariant	  "Disabled"
+	  DerivativeFilterVariant "ContFilter"
+	  NVariant		  "InternalParameters"
+	  NCopyVariant		  "Disabled"
+	  FilterICVariant	  "InternalICsFilter"
+	  IntegratorICVariant	  "InternalICs"
+	  ExternalResetVariant	  "Disabled"
+	  TRSumVariant		  "Passthrough"
+	  SumFdbkVariant	  "Disabled"
+	  SumVariant		  "Sum_PID"
+	  TsampFilterVariant	  "InternalTs"
+	  TsampNgainVariant	  "Passthrough"
+	  TsampIntegralVariant	  "Passthrough"
+	  InitialConditionSetting "Auto"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "PID Controller1"
+	  SID			  "227"
+	  Ports			  [1, 1]
+	  Position		  [305, 77, 345, 113]
+	  ZOrder		  5785
+	  LibraryVersion	  "1.465"
+	  SourceBlock		  "simulink/Continuous/PID Controller"
+	  SourceType		  "PID 1dof"
+	  SourceProductBaseCode	  "SL"
+	  RTWMemSecFuncInitTerm	  "Inherit from model"
+	  RTWMemSecFuncExecute	  "Inherit from model"
+	  RTWMemSecDataConstants  "Inherit from model"
+	  RTWMemSecDataInternal	  "Inherit from model"
+	  RTWMemSecDataParameters "Inherit from model"
+	  ContentPreviewEnabled	  on
+	  Controller		  "PID"
+	  Form			  "Parallel"
+	  TimeDomain		  "Continuous-time"
+	  UseExternalTs		  off
+	  SampleTime		  "-1"
+	  IntegratorMethod	  "Forward Euler"
+	  FilterMethod		  "Forward Euler"
+	  ControllerParametersSource "internal"
+	  P			  "0.5"
+	  I			  "0"
+	  D			  "0"
+	  UseFilter		  on
+	  N			  "100"
+	  TunerSelectOption	  "Transfer Function Based (PID Tuner App)"
+	  ZeroCross		  on
+	  InitialConditionSource  "internal"
+	  InitialConditionForIntegrator	"0"
+	  InitialConditionForFilter "0"
+	  DifferentiatorICPrevScaledInput "0"
+	  ExternalReset		  "none"
+	  IgnoreLimit		  off
+	  TrackingMode		  off
+	  Kt			  "1"
+	  LimitOutput		  on
+	  UpperSaturationLimit	  "1"
+	  LowerSaturationLimit	  "0"
+	  LinearizeAsGain	  on
+	  AntiWindupMode	  "none"
+	  Kb			  "1"
+	  RndMeth		  "Floor"
+	  SaturateOnIntegerOverflow off
+	  LockScale		  off
+	  PGainOutDataTypeStr	  "Inherit: Inherit via internal rule"
+	  PProdOutDataTypeStr	  "Inherit: Inherit via internal rule"
+	  POutMin		  "[]"
+	  POutMax		  "[]"
+	  IGainOutDataTypeStr	  "Inherit: Inherit via internal rule"
+	  IProdOutDataTypeStr	  "Inherit: Inherit via internal rule"
+	  IOutMin		  "[]"
+	  IOutMax		  "[]"
+	  DGainOutDataTypeStr	  "Inherit: Inherit via internal rule"
+	  DProdOutDataTypeStr	  "Inherit: Inherit via internal rule"
+	  DOutMin		  "[]"
+	  DOutMax		  "[]"
+	  NGainOutDataTypeStr	  "Inherit: Inherit via internal rule"
+	  NProdOutDataTypeStr	  "Inherit: Inherit via internal rule"
+	  NOutMin		  "[]"
+	  NOutMax		  "[]"
+	  SumOutDataTypeStr	  "Inherit: Inherit via internal rule"
+	  SumOutMin		  "[]"
+	  SumOutMax		  "[]"
+	  SaturationOutDataTypeStr "Inherit: Same as input"
+	  SaturationOutMin	  "[]"
+	  SaturationOutMax	  "[]"
+	  PParamDataTypeStr	  "Inherit: Inherit via internal rule"
+	  PParamMin		  "[]"
+	  PParamMax		  "[]"
+	  IParamDataTypeStr	  "Inherit: Inherit via internal rule"
+	  IParamMin		  "[]"
+	  IParamMax		  "[]"
+	  DParamDataTypeStr	  "Inherit: Inherit via internal rule"
+	  DParamMin		  "[]"
+	  DParamMax		  "[]"
+	  NParamDataTypeStr	  "Inherit: Inherit via internal rule"
+	  NParamMin		  "[]"
+	  NParamMax		  "[]"
+	  KbParamDataTypeStr	  "Inherit: Inherit via internal rule"
+	  KbParamMin		  "[]"
+	  KbParamMax		  "[]"
+	  KtParamDataTypeStr	  "Inherit: Inherit via internal rule"
+	  KtParamMin		  "[]"
+	  KtParamMax		  "[]"
+	  KbOutDataTypeStr	  "Inherit: Inherit via internal rule"
+	  KbOutMin		  "[]"
+	  KbOutMax		  "[]"
+	  KtOutDataTypeStr	  "Inherit: Inherit via internal rule"
+	  KtOutMin		  "[]"
+	  KtOutMax		  "[]"
+	  IntegratorOutDataTypeStr "Inherit: Inherit via internal rule"
+	  IntegratorOutMin	  "[]"
+	  IntegratorOutMax	  "[]"
+	  FilterOutDataTypeStr	  "Inherit: Inherit via internal rule"
+	  FilterOutMin		  "[]"
+	  FilterOutMax		  "[]"
+	  SumI1OutDataTypeStr	  "Inherit: Inherit via internal rule"
+	  SumI1OutMin		  "[]"
+	  SumI1OutMax		  "[]"
+	  SumI2OutDataTypeStr	  "Inherit: Inherit via internal rule"
+	  SumI2OutMin		  "[]"
+	  SumI2OutMax		  "[]"
+	  SumI3OutDataTypeStr	  "Inherit: Inherit via internal rule"
+	  SumI3OutMin		  "[]"
+	  SumI3OutMax		  "[]"
+	  SumI4OutDataTypeStr	  "Inherit: Inherit via internal rule"
+	  SumI4OutMin		  "[]"
+	  SumI4OutMax		  "[]"
+	  SumDOutDataTypeStr	  "Inherit: Inherit via internal rule"
+	  SumDOutMin		  "[]"
+	  SumDOutMax		  "[]"
+	  SumAccumDataTypeStr	  "Inherit: Inherit via internal rule"
+	  SumI1AccumDataTypeStr	  "Inherit: Inherit via internal rule"
+	  SumI2AccumDataTypeStr	  "Inherit: Inherit via internal rule"
+	  SumI3AccumDataTypeStr	  "Inherit: Inherit via internal rule"
+	  SumI4AccumDataTypeStr	  "Inherit: Inherit via internal rule"
+	  SumDAccumDataTypeStr	  "Inherit: Inherit via internal rule"
+	  DifferentiatorOutDataTypeStr "Inherit: Inherit via internal rule"
+	  DifferentiatorOutMin	  "[]"
+	  DifferentiatorOutMax	  "[]"
+	  FilterDiffNumProductOutputDataTypeStr	"Inherit: Inherit via internal rule"
+	  FilterDiffDenProductOutputDataTypeStr	"Inherit: Inherit via internal rule"
+	  FilterDiffNumAccumDataTypeStr	"Inherit: Inherit via internal rule"
+	  FilterDiffDenAccumDataTypeStr	"Inherit: Inherit via internal rule"
+	  FilterDiffOutCoefDataTypeStr "Inherit: Inherit via internal rule"
+	  FilterDiffOutCoefMin	  "[]"
+	  FilterDiffOutCoefMax	  "[]"
+	  ReciprocalOutDataTypeStr "Inherit: Inherit via internal rule"
+	  ReciprocalOutMin	  "[]"
+	  ReciprocalOutMax	  "[]"
+	  SumDenOutDataTypeStr	  "Inherit: Inherit via internal rule"
+	  SumDenOutMin		  "[]"
+	  SumDenOutMax		  "[]"
+	  SumNumOutDataTypeStr	  "Inherit: Inherit via internal rule"
+	  SumNumOutMin		  "[]"
+	  SumNumOutMax		  "[]"
+	  SumDenAccumDataTypeStr  "Inherit: Inherit via internal rule"
+	  SumNumAccumDataTypeStr  "Inherit: Inherit via internal rule"
+	  DivideOutDataTypeStr	  "Inherit: Inherit via internal rule"
+	  DivideOutMin		  "[]"
+	  DivideOutMax		  "[]"
+	  UdiffTsProdOutDataTypeStr "Inherit: Inherit via internal rule"
+	  UdiffTsProdOutMin	  "[]"
+	  UdiffTsProdOutMax	  "[]"
+	  NTsProdOutDataTypeStr	  "Inherit: Inherit via internal rule"
+	  NTsProdOutMin		  "[]"
+	  NTsProdOutMax		  "[]"
+	  UintegralTsProdOutDataTypeStr	"Inherit: Inherit via internal rule"
+	  UintegralTsProdOutMin	  "[]"
+	  UintegralTsProdOutMax	  "[]"
+	  UngainTsProdOutDataTypeStr "Inherit: Inherit via internal rule"
+	  UngainTsProdOutMin	  "[]"
+	  UngainTsProdOutMax	  "[]"
+	  IntegratorContinuousStateAttributes "''"
+	  IntegratorStateMustResolveToSignalObject off
+	  IntegratorRTWStateStorageClass "Auto"
+	  FilterContinuousStateAttributes "''"
+	  FilterStateMustResolveToSignalObject off
+	  FilterRTWStateStorageClass "Auto"
+	  ParallelPVariant	  "InternalParameters"
+	  IdealPVariant		  "Disabled"
+	  IVariant		  "InternalParameters"
+	  DVariant		  "InternalParameters"
+	  IntegratorVariant	  "Continuous"
+	  SatVariant		  "Enabled"
+	  AWVariant		  "Passthrough"
+	  PCopyVariant		  "Disabled"
+	  TRVariant		  "Disabled"
+	  FdbkBlocksVariant	  "Forward"
+	  IdealPFdbkVariant	  "Disabled"
+	  SatFdbkVariant	  "Disabled"
+	  DerivativeFilterVariant "ContFilter"
+	  NVariant		  "InternalParameters"
+	  NCopyVariant		  "Disabled"
+	  FilterICVariant	  "InternalICsFilter"
+	  IntegratorICVariant	  "InternalICs"
+	  ExternalResetVariant	  "Disabled"
+	  TRSumVariant		  "Passthrough"
+	  SumFdbkVariant	  "Disabled"
+	  SumVariant		  "Sum_PID"
+	  TsampFilterVariant	  "InternalTs"
+	  TsampNgainVariant	  "Passthrough"
+	  TsampIntegralVariant	  "Passthrough"
+	  InitialConditionSetting "Auto"
+	}
+	Block {
+	  BlockType		  SubSystem
+	  Name			  "Subsystem"
+	  SID			  "276"
+	  Ports			  [1, 1]
+	  Position		  [335, 225, 375, 285]
+	  ZOrder		  5819
+	  Commented		  "on"
+	  RequestExecContextInheritance	off
+	  ContentPreviewEnabled	  on
+	  System {
+	    Name		    "Subsystem"
+	    Location		    [-8, -8, 1928, 1058]
+	    Open		    off
+	    PortBlocksUseCompactNotation off
+	    SetExecutionDomain	    off
+	    ExecutionDomainType	    "Deduce"
+	    ModelBrowserVisibility  off
+	    ModelBrowserWidth	    200
+	    ScreenColor		    "white"
+	    PaperOrientation	    "landscape"
+	    PaperPositionMode	    "auto"
+	    PaperType		    "usletter"
+	    PaperUnits		    "inches"
+	    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
+	    TiledPageScale	    1
+	    ShowPageBoundaries	    off
+	    ZoomFactor		    "110"
+	    SimulinkSubDomain	    "Simulink"
+	    Block {
+	      BlockType		      Inport
+	      Name		      "error"
+	      SID		      "277"
+	      Position		      [20, 43, 50, 57]
+	      ZOrder		      5819
+	    }
+	    Block {
+	      BlockType		      SubSystem
+	      Name		      "MATLAB Function"
+	      SID		      "274"
+	      Ports		      [2, 1]
+	      Position		      [135, 39, 205, 86]
+	      ZOrder		      5817
+	      ErrorFcn		      "Stateflow.Translate.translate"
+	      PermitHierarchicalResolution "ExplicitOnly"
+	      TreatAsAtomicUnit	      on
+	      RequestExecContextInheritance off
+	      SFBlockType	      "MATLAB Function"
+	      ContentPreviewEnabled   on
+	      System {
+		Name			"MATLAB Function"
+		Location		[223, 338, 826, 833]
+		Open			off
+		PortBlocksUseCompactNotation off
+		SetExecutionDomain	off
+		ExecutionDomainType	"Deduce"
+		ModelBrowserVisibility	off
+		ModelBrowserWidth	200
+		ScreenColor		"white"
+		PaperOrientation	"landscape"
+		PaperPositionMode	"auto"
+		PaperType		"usletter"
+		PaperUnits		"inches"
+		TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
+		TiledPageScale		1
+		ShowPageBoundaries	off
+		ZoomFactor		"100"
+		SIDHighWatermark	"22"
+		SimulinkSubDomain	"Simulink"
+		Block {
+		  BlockType		  Inport
+		  Name			  "error"
+		  SID			  "274::1"
+		  Position		  [20, 101, 40, 119]
+		  ZOrder		  -1
+		}
+		Block {
+		  BlockType		  Inport
+		  Name			  "valve_state"
+		  SID			  "274::22"
+		  Position		  [20, 136, 40, 154]
+		  ZOrder		  13
+		  Port			  "2"
+		}
+		Block {
+		  BlockType		  Demux
+		  Name			  " Demux "
+		  SID			  "274::20"
+		  Ports			  [1, 1]
+		  Position		  [270, 230, 320, 270]
+		  ZOrder		  11
+		  Outputs		  "1"
+		}
+		Block {
+		  BlockType		  S-Function
+		  Name			  " SFunction "
+		  SID			  "274::19"
+		  Tag			  "Stateflow S-Function 2"
+		  Ports			  [2, 2]
+		  Position		  [180, 100, 230, 160]
+		  ZOrder		  10
+		  FunctionName		  "sf_sfun"
+		  PortCounts		  "[2 2]"
+		  SFunctionDeploymentMode off
+		  EnableBusSupport	  on
+		  SFcnIsStateOwnerBlock	  off
+		  Port {
+		    PortNumber		    2
+		    Name		    "y"
+		  }
+		}
+		Block {
+		  BlockType		  Terminator
+		  Name			  " Terminator "
+		  SID			  "274::21"
+		  Position		  [460, 241, 480, 259]
+		  ZOrder		  12
+		}
+		Block {
+		  BlockType		  Outport
+		  Name			  "y"
+		  SID			  "274::5"
+		  Position		  [460, 101, 480, 119]
+		  ZOrder		  -5
+		}
+		Line {
+		  ZOrder		  9
+		  SrcBlock		  "error"
+		  SrcPort		  1
+		  DstBlock		  " SFunction "
+		  DstPort		  1
+		}
+		Line {
+		  ZOrder		  10
+		  SrcBlock		  "valve_state"
+		  SrcPort		  1
+		  DstBlock		  " SFunction "
+		  DstPort		  2
+		}
+		Line {
+		  Name			  "y"
+		  ZOrder		  11
+		  Labels		  [0, 0]
+		  SrcBlock		  " SFunction "
+		  SrcPort		  2
+		  DstBlock		  "y"
+		  DstPort		  1
+		}
+		Line {
+		  ZOrder		  12
+		  SrcBlock		  " Demux "
+		  SrcPort		  1
+		  DstBlock		  " Terminator "
+		  DstPort		  1
+		}
+		Line {
+		  ZOrder		  13
+		  SrcBlock		  " SFunction "
+		  SrcPort		  1
+		  DstBlock		  " Demux "
+		  DstPort		  1
+		}
+	      }
+	    }
+	    Block {
+	      BlockType		      Memory
+	      Name		      "Memory"
+	      SID		      "275"
+	      Position		      [155, 110, 185, 140]
+	      ZOrder		      5818
+	      BlockMirror	      on
+	      NameLocation	      "top"
+	    }
+	    Block {
+	      BlockType		      Outport
+	      Name		      "y"
+	      SID		      "278"
+	      Position		      [295, 23, 325, 37]
+	      ZOrder		      5820
+	    }
+	    Line {
+	      ZOrder		      536
+	      SrcBlock		      "MATLAB Function"
+	      SrcPort		      1
+	      Points		      [15, 0]
+	      Branch {
+		ZOrder			553
+		Points			[0, -35]
+		DstBlock		"y"
+		DstPort			1
+	      }
+	      Branch {
+		ZOrder			550
+		Points			[0, 60]
+		DstBlock		"Memory"
+		DstPort			1
+	      }
+	    }
+	    Line {
+	      ZOrder		      539
+	      SrcBlock		      "Memory"
+	      SrcPort		      1
+	      Points		      [-30, 0]
+	      DstBlock		      "MATLAB Function"
+	      DstPort		      2
+	    }
+	    Line {
+	      ZOrder		      552
+	      SrcBlock		      "error"
+	      SrcPort		      1
+	      DstBlock		      "MATLAB Function"
+	      DstPort		      1
+	    }
+	  }
+	}
+	Block {
+	  BlockType		  Sum
+	  Name			  "Sum"
+	  SID			  "298"
+	  Ports			  [2, 1]
+	  Position		  [415, -40, 435, -20]
+	  ZOrder		  5824
+	  Inputs		  "|++"
+	}
+	Block {
+	  BlockType		  SubSystem
+	  Name			  "Switch"
+	  SID			  "256"
+	  Ports			  [1, 2]
+	  Position		  [150, 29, 220, 71]
+	  ZOrder		  5811
+	  RequestExecContextInheritance	off
+	  ContentPreviewEnabled	  on
+	  System {
+	    Name		    "Switch"
+	    Location		    [-8, -8, 1928, 1058]
+	    Open		    on
+	    PortBlocksUseCompactNotation off
+	    SetExecutionDomain	    off
+	    ExecutionDomainType	    "Deduce"
+	    ModelBrowserVisibility  off
+	    ModelBrowserWidth	    200
+	    ScreenColor		    "white"
+	    PaperOrientation	    "landscape"
+	    PaperPositionMode	    "auto"
+	    PaperType		    "usletter"
+	    PaperUnits		    "inches"
+	    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
+	    TiledPageScale	    1
+	    ShowPageBoundaries	    off
+	    ZoomFactor		    "110"
+	    SimulinkSubDomain	    "Simulink"
+	    Block {
+	      BlockType		      Inport
+	      Name		      "In1"
+	      SID		      "257"
+	      Position		      [-50, 48, -20, 62]
+	      ZOrder		      5810
+	    }
+	    Block {
+	      BlockType		      Constant
+	      Name		      "Constant1"
+	      SID		      "251"
+	      Position		      [10, 60, 30, 80]
+	      ZOrder		      5808
+	      Value		      "0"
+	    }
+	    Block {
+	      BlockType		      Gain
+	      Name		      "Gain"
+	      SID		      "252"
+	      Position		      [385, 125, 415, 155]
+	      ZOrder		      5809
+	      Gain		      "-1"
+	    }
+	    Block {
+	      BlockType		      Switch
+	      Name		      "Switch"
+	      SID		      "249"
+	      Position		      [165, 35, 215, 75]
+	      ZOrder		      5806
+	      Criteria		      "u2 > Threshold"
+	      InputSameDT	      off
+	      SaturateOnIntegerOverflow	off
+	    }
+	    Block {
+	      BlockType		      Switch
+	      Name		      "Switch1"
+	      SID		      "250"
+	      Position		      [315, 120, 365, 160]
+	      ZOrder		      5807
+	      InputSameDT	      off
+	      SaturateOnIntegerOverflow	off
+	    }
+	    Block {
+	      BlockType		      Outport
+	      Name		      "Out1"
+	      SID		      "258"
+	      Position		      [270, 48, 300, 62]
+	      ZOrder		      5811
+	    }
+	    Block {
+	      BlockType		      Outport
+	      Name		      "Out2"
+	      SID		      "259"
+	      Position		      [445, 133, 475, 147]
+	      ZOrder		      5812
+	      Port		      "2"
+	    }
+	    Line {
+	      ZOrder		      518
+	      SrcBlock		      "Switch1"
+	      SrcPort		      1
+	      DstBlock		      "Gain"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      511
+	      SrcBlock		      "Constant1"
+	      SrcPort		      1
+	      Points		      [47, 0]
+	      Branch {
+		ZOrder			517
+		Points			[0, 55]
+		DstBlock		"Switch1"
+		DstPort			1
+	      }
+	      Branch {
+		ZOrder			516
+		DstBlock		"Switch"
+		DstPort			3
+	      }
+	    }
+	    Line {
+	      ZOrder		      523
+	      SrcBlock		      "Gain"
+	      SrcPort		      1
+	      DstBlock		      "Out2"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      522
+	      SrcBlock		      "Switch"
+	      SrcPort		      1
+	      DstBlock		      "Out1"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      521
+	      SrcBlock		      "In1"
+	      SrcPort		      1
+	      Points		      [92, 0]
+	      Branch {
+		ZOrder			537
+		Points			[51, 0; 0, 0]
+		Branch {
+		  ZOrder		  536
+		  Points		  [0, 85]
+		  DstBlock		  "Switch1"
+		  DstPort		  2
+		}
+		Branch {
+		  ZOrder		  533
+		  DstBlock		  "Switch"
+		  DstPort		  2
+		}
+	      }
+	      Branch {
+		ZOrder			510
+		Points			[0, -15]
+		DstBlock		"Switch"
+		DstPort			1
+	      }
+	      Branch {
+		ZOrder			509
+		Points			[0, 100]
+		DstBlock		"Switch1"
+		DstPort			3
+	      }
+	    }
+	  }
+	}
+	Block {
+	  BlockType		  Switch
+	  Name			  "Switch1"
+	  SID			  "299"
+	  Position		  [315, -50, 365, -10]
+	  ZOrder		  5825
+	  Criteria		  "u2 > Threshold"
+	  InputSameDT		  off
+	  SaturateOnIntegerOverflow off
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "y"
+	  SID			  "287"
+	  Position		  [595, -37, 625, -23]
+	  ZOrder		  5821
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "y1"
+	  SID			  "288"
+	  Position		  [595, 143, 625, 157]
+	  ZOrder		  5822
+	  Port			  "2"
+	}
+	Line {
+	  ZOrder		  523
+	  SrcBlock		  "Switch"
+	  SrcPort		  2
+	  Points		  [38, 0; 0, 35]
+	  DstBlock		  "PID Controller1"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  522
+	  SrcBlock		  "Switch"
+	  SrcPort		  1
+	  Points		  [38, 0]
+	  Branch {
+	    ZOrder		    575
+	    Points		    [0, -70]
+	    DstBlock		    "Switch1"
+	    DstPort		    2
+	  }
+	  Branch {
+	    ZOrder		    574
+	    DstBlock		    "PID Controller"
+	    DstPort		    1
+	  }
+	}
+	Line {
+	  ZOrder		  567
+	  SrcBlock		  "PID Controller1"
+	  SrcPort		  1
+	  Points		  [80, 0; 0, 55]
+	  DstBlock		  "y1"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  565
+	  SrcBlock		  "PID Controller"
+	  SrcPort		  1
+	  Points		  [75, 0]
+	  DstBlock		  "Sum"
+	  DstPort		  2
+	}
+	Line {
+	  ZOrder		  564
+	  SrcBlock		  "P_error"
+	  SrcPort		  1
+	  DstBlock		  "Switch"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  576
+	  SrcBlock		  "Vdot_in"
+	  SrcPort		  1
+	  Points		  [43, 0; 0, 25]
+	  DstBlock		  "Switch1"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  573
+	  SrcBlock		  "Sum"
+	  SrcPort		  1
+	  DstBlock		  "Gain"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  577
+	  SrcBlock		  "Switch1"
+	  SrcPort		  1
+	  DstBlock		  "Sum"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  578
+	  SrcBlock		  "Constant"
+	  SrcPort		  1
+	  DstBlock		  "Switch1"
+	  DstPort		  3
+	}
+	Line {
+	  ZOrder		  579
+	  SrcBlock		  "Gain"
+	  SrcPort		  1
+	  DstBlock		  "y"
+	  DstPort		  1
+	}
+      }
     }
     Block {
       BlockType		      Reference
       Name		      "Elastance"
       SID		      "41"
       Ports		      [0, 0, 0, 0, 0, 1, 1]
-      Position		      [-179, 505, -151, 545]
+      Position		      [-184, 505, -156, 545]
       ZOrder		      25
       BlockRotation	      270
       BlockMirror	      on
@@ -2848,7 +3823,7 @@ Model {
       Name		      "Expiratory Valve"
       SID		      "166"
       Ports		      [0, 0, 0, 0, 0, 2, 1]
-      Position		      [350, 175, 410, 215]
+      Position		      [275, 185, 335, 225]
       ZOrder		      5739
       BlockRotation	      180
       BlockMirror	      on
@@ -2893,7 +3868,7 @@ Model {
       Name		      "Expiratory Valve1"
       SID		      "209"
       Ports		      [0, 0, 0, 0, 0, 2, 1]
-      Position		      [270, 35, 330, 75]
+      Position		      [195, 35, 255, 75]
       ZOrder		      5767
       BlockRotation	      180
       BlockMirror	      on
@@ -2935,97 +3910,25 @@ Model {
     }
     Block {
       BlockType		      From
-      Name		      "From"
-      SID		      "158"
-      Position		      [290, 527, 360, 543]
-      ZOrder		      5735
-      ShowName		      off
-      GotoTag		      "Vdot_lung"
-      TagVisibility	      "global"
-    }
-    Block {
-      BlockType		      From
       Name		      "From1"
-      SID		      "159"
-      Position		      [180, 542, 250, 558]
-      ZOrder		      5736
-      ShowName		      off
-      GotoTag		      "p_lung"
-      TagVisibility	      "global"
-    }
-    Block {
-      BlockType		      From
-      Name		      "From2"
-      SID		      "160"
-      Position		      [90, 592, 160, 608]
-      ZOrder		      5737
-      ShowName		      off
-      GotoTag		      "V_lung"
-      TagVisibility	      "global"
-    }
-    Block {
-      BlockType		      From
-      Name		      "From3"
-      SID		      "211"
-      Position		      [180, 567, 250, 583]
-      ZOrder		      5769
-      HideAutomaticName	      off
-      GotoTag		      "p_in"
-      TagVisibility	      "global"
-    }
-    Block {
-      BlockType		      From
-      Name		      "From4"
-      SID		      "217"
-      Position		      [260, 602, 345, 618]
-      ZOrder		      5775
-      ShowName		      off
+      SID		      "317"
+      Position		      [-445, 200, -355, 220]
+      ZOrder		      5836
       GotoTag		      "Pos_valve_in"
-      TagVisibility	      "global"
-    }
-    Block {
-      BlockType		      From
-      Name		      "From5"
-      SID		      "218"
-      Position		      [260, 622, 345, 638]
-      ZOrder		      5776
-      ShowName		      off
-      GotoTag		      "Pos_valve_out"
     }
     Block {
       BlockType		      From
       Name		      "From6"
-      SID		      "235"
-      Position		      [-500, -23, -415, -7]
-      ZOrder		      5792
-      ShowName		      off
+      SID		      "295"
+      Position		      [-435, 200, -345, 220]
+      ZOrder		      5830
       GotoTag		      "Pos_valve_in"
-      TagVisibility	      "global"
-    }
-    Block {
-      BlockType		      From
-      Name		      "From7"
-      SID		      "236"
-      Position		      [-500, -3, -415, 13]
-      ZOrder		      5793
-      ShowName		      off
-      GotoTag		      "Pos_valve_out"
-    }
-    Block {
-      BlockType		      From
-      Name		      "From8"
-      SID		      "269"
-      Position		      [-275, 32, -190, 48]
-      ZOrder		      5812
-      ShowName		      off
-      GotoTag		      "Pos_valve_in"
-      TagVisibility	      "global"
     }
     Block {
       BlockType		      From
       Name		      "From9"
       SID		      "270"
-      Position		      [-245, 52, -160, 68]
+      Position		      [-570, 227, -485, 243]
       ZOrder		      5813
       ShowName		      off
       GotoTag		      "Pos_valve_out"
@@ -3033,18 +3936,16 @@ Model {
     Block {
       BlockType		      Goto
       Name		      "Goto"
-      SID		      "215"
-      Position		      [30, 22, 135, 38]
-      ZOrder		      5773
-      ShowName		      off
+      SID		      "296"
+      Position		      [50, 132, 145, 148]
+      ZOrder		      5831
       GotoTag		      "Pos_valve_in"
-      TagVisibility	      "global"
     }
     Block {
       BlockType		      Goto
       Name		      "Goto1"
       SID		      "246"
-      Position		      [290, 266, 410, 284]
+      Position		      [60, 241, 180, 259]
       ZOrder		      5803
       GotoTag		      "Pos_valve_out"
     }
@@ -3229,21 +4130,6 @@ Model {
     }
     Block {
       BlockType		      Reference
-      Name		      "Manual\nVariant Sink"
-      SID		      "244"
-      Ports		      [1, 2]
-      Position		      [-335, 316, -305, 394]
-      ZOrder		      5801
-      Commented		      "on"
-      LibraryVersion	      "1.465"
-      SourceBlock	      "simulink/Signal\nRouting/Manual\nVariant Sink"
-      SourceType	      "ManualVariantSink"
-      SourceProductBaseCode   "SL"
-      NumChoices	      "2"
-      LabelModeActiveChoice   "V_2"
-    }
-    Block {
-      BlockType		      Reference
       Name		      "Mask"
       SID		      "164"
       Ports		      [0, 0, 0, 0, 0, 3, 3]
@@ -3377,16 +4263,16 @@ Model {
       BlockType		      Gain
       Name		      "Max Valve\nArea"
       SID		      "147"
-      Position		      [65, 165, 95, 195]
+      Position		      [35, 175, 65, 205]
       ZOrder		      5747
       Gain		      "pi*D_tube^2/4"
     }
     Block {
       BlockType		      Gain
       Name		      "Max Valve\nArea1"
-      SID		      "213"
-      Position		      [60, 87, 100, 113]
-      ZOrder		      5771
+      SID		      "316"
+      Position		      [-170, 75, -140, 105]
+      ZOrder		      5835
       Gain		      "pi*D_tube^2/4"
     }
     Block {
@@ -3413,11 +4299,20 @@ Model {
       SchemaVersion	      "1"
     }
     Block {
+      BlockType		      Memory
+      Name		      "Memory"
+      SID		      "314"
+      Position		      [-5, -20, 25, 10]
+      ZOrder		      5834
+      BlockMirror	      on
+      NameLocation	      "top"
+    }
+    Block {
       BlockType		      Reference
       Name		      "Moist Air Properties\n(MA)"
       SID		      "3"
       Ports		      [0, 0, 0, 0, 0, 0, 1]
-      Position		      [625, 116, 665, 144]
+      Position		      [640, 191, 680, 219]
       ZOrder		      15
       LibraryVersion	      "10001000.1"
       SourceBlock	      "fl_lib/Moist Air/Utilities/Moist Air Properties\n(MA)"
@@ -3621,423 +4516,13 @@ Model {
     }
     Block {
       BlockType		      Mux
-      Name		      "Mux"
-      SID		      "212"
-      Ports		      [2, 1]
-      Position		      [270, 546, 275, 584]
-      ZOrder		      5770
-      Inputs		      "2"
-      DisplayOption	      "bar"
-    }
-    Block {
-      BlockType		      Mux
-      Name		      "Mux1"
-      SID		      "219"
-      Ports		      [2, 1]
-      Position		      [360, 601, 365, 639]
-      ZOrder		      5777
-      Inputs		      "2"
-      DisplayOption	      "bar"
-    }
-    Block {
-      BlockType		      Mux
       Name		      "Mux2"
-      SID		      "225"
+      SID		      "294"
       Ports		      [2, 1]
-      Position		      [-255, -9, -250, 29]
-      ZOrder		      5782
+      Position		      [-300, 151, -295, 189]
+      ZOrder		      5829
       Inputs		      "2"
       DisplayOption	      "bar"
-    }
-    Block {
-      BlockType		      Mux
-      Name		      "Mux3"
-      SID		      "237"
-      Ports		      [2, 1]
-      Position		      [-400, -24, -395, 14]
-      ZOrder		      5794
-      Inputs		      "2"
-      DisplayOption	      "bar"
-    }
-    Block {
-      BlockType		      Reference
-      Name		      "PID Controller"
-      SID		      "220"
-      Ports		      [1, 1]
-      Position		      [-45, 82, -5, 118]
-      ZOrder		      5779
-      LibraryVersion	      "1.465"
-      SourceBlock	      "simulink/Continuous/PID Controller"
-      SourceType	      "PID 1dof"
-      SourceProductBaseCode   "SL"
-      RTWMemSecFuncInitTerm   "Inherit from model"
-      RTWMemSecFuncExecute    "Inherit from model"
-      RTWMemSecDataConstants  "Inherit from model"
-      RTWMemSecDataInternal   "Inherit from model"
-      RTWMemSecDataParameters "Inherit from model"
-      ContentPreviewEnabled   on
-      Controller	      "PID"
-      Form		      "Parallel"
-      TimeDomain	      "Continuous-time"
-      UseExternalTs	      off
-      SampleTime	      "-1"
-      IntegratorMethod	      "Forward Euler"
-      FilterMethod	      "Forward Euler"
-      ControllerParametersSource "internal"
-      P			      "0.9"
-      I			      "0"
-      D			      "0"
-      UseFilter		      on
-      N			      "100"
-      TunerSelectOption	      "Transfer Function Based (PID Tuner App)"
-      ZeroCross		      on
-      InitialConditionSource  "internal"
-      InitialConditionForIntegrator "0"
-      InitialConditionForFilter	"0"
-      DifferentiatorICPrevScaledInput "0"
-      ExternalReset	      "none"
-      IgnoreLimit	      off
-      TrackingMode	      off
-      Kt		      "1"
-      LimitOutput	      on
-      UpperSaturationLimit    "1"
-      LowerSaturationLimit    "0"
-      LinearizeAsGain	      on
-      AntiWindupMode	      "none"
-      Kb		      "1"
-      RndMeth		      "Floor"
-      SaturateOnIntegerOverflow	off
-      LockScale		      off
-      PGainOutDataTypeStr     "Inherit: Inherit via internal rule"
-      PProdOutDataTypeStr     "Inherit: Inherit via internal rule"
-      POutMin		      "[]"
-      POutMax		      "[]"
-      IGainOutDataTypeStr     "Inherit: Inherit via internal rule"
-      IProdOutDataTypeStr     "Inherit: Inherit via internal rule"
-      IOutMin		      "[]"
-      IOutMax		      "[]"
-      DGainOutDataTypeStr     "Inherit: Inherit via internal rule"
-      DProdOutDataTypeStr     "Inherit: Inherit via internal rule"
-      DOutMin		      "[]"
-      DOutMax		      "[]"
-      NGainOutDataTypeStr     "Inherit: Inherit via internal rule"
-      NProdOutDataTypeStr     "Inherit: Inherit via internal rule"
-      NOutMin		      "[]"
-      NOutMax		      "[]"
-      SumOutDataTypeStr	      "Inherit: Inherit via internal rule"
-      SumOutMin		      "[]"
-      SumOutMax		      "[]"
-      SaturationOutDataTypeStr "Inherit: Same as input"
-      SaturationOutMin	      "[]"
-      SaturationOutMax	      "[]"
-      PParamDataTypeStr	      "Inherit: Inherit via internal rule"
-      PParamMin		      "[]"
-      PParamMax		      "[]"
-      IParamDataTypeStr	      "Inherit: Inherit via internal rule"
-      IParamMin		      "[]"
-      IParamMax		      "[]"
-      DParamDataTypeStr	      "Inherit: Inherit via internal rule"
-      DParamMin		      "[]"
-      DParamMax		      "[]"
-      NParamDataTypeStr	      "Inherit: Inherit via internal rule"
-      NParamMin		      "[]"
-      NParamMax		      "[]"
-      KbParamDataTypeStr      "Inherit: Inherit via internal rule"
-      KbParamMin	      "[]"
-      KbParamMax	      "[]"
-      KtParamDataTypeStr      "Inherit: Inherit via internal rule"
-      KtParamMin	      "[]"
-      KtParamMax	      "[]"
-      KbOutDataTypeStr	      "Inherit: Inherit via internal rule"
-      KbOutMin		      "[]"
-      KbOutMax		      "[]"
-      KtOutDataTypeStr	      "Inherit: Inherit via internal rule"
-      KtOutMin		      "[]"
-      KtOutMax		      "[]"
-      IntegratorOutDataTypeStr "Inherit: Inherit via internal rule"
-      IntegratorOutMin	      "[]"
-      IntegratorOutMax	      "[]"
-      FilterOutDataTypeStr    "Inherit: Inherit via internal rule"
-      FilterOutMin	      "[]"
-      FilterOutMax	      "[]"
-      SumI1OutDataTypeStr     "Inherit: Inherit via internal rule"
-      SumI1OutMin	      "[]"
-      SumI1OutMax	      "[]"
-      SumI2OutDataTypeStr     "Inherit: Inherit via internal rule"
-      SumI2OutMin	      "[]"
-      SumI2OutMax	      "[]"
-      SumI3OutDataTypeStr     "Inherit: Inherit via internal rule"
-      SumI3OutMin	      "[]"
-      SumI3OutMax	      "[]"
-      SumI4OutDataTypeStr     "Inherit: Inherit via internal rule"
-      SumI4OutMin	      "[]"
-      SumI4OutMax	      "[]"
-      SumDOutDataTypeStr      "Inherit: Inherit via internal rule"
-      SumDOutMin	      "[]"
-      SumDOutMax	      "[]"
-      SumAccumDataTypeStr     "Inherit: Inherit via internal rule"
-      SumI1AccumDataTypeStr   "Inherit: Inherit via internal rule"
-      SumI2AccumDataTypeStr   "Inherit: Inherit via internal rule"
-      SumI3AccumDataTypeStr   "Inherit: Inherit via internal rule"
-      SumI4AccumDataTypeStr   "Inherit: Inherit via internal rule"
-      SumDAccumDataTypeStr    "Inherit: Inherit via internal rule"
-      DifferentiatorOutDataTypeStr "Inherit: Inherit via internal rule"
-      DifferentiatorOutMin    "[]"
-      DifferentiatorOutMax    "[]"
-      FilterDiffNumProductOutputDataTypeStr "Inherit: Inherit via internal rule"
-      FilterDiffDenProductOutputDataTypeStr "Inherit: Inherit via internal rule"
-      FilterDiffNumAccumDataTypeStr "Inherit: Inherit via internal rule"
-      FilterDiffDenAccumDataTypeStr "Inherit: Inherit via internal rule"
-      FilterDiffOutCoefDataTypeStr "Inherit: Inherit via internal rule"
-      FilterDiffOutCoefMin    "[]"
-      FilterDiffOutCoefMax    "[]"
-      ReciprocalOutDataTypeStr "Inherit: Inherit via internal rule"
-      ReciprocalOutMin	      "[]"
-      ReciprocalOutMax	      "[]"
-      SumDenOutDataTypeStr    "Inherit: Inherit via internal rule"
-      SumDenOutMin	      "[]"
-      SumDenOutMax	      "[]"
-      SumNumOutDataTypeStr    "Inherit: Inherit via internal rule"
-      SumNumOutMin	      "[]"
-      SumNumOutMax	      "[]"
-      SumDenAccumDataTypeStr  "Inherit: Inherit via internal rule"
-      SumNumAccumDataTypeStr  "Inherit: Inherit via internal rule"
-      DivideOutDataTypeStr    "Inherit: Inherit via internal rule"
-      DivideOutMin	      "[]"
-      DivideOutMax	      "[]"
-      UdiffTsProdOutDataTypeStr	"Inherit: Inherit via internal rule"
-      UdiffTsProdOutMin	      "[]"
-      UdiffTsProdOutMax	      "[]"
-      NTsProdOutDataTypeStr   "Inherit: Inherit via internal rule"
-      NTsProdOutMin	      "[]"
-      NTsProdOutMax	      "[]"
-      UintegralTsProdOutDataTypeStr "Inherit: Inherit via internal rule"
-      UintegralTsProdOutMin   "[]"
-      UintegralTsProdOutMax   "[]"
-      UngainTsProdOutDataTypeStr "Inherit: Inherit via internal rule"
-      UngainTsProdOutMin      "[]"
-      UngainTsProdOutMax      "[]"
-      IntegratorContinuousStateAttributes "''"
-      IntegratorStateMustResolveToSignalObject off
-      IntegratorRTWStateStorageClass "Auto"
-      FilterContinuousStateAttributes "''"
-      FilterStateMustResolveToSignalObject off
-      FilterRTWStateStorageClass "Auto"
-      ParallelPVariant	      "InternalParameters"
-      IdealPVariant	      "Disabled"
-      IVariant		      "InternalParameters"
-      DVariant		      "InternalParameters"
-      IntegratorVariant	      "Continuous"
-      SatVariant	      "Enabled"
-      AWVariant		      "Passthrough"
-      PCopyVariant	      "Disabled"
-      TRVariant		      "Disabled"
-      FdbkBlocksVariant	      "Forward"
-      IdealPFdbkVariant	      "Disabled"
-      SatFdbkVariant	      "Disabled"
-      DerivativeFilterVariant "ContFilter"
-      NVariant		      "InternalParameters"
-      NCopyVariant	      "Disabled"
-      FilterICVariant	      "InternalICsFilter"
-      IntegratorICVariant     "InternalICs"
-      ExternalResetVariant    "Disabled"
-      TRSumVariant	      "Passthrough"
-      SumFdbkVariant	      "Disabled"
-      SumVariant	      "Sum_PID"
-      TsampFilterVariant      "InternalTs"
-      TsampNgainVariant	      "Passthrough"
-      TsampIntegralVariant    "Passthrough"
-      InitialConditionSetting "Auto"
-    }
-    Block {
-      BlockType		      Reference
-      Name		      "PID Controller1"
-      SID		      "227"
-      Ports		      [1, 1]
-      Position		      [-180, 182, -140, 218]
-      ZOrder		      5785
-      LibraryVersion	      "1.465"
-      SourceBlock	      "simulink/Continuous/PID Controller"
-      SourceType	      "PID 1dof"
-      SourceProductBaseCode   "SL"
-      RTWMemSecFuncInitTerm   "Inherit from model"
-      RTWMemSecFuncExecute    "Inherit from model"
-      RTWMemSecDataConstants  "Inherit from model"
-      RTWMemSecDataInternal   "Inherit from model"
-      RTWMemSecDataParameters "Inherit from model"
-      ContentPreviewEnabled   on
-      Controller	      "PID"
-      Form		      "Parallel"
-      TimeDomain	      "Continuous-time"
-      UseExternalTs	      off
-      SampleTime	      "-1"
-      IntegratorMethod	      "Forward Euler"
-      FilterMethod	      "Forward Euler"
-      ControllerParametersSource "internal"
-      P			      "0.5"
-      I			      "0"
-      D			      "0"
-      UseFilter		      on
-      N			      "100"
-      TunerSelectOption	      "Transfer Function Based (PID Tuner App)"
-      ZeroCross		      on
-      InitialConditionSource  "internal"
-      InitialConditionForIntegrator "0"
-      InitialConditionForFilter	"0"
-      DifferentiatorICPrevScaledInput "0"
-      ExternalReset	      "none"
-      IgnoreLimit	      off
-      TrackingMode	      off
-      Kt		      "1"
-      LimitOutput	      on
-      UpperSaturationLimit    "1"
-      LowerSaturationLimit    "0"
-      LinearizeAsGain	      on
-      AntiWindupMode	      "none"
-      Kb		      "1"
-      RndMeth		      "Floor"
-      SaturateOnIntegerOverflow	off
-      LockScale		      off
-      PGainOutDataTypeStr     "Inherit: Inherit via internal rule"
-      PProdOutDataTypeStr     "Inherit: Inherit via internal rule"
-      POutMin		      "[]"
-      POutMax		      "[]"
-      IGainOutDataTypeStr     "Inherit: Inherit via internal rule"
-      IProdOutDataTypeStr     "Inherit: Inherit via internal rule"
-      IOutMin		      "[]"
-      IOutMax		      "[]"
-      DGainOutDataTypeStr     "Inherit: Inherit via internal rule"
-      DProdOutDataTypeStr     "Inherit: Inherit via internal rule"
-      DOutMin		      "[]"
-      DOutMax		      "[]"
-      NGainOutDataTypeStr     "Inherit: Inherit via internal rule"
-      NProdOutDataTypeStr     "Inherit: Inherit via internal rule"
-      NOutMin		      "[]"
-      NOutMax		      "[]"
-      SumOutDataTypeStr	      "Inherit: Inherit via internal rule"
-      SumOutMin		      "[]"
-      SumOutMax		      "[]"
-      SaturationOutDataTypeStr "Inherit: Same as input"
-      SaturationOutMin	      "[]"
-      SaturationOutMax	      "[]"
-      PParamDataTypeStr	      "Inherit: Inherit via internal rule"
-      PParamMin		      "[]"
-      PParamMax		      "[]"
-      IParamDataTypeStr	      "Inherit: Inherit via internal rule"
-      IParamMin		      "[]"
-      IParamMax		      "[]"
-      DParamDataTypeStr	      "Inherit: Inherit via internal rule"
-      DParamMin		      "[]"
-      DParamMax		      "[]"
-      NParamDataTypeStr	      "Inherit: Inherit via internal rule"
-      NParamMin		      "[]"
-      NParamMax		      "[]"
-      KbParamDataTypeStr      "Inherit: Inherit via internal rule"
-      KbParamMin	      "[]"
-      KbParamMax	      "[]"
-      KtParamDataTypeStr      "Inherit: Inherit via internal rule"
-      KtParamMin	      "[]"
-      KtParamMax	      "[]"
-      KbOutDataTypeStr	      "Inherit: Inherit via internal rule"
-      KbOutMin		      "[]"
-      KbOutMax		      "[]"
-      KtOutDataTypeStr	      "Inherit: Inherit via internal rule"
-      KtOutMin		      "[]"
-      KtOutMax		      "[]"
-      IntegratorOutDataTypeStr "Inherit: Inherit via internal rule"
-      IntegratorOutMin	      "[]"
-      IntegratorOutMax	      "[]"
-      FilterOutDataTypeStr    "Inherit: Inherit via internal rule"
-      FilterOutMin	      "[]"
-      FilterOutMax	      "[]"
-      SumI1OutDataTypeStr     "Inherit: Inherit via internal rule"
-      SumI1OutMin	      "[]"
-      SumI1OutMax	      "[]"
-      SumI2OutDataTypeStr     "Inherit: Inherit via internal rule"
-      SumI2OutMin	      "[]"
-      SumI2OutMax	      "[]"
-      SumI3OutDataTypeStr     "Inherit: Inherit via internal rule"
-      SumI3OutMin	      "[]"
-      SumI3OutMax	      "[]"
-      SumI4OutDataTypeStr     "Inherit: Inherit via internal rule"
-      SumI4OutMin	      "[]"
-      SumI4OutMax	      "[]"
-      SumDOutDataTypeStr      "Inherit: Inherit via internal rule"
-      SumDOutMin	      "[]"
-      SumDOutMax	      "[]"
-      SumAccumDataTypeStr     "Inherit: Inherit via internal rule"
-      SumI1AccumDataTypeStr   "Inherit: Inherit via internal rule"
-      SumI2AccumDataTypeStr   "Inherit: Inherit via internal rule"
-      SumI3AccumDataTypeStr   "Inherit: Inherit via internal rule"
-      SumI4AccumDataTypeStr   "Inherit: Inherit via internal rule"
-      SumDAccumDataTypeStr    "Inherit: Inherit via internal rule"
-      DifferentiatorOutDataTypeStr "Inherit: Inherit via internal rule"
-      DifferentiatorOutMin    "[]"
-      DifferentiatorOutMax    "[]"
-      FilterDiffNumProductOutputDataTypeStr "Inherit: Inherit via internal rule"
-      FilterDiffDenProductOutputDataTypeStr "Inherit: Inherit via internal rule"
-      FilterDiffNumAccumDataTypeStr "Inherit: Inherit via internal rule"
-      FilterDiffDenAccumDataTypeStr "Inherit: Inherit via internal rule"
-      FilterDiffOutCoefDataTypeStr "Inherit: Inherit via internal rule"
-      FilterDiffOutCoefMin    "[]"
-      FilterDiffOutCoefMax    "[]"
-      ReciprocalOutDataTypeStr "Inherit: Inherit via internal rule"
-      ReciprocalOutMin	      "[]"
-      ReciprocalOutMax	      "[]"
-      SumDenOutDataTypeStr    "Inherit: Inherit via internal rule"
-      SumDenOutMin	      "[]"
-      SumDenOutMax	      "[]"
-      SumNumOutDataTypeStr    "Inherit: Inherit via internal rule"
-      SumNumOutMin	      "[]"
-      SumNumOutMax	      "[]"
-      SumDenAccumDataTypeStr  "Inherit: Inherit via internal rule"
-      SumNumAccumDataTypeStr  "Inherit: Inherit via internal rule"
-      DivideOutDataTypeStr    "Inherit: Inherit via internal rule"
-      DivideOutMin	      "[]"
-      DivideOutMax	      "[]"
-      UdiffTsProdOutDataTypeStr	"Inherit: Inherit via internal rule"
-      UdiffTsProdOutMin	      "[]"
-      UdiffTsProdOutMax	      "[]"
-      NTsProdOutDataTypeStr   "Inherit: Inherit via internal rule"
-      NTsProdOutMin	      "[]"
-      NTsProdOutMax	      "[]"
-      UintegralTsProdOutDataTypeStr "Inherit: Inherit via internal rule"
-      UintegralTsProdOutMin   "[]"
-      UintegralTsProdOutMax   "[]"
-      UngainTsProdOutDataTypeStr "Inherit: Inherit via internal rule"
-      UngainTsProdOutMin      "[]"
-      UngainTsProdOutMax      "[]"
-      IntegratorContinuousStateAttributes "''"
-      IntegratorStateMustResolveToSignalObject off
-      IntegratorRTWStateStorageClass "Auto"
-      FilterContinuousStateAttributes "''"
-      FilterStateMustResolveToSignalObject off
-      FilterRTWStateStorageClass "Auto"
-      ParallelPVariant	      "InternalParameters"
-      IdealPVariant	      "Disabled"
-      IVariant		      "InternalParameters"
-      DVariant		      "InternalParameters"
-      IntegratorVariant	      "Continuous"
-      SatVariant	      "Enabled"
-      AWVariant		      "Passthrough"
-      PCopyVariant	      "Disabled"
-      TRVariant		      "Disabled"
-      FdbkBlocksVariant	      "Forward"
-      IdealPFdbkVariant	      "Disabled"
-      SatFdbkVariant	      "Disabled"
-      DerivativeFilterVariant "ContFilter"
-      NVariant		      "InternalParameters"
-      NCopyVariant	      "Disabled"
-      FilterICVariant	      "InternalICsFilter"
-      IntegratorICVariant     "InternalICs"
-      ExternalResetVariant    "Disabled"
-      TRSumVariant	      "Passthrough"
-      SumFdbkVariant	      "Disabled"
-      SumVariant	      "Sum_PID"
-      TsampFilterVariant      "InternalTs"
-      TsampNgainVariant	      "Passthrough"
-      TsampIntegralVariant    "Passthrough"
-      InitialConditionSetting "Auto"
     }
     Block {
       BlockType		      Reference
@@ -4097,16 +4582,93 @@ Model {
       T_nominal_value	      "1"
     }
     Block {
-      BlockType		      DiscretePulseGenerator
-      Name		      "Pulse\nGenerator"
-      SID		      "142"
+      BlockType		      SubSystem
+      Name		      "Pressure Reference signal"
+      SID		      "279"
       Ports		      [0, 1]
-      Position		      [-425, 39, -360, 71]
-      ZOrder		      5742
-      PulseType		      "Time based"
-      Amplitude		      "40"
-      Period		      "60 / respiratory_rate"
-      PulseWidth	      "IE_ratio/(IE_ratio+1) * 100"
+      Position		      [-570, 75, -530, 125]
+      ZOrder		      5820
+      RequestExecContextInheritance off
+      ContentPreviewEnabled   on
+      System {
+	Name			"Pressure Reference signal"
+	Location		[30, 30, 1010, 750]
+	Open			off
+	PortBlocksUseCompactNotation off
+	SetExecutionDomain	off
+	ExecutionDomainType	"Deduce"
+	ModelBrowserVisibility	off
+	ModelBrowserWidth	200
+	ScreenColor		"white"
+	PaperOrientation	"landscape"
+	PaperPositionMode	"auto"
+	PaperType		"usletter"
+	PaperUnits		"inches"
+	TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
+	TiledPageScale		1
+	ShowPageBoundaries	off
+	ZoomFactor		"100"
+	SimulinkSubDomain	"Simulink"
+	Block {
+	  BlockType		  Constant
+	  Name			  "Constant2"
+	  SID			  "232"
+	  Position		  [20, 97, 160, 123]
+	  ZOrder		  5790
+	  Value			  "10"
+	}
+	Block {
+	  BlockType		  DiscretePulseGenerator
+	  Name			  "Pulse\nGenerator"
+	  SID			  "142"
+	  Ports			  [0, 1]
+	  Position		  [95, 24, 160, 56]
+	  ZOrder		  5742
+	  PulseType		  "Time based"
+	  Amplitude		  "40"
+	  Period		  "60 / respiratory_rate"
+	  PulseWidth		  "IE_ratio/(IE_ratio+1) * 100"
+	}
+	Block {
+	  BlockType		  Sum
+	  Name			  "Sum1"
+	  SID			  "231"
+	  Ports			  [2, 1]
+	  Position		  [280, 30, 300, 50]
+	  ZOrder		  5789
+	  ShowName		  off
+	  Inputs		  "|++"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "Out1"
+	  SID			  "280"
+	  Position		  [360, 33, 390, 47]
+	  ZOrder		  5791
+	}
+	Line {
+	  ZOrder		  414
+	  SrcBlock		  "Constant2"
+	  SrcPort		  1
+	  Points		  [125, 0]
+	  DstBlock		  "Sum1"
+	  DstPort		  2
+	}
+	Line {
+	  ZOrder		  594
+	  SrcBlock		  "Pulse\nGenerator"
+	  SrcPort		  1
+	  DstBlock		  "Sum1"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  595
+	  SrcBlock		  "Sum1"
+	  SrcPort		  1
+	  DstBlock		  "Out1"
+	  DstPort		  1
+	}
+      }
     }
     Block {
       BlockType		      Reference
@@ -4155,7 +4717,7 @@ Model {
       Name		      "Room Air\nSink"
       SID		      "58"
       Ports		      [0, 0, 0, 0, 0, 1]
-      Position		      [280, 185, 320, 225]
+      Position		      [205, 195, 245, 235]
       ZOrder		      37
       BlockMirror	      on
       LibraryVersion	      "10001000.1"
@@ -4219,7 +4781,7 @@ Model {
       Name		      "Room Air\nSource"
       SID		      "57"
       Ports		      [0, 0, 0, 0, 0, 1]
-      Position		      [180, -20, 220, 20]
+      Position		      [25, 45, 65, 85]
       ZOrder		      36
       BlockMirror	      on
       LibraryVersion	      "10001000.1"
@@ -4280,100 +4842,75 @@ Model {
     }
     Block {
       BlockType		      Scope
-      Name		      "Scope"
-      SID		      "77"
-      Tag		      "PublishScope"
+      Name		      "Scope1"
+      SID		      "293"
       Ports		      [4]
-      Position		      [405, 569, 435, 601]
-      ZOrder		      54
+      Position		      [-245, 161, -210, 239]
+      ZOrder		      5828
       ScopeSpecificationString "Simulink.scopes.TimeScopeBlockCfg('CurrentConfiguration', extmgr.ConfigurationSet(extm"
       "gr.Configuration('Core','General UI',true),extmgr.Configuration('Core','Source UI',true),extmgr.Configuration('S"
-      "ources','WiredSimulink',true),extmgr.Configuration('Visuals','Time Domain',true,'SerializedDisplays',{struct('Mi"
-      "nYLimReal','-467.14799','MaxYLimReal','562.70168','YLabelReal','','MinYLimMag',' 0.00000','MaxYLimMag','562.7016"
-      "8','LegendVisibility','Off','XGrid',true,'YGrid',true,'PlotMagPhase',false,'AxesColor',[0 0 0],'AxesTickColor',["
-      "0.686274509803922 0.686274509803922 0.686274509803922],'ColorOrder',[1 1 0.0666666666666667;0.0745098039215686 0"
-      ".623529411764706 1;1 0.411764705882353 0.16078431372549;0.392156862745098 0.831372549019608 0.0745098039215686;0"
-      ".717647058823529 0.274509803921569 1;0.0588235294117647 1 1;1 0.0745098039215686 0.650980392156863],'Title','Flo"
-      "w (L/min)','LinePropertiesCache',{{}},'UserDefinedChannelNames',{{}},'NumLines',1,'LineNames',{{'PS-Simulink Con"
-      "verter'}},'ShowContent',true,'Placement',1),struct('MinYLimReal','-6.17462','MaxYLimReal','55.57159','YLabelReal"
-      "','','MinYLimMag','0.00000','MaxYLimMag','1.00000','LegendVisibility','Off','XGrid',true,'YGrid',true,'PlotMagPh"
-      "ase',false,'AxesColor',[0 0 0],'AxesTickColor',[0.686274509803922 0.686274509803922 0.686274509803922],'ColorOrd"
-      "er',[1 1 0.0666666666666667;0.0745098039215686 0.623529411764706 1;1 0.411764705882353 0.16078431372549;0.392156"
-      "862745098 0.831372549019608 0.0745098039215686;0.717647058823529 0.274509803921569 1;0.0588235294117647 1 1;1 0."
-      "0745098039215686 0.650980392156863],'Title','Pressure (cm H2O)','LinePropertiesCache',{{}},'UserDefinedChannelNa"
-      "mes',{{}},'NumLines',2,'LineNames',{{'Convert to cmH2O','Convert to cmH2O'}},'ShowContent',true,'Placement',2),s"
-      "truct('MinYLimReal','1.53749','MaxYLimReal','6.16256','YLabelReal','','MinYLimMag','0.00000','MaxYLimMag','1.000"
-      "00','LegendVisibility','Off','XGrid',true,'YGrid',true,'PlotMagPhase',false,'AxesColor',[0 0 0],'AxesTickColor',"
-      "[0.686274509803922 0.686274509803922 0.686274509803922],'ColorOrder',[1 1 0.0666666666666667;0.0745098039215686 "
-      "0.623529411764706 1;1 0.411764705882353 0.16078431372549;0.392156862745098 0.831372549019608 0.0745098039215686;"
-      "0.717647058823529 0.274509803921569 1;0.0588235294117647 1 1;1 0.0745098039215686 0.650980392156863],'Title','Vo"
-      "lume (L)','LinePropertiesCache',{{}},'UserDefinedChannelNames',{{}},'NumLines',1,'LineNames',{{'Convert to L'}},"
-      "'ShowContent',true,'Placement',3),struct('MinYLimReal','-0.125','MaxYLimReal','1.125','YLabelReal','','MinYLimMa"
-      "g','0.00000','MaxYLimMag','1.00000','LegendVisibility','Off','XGrid',true,'YGrid',true,'PlotMagPhase',false,'Axe"
+      "ources','WiredSimulink',true,'DataLoggingVariableName','ScopeData1'),extmgr.Configuration('Visuals','Time Domain"
+      "',true,'SerializedDisplays',{struct('MinYLimReal','6.02583','MaxYLimReal','54.88602','YLabelReal','','MinYLimMag"
+      "','6.02583','MaxYLimMag','54.88602','LegendVisibility','Off','XGrid',true,'YGrid',true,'PlotMagPhase',false,'Axe"
       "sColor',[0 0 0],'AxesTickColor',[0.686274509803922 0.686274509803922 0.686274509803922],'ColorOrder',[1 1 0.0666"
       "666666666667;0.0745098039215686 0.623529411764706 1;1 0.411764705882353 0.16078431372549;0.392156862745098 0.831"
       "372549019608 0.0745098039215686;0.717647058823529 0.274509803921569 1;0.0588235294117647 1 1;1 0.074509803921568"
-      "6 0.650980392156863],'Title','','LinePropertiesCache',{{}},'UserDefinedChannelNames',{{}},'NumLines',2,'LineName"
-      "s',{{'PID Controller','<y>'}},'ShowContent',true,'Placement',4)},'DisplayPropertyDefaults',struct('YLabelReal','"
-      "','AxesColor',[0 0 0],'AxesTickColor',[0.686274509803922 0.686274509803922 0.686274509803922],'ColorOrder',[0.07"
-      "45098039215686 0.623529411764706 1;1 0.411764705882353 0.16078431372549;1 1 0.0666666666666667;0.717647058823529"
-      " 0.274509803921569 1;0.392156862745098 0.831372549019608 0.0745098039215686;0.0588235294117647 1 1;1 0.074509803"
-      "9215686 0.650980392156863]),'DisplayLayoutDimensions',[4 1]),extmgr.Configuration('Tools','Plot Navigation',true"
-      ",'OnceAtStop',false,'PreviousZoomMode','ZoomY'),extmgr.Configuration('Tools','Measurements',true,'Version','2020"
-      "a')),'Version','2020a','Position',[421 79 1409 574])"
+      "6 0.650980392156863],'Title','%<SignalLabel>','LinePropertiesCache',{{}},'UserDefinedChannelNames',{{}},'NumLine"
+      "s',2,'LineNames',{{'Pressure Reference signal','Sensors1/2'}},'ShowContent',true,'Placement',1),struct('MinYLimR"
+      "eal','-0.000005','MaxYLimReal','0.000048','YLabelReal','','MinYLimMag','0','MaxYLimMag','10','LegendVisibility',"
+      "'Off','XGrid',true,'YGrid',true,'PlotMagPhase',false,'AxesColor',[0 0 0],'AxesTickColor',[0.686274509803922 0.68"
+      "6274509803922 0.686274509803922],'ColorOrder',[1 1 0.0666666666666667;0.0745098039215686 0.623529411764706 1;1 0"
+      ".411764705882353 0.16078431372549;0.392156862745098 0.831372549019608 0.0745098039215686;0.717647058823529 0.274"
+      "509803921569 1;0.0588235294117647 1 1;1 0.0745098039215686 0.650980392156863],'Title','%<SignalLabel>','LineProp"
+      "ertiesCache',{{}},'UserDefinedChannelNames',{{}},'NumLines',1,'LineNames',{{'Actuator MFC'}},'ShowContent',true,"
+      "'Placement',2),struct('MinYLimReal','-1.00000','MaxYLimReal','1.00000','YLabelReal','','MinYLimMag','0','MaxYLim"
+      "Mag','10','LegendVisibility','Off','XGrid',true,'YGrid',true,'PlotMagPhase',false,'AxesColor',[0 0 0],'AxesTickC"
+      "olor',[0.686274509803922 0.686274509803922 0.686274509803922],'ColorOrder',[1 1 0.0666666666666667;0.07450980392"
+      "15686 0.623529411764706 1;1 0.411764705882353 0.16078431372549;0.392156862745098 0.831372549019608 0.07450980392"
+      "15686;0.717647058823529 0.274509803921569 1;0.0588235294117647 1 1;1 0.0745098039215686 0.650980392156863],'Titl"
+      "e','%<SignalLabel>','LinePropertiesCache',{{}},'UserDefinedChannelNames',{{}},'NumLines',1,'LineNames',{{'Contro"
+      "ller/2'}},'ShowContent',true,'Placement',3),struct('MinYLimReal','0.56525','MaxYLimReal','43.36847','YLabelReal'"
+      ",'','MinYLimMag','0','MaxYLimMag','10','LegendVisibility','Off','XGrid',true,'YGrid',true,'PlotMagPhase',false,'"
+      "AxesColor',[0 0 0],'AxesTickColor',[0.686274509803922 0.686274509803922 0.686274509803922],'ColorOrder',[1 1 0.0"
+      "666666666666667;0.0745098039215686 0.623529411764706 1;1 0.411764705882353 0.16078431372549;0.392156862745098 0."
+      "831372549019608 0.0745098039215686;0.717647058823529 0.274509803921569 1;0.0588235294117647 1 1;1 0.074509803921"
+      "5686 0.650980392156863],'Title','%<SignalLabel>','LinePropertiesCache',{{}},'UserDefinedChannelNames',{{}},'NumL"
+      "ines',1,'LineNames',{{'P_error'}},'ShowContent',true,'Placement',4)},'DisplayPropertyDefaults',struct('YLabelRea"
+      "l','','LegendVisibility','Off','XGrid',true,'YGrid',true,'PlotMagPhase',false,'AxesColor',[0 0 0],'AxesTickColor"
+      "',[0.686274509803922 0.686274509803922 0.686274509803922],'ColorOrder',[0.0745098039215686 0.623529411764706 1;1"
+      " 0.411764705882353 0.16078431372549;1 1 0.0666666666666667;0.717647058823529 0.274509803921569 1;0.3921568627450"
+      "98 0.831372549019608 0.0745098039215686;0.0588235294117647 1 1;1 0.0745098039215686 0.650980392156863]),'Display"
+      "LayoutDimensions',[4 1]),extmgr.Configuration('Tools','Plot Navigation',true,'PreviousAutoscale','XY'),extmgr.Co"
+      "nfiguration('Tools','Measurements',true,'Version','2020a')),'Version','2020a','Position',[674 60 1164 905],'Visi"
+      "bleAtModelOpen','on')"
       NumInputPorts	      "4"
       Floating		      off
     }
     Block {
       BlockType		      Scope
-      Name		      "Scope1"
-      SID		      "221"
-      Tag		      "PublishScope"
-      Ports		      [4]
-      Position		      [-90, -21, -60, 11]
-      ZOrder		      5783
+      Name		      "Scope2"
+      SID		      "301"
+      Ports		      [1]
+      Position		      [110, -51, 140, -19]
+      ZOrder		      5832
       ScopeSpecificationString "Simulink.scopes.TimeScopeBlockCfg('CurrentConfiguration', extmgr.ConfigurationSet(extm"
-      "gr.Configuration('Core','General UI',true,'FigureColor',[1 1 1]),extmgr.Configuration('Core','Source UI',true),e"
-      "xtmgr.Configuration('Sources','WiredSimulink',true,'DataLoggingVariableName','ScopeData1'),extmgr.Configuration("
-      "'Visuals','Time Domain',true,'SerializedDisplays',{struct('MinYLimReal','-6.32164','MaxYLimReal','56.89479','YLa"
-      "belReal','','MinYLimMag','0.00000','MaxYLimMag','56.89479','LegendVisibility','On','XGrid',true,'YGrid',true,'Pl"
-      "otMagPhase',false,'AxesColor',[0.0705882352941176 0.211764705882353 0.141176470588235],'AxesTickColor',[0.686274"
-      "509803922 0.686274509803922 0.686274509803922],'ColorOrder',[0 0.447058823529412 0.741176470588235;0.85098039215"
-      "6863 0.325490196078431 0.0980392156862745;0.929411764705882 0.694117647058824 0.125490196078431;0.49411764705882"
-      "4 0.184313725490196 0.556862745098039;0.466666666666667 0.674509803921569 0.188235294117647;0.301960784313725 0."
-      "745098039215686 0.933333333333333;0.635294117647059 0.0784313725490196 0.184313725490196],'Title','Flow (L/min)'"
-      ",'LinePropertiesCache',{{}},'UserDefinedChannelNames',{{}},'NumLines',2,'LineNames',{{'Sum1','Sensors1/2'}},'Sho"
-      "wContent',true,'Placement',1),struct('MinYLimReal','-0.00001','MaxYLimReal','0.000088','YLabelReal','','MinYLimM"
-      "ag','0.00000','MaxYLimMag','1.00000','LegendVisibility','On','XGrid',true,'YGrid',true,'PlotMagPhase',false,'Axe"
-      "sColor',[0.0705882352941176 0.211764705882353 0.141176470588235],'AxesTickColor',[0.686274509803922 0.6862745098"
-      "03922 0.686274509803922],'ColorOrder',[0 0.447058823529412 0.741176470588235;0.850980392156863 0.325490196078431"
-      " 0.0980392156862745;0.929411764705882 0.694117647058824 0.125490196078431;0.494117647058824 0.184313725490196 0."
-      "556862745098039;0.466666666666667 0.674509803921569 0.188235294117647;0.301960784313725 0.745098039215686 0.9333"
-      "33333333333;0.635294117647059 0.0784313725490196 0.184313725490196],'Title','Pressure (cm H2O)','LinePropertiesC"
-      "ache',{{}},'UserDefinedChannelNames',{{}},'NumLines',2,'LineNames',{{'Transfer Fcn','Transfer Fcn1'}},'ShowConte"
-      "nt',true,'Placement',2),struct('MinYLimReal','-0.000009','MaxYLimReal','0.000084','YLabelReal','','MinYLimMag','"
-      "0.00000','MaxYLimMag','1.00000','LegendVisibility','On','XGrid',true,'YGrid',true,'PlotMagPhase',false,'AxesColo"
-      "r',[0.0705882352941176 0.211764705882353 0.141176470588235],'AxesTickColor',[0.686274509803922 0.686274509803922"
-      " 0.686274509803922],'ColorOrder',[0 0.447058823529412 0.741176470588235;0.850980392156863 0.325490196078431 0.09"
-      "80392156862745;0.929411764705882 0.694117647058824 0.125490196078431;0.494117647058824 0.184313725490196 0.55686"
-      "2745098039;0.466666666666667 0.674509803921569 0.188235294117647;0.301960784313725 0.745098039215686 0.933333333"
-      "333333;0.635294117647059 0.0784313725490196 0.184313725490196],'Title','Volume (L)','LinePropertiesCache',{{}},'"
-      "UserDefinedChannelNames',{{}},'NumLines',1,'LineNames',{{'Transfer Fcn'}},'ShowContent',true,'Placement',3),stru"
-      "ct('MinYLimReal','-0.00001','MaxYLimReal','0.000088','YLabelReal','','MinYLimMag','0.00000','MaxYLimMag','1.0000"
-      "0','LegendVisibility','On','XGrid',true,'YGrid',true,'PlotMagPhase',false,'AxesColor',[0.0705882352941176 0.2117"
-      "64705882353 0.141176470588235],'AxesTickColor',[0.686274509803922 0.686274509803922 0.686274509803922],'ColorOrd"
-      "er',[0 0.447058823529412 0.741176470588235;0.850980392156863 0.325490196078431 0.0980392156862745;0.929411764705"
-      "882 0.694117647058824 0.125490196078431;0.494117647058824 0.184313725490196 0.556862745098039;0.466666666666667 "
-      "0.674509803921569 0.188235294117647;0.301960784313725 0.745098039215686 0.933333333333333;0.635294117647059 0.07"
-      "84313725490196 0.184313725490196],'Title','','LinePropertiesCache',{{}},'UserDefinedChannelNames',{{}},'NumLines"
-      "',1,'LineNames',{{'Transfer Fcn1'}},'ShowContent',true,'Placement',4)},'DisplayPropertyDefaults',struct('YLabelR"
-      "eal','','ColorOrder',[0.0745098039215686 0.623529411764706 1;1 0.411764705882353 0.16078431372549;1 1 0.06666666"
-      "66666667;0.717647058823529 0.274509803921569 1;0.392156862745098 0.831372549019608 0.0745098039215686;0.05882352"
-      "94117647 1 1;1 0.0745098039215686 0.650980392156863]),'DisplayLayoutDimensions',[4 1]),extmgr.Configuration('Too"
-      "ls','Plot Navigation',true,'OnceAtStop',false,'PreviousZoomMode','ZoomX','PreviousAutoscale','XY'),extmgr.Config"
-      "uration('Tools','Measurements',true,'Version','2020a')),'Version','2020a','Position',[111 154 1429 759],'Visible"
-      "AtModelOpen','on')"
-      NumInputPorts	      "4"
+      "gr.Configuration('Core','General UI',true),extmgr.Configuration('Core','Source UI',true),extmgr.Configuration('S"
+      "ources','WiredSimulink',true,'DataLoggingVariableName','ScopeData2'),extmgr.Configuration('Visuals','Time Domain"
+      "',true,'SerializedDisplays',{struct('MinYLimReal','-66.23899','MaxYLimReal','596.15421','YLabelReal','','MinYLim"
+      "Mag','0.00000','MaxYLimMag','596.15421','LegendVisibility','off','XGrid',true,'YGrid',true,'PlotMagPhase',false,"
+      "'AxesColor',[0 0 0],'AxesTickColor',[0.686274509803922 0.686274509803922 0.686274509803922],'ColorOrder',[1 1 0."
+      "0666666666666667;0.0745098039215686 0.623529411764706 1;1 0.411764705882353 0.16078431372549;0.392156862745098 0"
+      ".831372549019608 0.0745098039215686;0.717647058823529 0.274509803921569 1;0.0588235294117647 1 1;1 0.07450980392"
+      "15686 0.650980392156863],'Title','%<SignalLabel>','LinePropertiesCache',{{}},'UserDefinedChannelNames',{{}},'Num"
+      "Lines',1,'LineNames',{{'Sensors1/1'}},'ShowContent',true,'Placement',1)},'DisplayPropertyDefaults',struct('MinYL"
+      "imReal','-66.23899','MaxYLimReal','596.15421','YLabelReal','','MinYLimMag','0.00000','MaxYLimMag','596.15421','L"
+      "egendVisibility','off','XGrid',true,'YGrid',true,'PlotMagPhase',false,'AxesColor',[0 0 0],'AxesTickColor',[0.686"
+      "274509803922 0.686274509803922 0.686274509803922],'ColorOrder',[0.0745098039215686 0.623529411764706 1;1 0.41176"
+      "4705882353 0.16078431372549;1 1 0.0666666666666667;0.717647058823529 0.274509803921569 1;0.392156862745098 0.831"
+      "372549019608 0.0745098039215686;0.0588235294117647 1 1;1 0.0745098039215686 0.650980392156863])),extmgr.Configur"
+      "ation('Tools','Plot Navigation',true),extmgr.Configuration('Tools','Measurements',true,'Version','2020a')),'Vers"
+      "ion','2020a')"
+      NumInputPorts	      "1"
       Floating		      off
     }
     Block {
@@ -4780,7 +5317,7 @@ Model {
       Name		      "Sensors1"
       SID		      "186"
       Ports		      [0, 2, 0, 0, 0, 1, 1]
-      Position		      [500, 25, 650, 85]
+      Position		      [375, 25, 525, 85]
       ZOrder		      5759
       NameLocation	      "top"
       RequestExecContextInheritance off
@@ -4788,7 +5325,7 @@ Model {
       System {
 	Name			"Sensors1"
 	Location		[-8, -8, 1928, 1058]
-	Open			on
+	Open			off
 	PortBlocksUseCompactNotation off
 	SetExecutionDomain	off
 	ExecutionDomainType	"Deduce"
@@ -5179,7 +5716,7 @@ Model {
       Name		      "Simulink-PS\nConverter1"
       SID		      "150"
       Ports		      [1, 0, 0, 0, 0, 0, 1]
-      Position		      [255, 165, 285, 195]
+      Position		      [180, 175, 210, 205]
       ZOrder		      5750
       ShowName		      off
       LibraryVersion	      "5.0"
@@ -5213,7 +5750,7 @@ Model {
       Name		      "Simulink-PS\nConverter2"
       SID		      "214"
       Ports		      [1, 0, 0, 0, 0, 0, 1]
-      Position		      [215, 85, 245, 115]
+      Position		      [140, 85, 170, 115]
       ZOrder		      5772
       ShowName		      off
       LibraryVersion	      "5.0"
@@ -5298,398 +5835,17 @@ Model {
       PartitionMethod	      "FAST"
     }
     Block {
-      BlockType		      SubSystem
-      Name		      "Subsystem"
-      SID		      "276"
-      Ports		      [1, 1]
-      Position		      [-45, 170, -5, 230]
-      ZOrder		      5819
-      RequestExecContextInheritance off
-      ContentPreviewEnabled   on
-      System {
-	Name			"Subsystem"
-	Location		[-8, -8, 1928, 1058]
-	Open			off
-	PortBlocksUseCompactNotation off
-	SetExecutionDomain	off
-	ExecutionDomainType	"Deduce"
-	ModelBrowserVisibility	off
-	ModelBrowserWidth	200
-	ScreenColor		"white"
-	PaperOrientation	"landscape"
-	PaperPositionMode	"auto"
-	PaperType		"usletter"
-	PaperUnits		"inches"
-	TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
-	TiledPageScale		1
-	ShowPageBoundaries	off
-	ZoomFactor		"110"
-	SimulinkSubDomain	"Simulink"
-	Block {
-	  BlockType		  Inport
-	  Name			  "error"
-	  SID			  "277"
-	  Position		  [20, 43, 50, 57]
-	  ZOrder		  5819
-	}
-	Block {
-	  BlockType		  SubSystem
-	  Name			  "MATLAB Function"
-	  SID			  "274"
-	  Ports			  [2, 1]
-	  Position		  [135, 39, 205, 86]
-	  ZOrder		  5817
-	  ErrorFcn		  "Stateflow.Translate.translate"
-	  PermitHierarchicalResolution "ExplicitOnly"
-	  TreatAsAtomicUnit	  on
-	  RequestExecContextInheritance	off
-	  SFBlockType		  "MATLAB Function"
-	  ContentPreviewEnabled	  on
-	  System {
-	    Name		    "MATLAB Function"
-	    Location		    [223, 338, 826, 833]
-	    Open		    off
-	    PortBlocksUseCompactNotation off
-	    SetExecutionDomain	    off
-	    ExecutionDomainType	    "Deduce"
-	    ModelBrowserVisibility  off
-	    ModelBrowserWidth	    200
-	    ScreenColor		    "white"
-	    PaperOrientation	    "landscape"
-	    PaperPositionMode	    "auto"
-	    PaperType		    "usletter"
-	    PaperUnits		    "inches"
-	    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
-	    TiledPageScale	    1
-	    ShowPageBoundaries	    off
-	    ZoomFactor		    "100"
-	    SIDHighWatermark	    "22"
-	    SimulinkSubDomain	    "Simulink"
-	    Block {
-	      BlockType		      Inport
-	      Name		      "error"
-	      SID		      "274::1"
-	      Position		      [20, 101, 40, 119]
-	      ZOrder		      -1
-	    }
-	    Block {
-	      BlockType		      Inport
-	      Name		      "valve_state"
-	      SID		      "274::22"
-	      Position		      [20, 136, 40, 154]
-	      ZOrder		      13
-	      Port		      "2"
-	    }
-	    Block {
-	      BlockType		      Demux
-	      Name		      " Demux "
-	      SID		      "274::20"
-	      Ports		      [1, 1]
-	      Position		      [270, 230, 320, 270]
-	      ZOrder		      11
-	      Outputs		      "1"
-	    }
-	    Block {
-	      BlockType		      S-Function
-	      Name		      " SFunction "
-	      SID		      "274::19"
-	      Tag		      "Stateflow S-Function 2"
-	      Ports		      [2, 2]
-	      Position		      [180, 100, 230, 160]
-	      ZOrder		      10
-	      FunctionName	      "sf_sfun"
-	      PortCounts	      "[2 2]"
-	      SFunctionDeploymentMode off
-	      EnableBusSupport	      on
-	      SFcnIsStateOwnerBlock   off
-	      Port {
-		PortNumber		2
-		Name			"y"
-	      }
-	    }
-	    Block {
-	      BlockType		      Terminator
-	      Name		      " Terminator "
-	      SID		      "274::21"
-	      Position		      [460, 241, 480, 259]
-	      ZOrder		      12
-	    }
-	    Block {
-	      BlockType		      Outport
-	      Name		      "y"
-	      SID		      "274::5"
-	      Position		      [460, 101, 480, 119]
-	      ZOrder		      -5
-	    }
-	    Line {
-	      ZOrder		      9
-	      SrcBlock		      "error"
-	      SrcPort		      1
-	      DstBlock		      " SFunction "
-	      DstPort		      1
-	    }
-	    Line {
-	      ZOrder		      10
-	      SrcBlock		      "valve_state"
-	      SrcPort		      1
-	      DstBlock		      " SFunction "
-	      DstPort		      2
-	    }
-	    Line {
-	      Name		      "y"
-	      ZOrder		      11
-	      Labels		      [0, 0]
-	      SrcBlock		      " SFunction "
-	      SrcPort		      2
-	      DstBlock		      "y"
-	      DstPort		      1
-	    }
-	    Line {
-	      ZOrder		      12
-	      SrcBlock		      " Demux "
-	      SrcPort		      1
-	      DstBlock		      " Terminator "
-	      DstPort		      1
-	    }
-	    Line {
-	      ZOrder		      13
-	      SrcBlock		      " SFunction "
-	      SrcPort		      1
-	      DstBlock		      " Demux "
-	      DstPort		      1
-	    }
-	  }
-	}
-	Block {
-	  BlockType		  Memory
-	  Name			  "Memory"
-	  SID			  "275"
-	  Position		  [155, 110, 185, 140]
-	  ZOrder		  5818
-	  BlockMirror		  on
-	  NameLocation		  "top"
-	}
-	Block {
-	  BlockType		  Outport
-	  Name			  "y"
-	  SID			  "278"
-	  Position		  [295, 23, 325, 37]
-	  ZOrder		  5820
-	}
-	Line {
-	  ZOrder		  536
-	  SrcBlock		  "MATLAB Function"
-	  SrcPort		  1
-	  Points		  [15, 0]
-	  Branch {
-	    ZOrder		    553
-	    Points		    [0, -35]
-	    DstBlock		    "y"
-	    DstPort		    1
-	  }
-	  Branch {
-	    ZOrder		    550
-	    Points		    [0, 60]
-	    DstBlock		    "Memory"
-	    DstPort		    1
-	  }
-	}
-	Line {
-	  ZOrder		  539
-	  SrcBlock		  "Memory"
-	  SrcPort		  1
-	  Points		  [-30, 0]
-	  DstBlock		  "MATLAB Function"
-	  DstPort		  2
-	}
-	Line {
-	  ZOrder		  552
-	  SrcBlock		  "error"
-	  SrcPort		  1
-	  DstBlock		  "MATLAB Function"
-	  DstPort		  1
-	}
-      }
-    }
-    Block {
       BlockType		      Sum
       Name		      "Sum"
       SID		      "145"
       Ports		      [2, 1]
-      Position		      [-265, 90, -245, 110]
+      Position		      [-460, 90, -440, 110]
       ZOrder		      5778
       ShowName		      off
       Inputs		      "|+-"
-    }
-    Block {
-      BlockType		      Sum
-      Name		      "Sum1"
-      SID		      "231"
-      Ports		      [2, 1]
-      Position		      [-335, 90, -315, 110]
-      ZOrder		      5789
-      ShowName		      off
-    }
-    Block {
-      BlockType		      SubSystem
-      Name		      "Switch"
-      SID		      "256"
-      Ports		      [1, 2]
-      Position		      [-215, 79, -145, 121]
-      ZOrder		      5811
-      RequestExecContextInheritance off
-      ContentPreviewEnabled   on
-      System {
-	Name			"Switch"
-	Location		[-8, -8, 1928, 1058]
-	Open			off
-	PortBlocksUseCompactNotation off
-	SetExecutionDomain	off
-	ExecutionDomainType	"Deduce"
-	ModelBrowserVisibility	off
-	ModelBrowserWidth	200
-	ScreenColor		"white"
-	PaperOrientation	"landscape"
-	PaperPositionMode	"auto"
-	PaperType		"usletter"
-	PaperUnits		"inches"
-	TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
-	TiledPageScale		1
-	ShowPageBoundaries	off
-	ZoomFactor		"110"
-	SimulinkSubDomain	"Simulink"
-	Block {
-	  BlockType		  Inport
-	  Name			  "In1"
-	  SID			  "257"
-	  Position		  [-50, 48, -20, 62]
-	  ZOrder		  5810
-	}
-	Block {
-	  BlockType		  Constant
-	  Name			  "Constant1"
-	  SID			  "251"
-	  Position		  [10, 60, 30, 80]
-	  ZOrder		  5808
-	  Value			  "0"
-	}
-	Block {
-	  BlockType		  Gain
-	  Name			  "Gain"
-	  SID			  "252"
-	  Position		  [210, 120, 240, 150]
-	  ZOrder		  5809
-	  Gain			  "-1"
-	}
-	Block {
-	  BlockType		  Switch
-	  Name			  "Switch"
-	  SID			  "249"
-	  Position		  [100, 35, 150, 75]
-	  ZOrder		  5806
-	  Criteria		  "u2 > Threshold"
-	  InputSameDT		  off
-	  SaturateOnIntegerOverflow off
-	}
-	Block {
-	  BlockType		  Switch
-	  Name			  "Switch1"
-	  SID			  "250"
-	  Position		  [140, 115, 190, 155]
-	  ZOrder		  5807
-	  Criteria		  "u2 > Threshold"
-	  InputSameDT		  off
-	  SaturateOnIntegerOverflow off
-	}
-	Block {
-	  BlockType		  Outport
-	  Name			  "Out1"
-	  SID			  "258"
-	  Position		  [270, 48, 300, 62]
-	  ZOrder		  5811
-	}
-	Block {
-	  BlockType		  Outport
-	  Name			  "Out2"
-	  SID			  "259"
-	  Position		  [270, 128, 300, 142]
-	  ZOrder		  5812
-	  Port			  "2"
-	}
-	Line {
-	  ZOrder		  518
-	  SrcBlock		  "Switch1"
-	  SrcPort		  1
-	  DstBlock		  "Gain"
-	  DstPort		  1
-	}
-	Line {
-	  ZOrder		  511
-	  SrcBlock		  "Constant1"
-	  SrcPort		  1
-	  Points		  [47, 0; 0, 0]
-	  Branch {
-	    ZOrder		    517
-	    Points		    [0, 50]
-	    DstBlock		    "Switch1"
-	    DstPort		    1
-	  }
-	  Branch {
-	    ZOrder		    516
-	    DstBlock		    "Switch"
-	    DstPort		    3
-	  }
-	}
-	Line {
-	  ZOrder		  521
-	  SrcBlock		  "In1"
-	  SrcPort		  1
-	  Points		  [92, 0]
-	  Branch {
-	    ZOrder		    510
-	    Points		    [0, -15]
-	    DstBlock		    "Switch"
-	    DstPort		    1
-	  }
-	  Branch {
-	    ZOrder		    509
-	    Points		    [8, 0]
-	    Branch {
-	      ZOrder		      513
-	      Points		      [8, 0; 0, 80; 26, 0]
-	      Branch {
-		ZOrder			515
-		Points			[0, 15]
-		DstBlock		"Switch1"
-		DstPort			3
-	      }
-	      Branch {
-		ZOrder			514
-		DstBlock		"Switch1"
-		DstPort			2
-	      }
-	    }
-	    Branch {
-	      ZOrder		      512
-	      DstBlock		      "Switch"
-	      DstPort		      2
-	    }
-	  }
-	}
-	Line {
-	  ZOrder		  523
-	  SrcBlock		  "Gain"
-	  SrcPort		  1
-	  DstBlock		  "Out2"
-	  DstPort		  1
-	}
-	Line {
-	  ZOrder		  522
-	  SrcBlock		  "Switch"
-	  SrcPort		  1
-	  DstBlock		  "Out1"
-	  DstPort		  1
-	}
+      Port {
+	PortNumber		1
+	Name			"P_error"
       }
     }
     Block {
@@ -5832,19 +5988,11 @@ Model {
     }
     Block {
       BlockType		      TransferFcn
-      Name		      "Transfer Fcn"
-      SID		      "143"
-      Position		      [125, 82, 190, 118]
-      ZOrder		      5743
-      Denominator	      "[0.01 1]"
-    }
-    Block {
-      BlockType		      TransferFcn
       Name		      "Transfer Fcn1"
       SID		      "148"
-      Position		      [145, 177, 210, 213]
+      Position		      [90, 172, 155, 208]
       ZOrder		      5748
-      Denominator	      "[0.03 1]"
+      Denominator	      "[0.002 1]"
     }
     Block {
       BlockType		      SubSystem
@@ -5860,7 +6008,7 @@ Model {
       ContentPreviewEnabled   on
       Object {
 	$PropName		"MaskObject"
-	$ObjectID		67
+	$ObjectID		70
 	$ClassName		"Simulink.Mask"
 	Type			"Volume Data"
 	Description		"This subsystem reports the lung volume. Because the Interface cross-sectional area parameter in the lun"
@@ -6022,7 +6170,6 @@ Model {
       ZOrder		      340
       SrcBlock		      "Room Air\nSource"
       SrcPort		      LConn1
-      Points		      [1, 0; 0, 65]
       DstBlock		      "Expiratory Valve1"
       DstPort		      LConn1
     }
@@ -6044,57 +6191,46 @@ Model {
     }
     Line {
       LineType		      "Connection"
-      ZOrder		      344
-      SrcBlock		      "Mask"
-      SrcPort		      LConn3
-      Points		      [0, -250; -105, 0]
+      ZOrder		      634
+      SrcBlock		      "Sensors1"
+      SrcPort		      RConn1
+      Points		      [180, 0]
+      DstBlock		      "Check Valve 3"
+      DstPort		      LConn1
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      347
+      Points		      [-265, 470; 95, 0]
+      Branch {
+	ConnectType		"SRC_DEST"
+	Points			[-365, 470; 100, 0]
+	Branch {
+	  ConnectType		  "SRC_DEST"
+	  SrcBlock		  "Volume\nData"
+	  SrcPort		  LConn1
+	  Points		  [0, -5; 85, 0]
+	}
+	Branch {
+	  ConnectType		  "SRC_DEST"
+	  SrcBlock		  "Muscle\nPressure"
+	  SrcPort		  LConn1
+	  Points		  [0, 0]
+	}
+      }
+      Branch {
+	ConnectType		"SRC_DEST"
+	SrcBlock		"Resistance"
+	SrcPort			LConn1
+	Points			[0, -20]
+      }
       Branch {
 	ConnectType		"DEST_SRC"
-	Points			[0, -55]
-	DstBlock		"Sensors1"
+	DstBlock		"Lungs"
 	DstPort			RConn1
       }
       Branch {
 	ConnectType		"DEST_DEST"
-	SrcBlock		"Moist Air Properties\n(MA)"
-	SrcPort			RConn1
-	Points			[45, 0]
-      }
-    }
-    Line {
-      LineType		      "Connection"
-      ZOrder		      102
-      Points		      [-165, 470; 125, 0]
-      DstBlock		      "Lungs"
-      DstPort		      RConn1
-      Branch {
-	ConnectType		"SRC_DEST"
-	Points			[-265, 470; 100, 0]
-	Branch {
-	  ConnectType		  "SRC_DEST"
-	  Points		  [-365, 470; 100, 0]
-	  Branch {
-	    ConnectType		    "SRC_DEST"
-	    SrcBlock		    "Volume\nData"
-	    SrcPort		    LConn1
-	    Points		    [0, -5; 85, 0]
-	  }
-	  Branch {
-	    ConnectType		    "SRC_DEST"
-	    SrcBlock		    "Muscle\nPressure"
-	    SrcPort		    LConn1
-	    Points		    [0, 0]
-	  }
-	}
-	Branch {
-	  ConnectType		  "SRC_DEST"
-	  SrcBlock		  "Resistance"
-	  SrcPort		  LConn1
-	  Points		  [0, -20]
-	}
-      }
-      Branch {
-	ConnectType		"SRC_DEST"
 	SrcBlock		"Elastance"
 	SrcPort			LConn1
 	Points			[0, -20]
@@ -6102,47 +6238,46 @@ Model {
     }
     Line {
       LineType		      "Connection"
-      ZOrder		      104
-      Points		      [-165, 580; 110, 0]
-      DstBlock		      "Lungs"
-      DstPort		      LConn2
+      ZOrder		      354
+      Points		      [-265, 580; 95, 0]
       Branch {
 	ConnectType		"SRC_DEST"
-	Points			[-265, 580; 100, 0]
+	Points			[-355, 580; 90, 0]
 	Branch {
-	  ConnectType		  "SRC_DEST"
-	  Points		  [-355, 580; 90, 0]
+	  ConnectType		  "SRC_SRC"
+	  Points		  [-95, 0]
 	  Branch {
-	    ConnectType		    "SRC_SRC"
-	    Points		    [-95, 0]
-	    Branch {
-	      ConnectType	      "DEST_DEST"
-	      SrcBlock		      "Mechanical\nTranslational\nReference"
-	      SrcPort		      LConn1
-	      Points		      [0, 0]
-	    }
-	    Branch {
-	      ConnectType	      "DEST_SRC"
-	      DstBlock		      "Volume\nData"
-	      DstPort		      RConn1
-	    }
+	    ConnectType		    "DEST_DEST"
+	    SrcBlock		    "Mechanical\nTranslational\nReference"
+	    SrcPort		    LConn1
+	    Points		    [0, 0]
 	  }
 	  Branch {
-	    ConnectType		    "SRC_DEST"
-	    SrcBlock		    "Muscle\nPressure"
-	    SrcPort		    RConn2
-	    Points		    [0, 40]
+	    ConnectType		    "DEST_SRC"
+	    DstBlock		    "Volume\nData"
+	    DstPort		    RConn1
 	  }
 	}
 	Branch {
 	  ConnectType		  "SRC_DEST"
-	  SrcBlock		  "Resistance"
-	  SrcPort		  RConn1
-	  Points		  [0, 20]
+	  SrcBlock		  "Muscle\nPressure"
+	  SrcPort		  RConn2
+	  Points		  [0, 40]
 	}
       }
       Branch {
 	ConnectType		"SRC_DEST"
+	SrcBlock		"Resistance"
+	SrcPort			RConn1
+	Points			[0, 20]
+      }
+      Branch {
+	ConnectType		"DEST_SRC"
+	DstBlock		"Lungs"
+	DstPort			LConn2
+      }
+      Branch {
+	ConnectType		"DEST_DEST"
 	SrcBlock		"Elastance"
 	SrcPort			RConn1
 	Points			[0, 20]
@@ -6205,7 +6340,7 @@ Model {
       ZOrder		      164
       SrcBlock		      "Mask"
       SrcPort		      LConn2
-      Points		      [0, -200]
+      Points		      [0, -125]
       DstBlock		      "Check Valve 2"
       DstPort		      LConn1
     }
@@ -6228,34 +6363,10 @@ Model {
       DstPort		      RConn1
     }
     Line {
-      ZOrder		      161
-      SrcBlock		      "From"
+      ZOrder		      248
+      SrcBlock		      "Max Valve\nArea"
       SrcPort		      1
-      Points		      [5, 0; 0, 35]
-      DstBlock		      "Scope"
-      DstPort		      1
-    }
-    Line {
-      ZOrder		      163
-      SrcBlock		      "From2"
-      SrcPort		      1
-      Points		      [15, 0; 0, 21; 65, 0; 0, -31]
-      DstBlock		      "Scope"
-      DstPort		      3
-    }
-    Line {
-      ZOrder		      588
-      SrcBlock		      "Subsystem"
-      SrcPort		      1
-      Points		      [25, 0; 0, -20]
-      DstBlock		      "Max Valve\nArea"
-      DstPort		      1
-    }
-    Line {
-      ZOrder		      346
-      SrcBlock		      "Max Valve\nArea1"
-      SrcPort		      1
-      DstBlock		      "Transfer Fcn"
+      DstBlock		      "Transfer Fcn1"
       DstPort		      1
     }
     Line {
@@ -6263,17 +6374,9 @@ Model {
       ZOrder		      262
       SrcBlock		      "Expiratory Valve"
       SrcPort		      RConn1
-      Points		      [13, 0; 0, -15]
+      Points		      [96, 0; 0, 50]
       DstBlock		      "Check Valve 2"
       DstPort		      RConn1
-    }
-    Line {
-      LineType		      "Connection"
-      ZOrder		      594
-      SrcBlock		      "Expiratory Valve1"
-      SrcPort		      RConn1
-      DstBlock		      "Check Valve 1"
-      DstPort		      LConn1
     }
     Line {
       LineType		      "Connection"
@@ -6283,14 +6386,6 @@ Model {
       Points		      [35, 0]
       DstBlock		      "Expiratory Valve"
       DstPort		      LConn2
-    }
-    Line {
-      ZOrder		      343
-      SrcBlock		      "Mux"
-      SrcPort		      1
-      Points		      [5, 0; 0, 15]
-      DstBlock		      "Scope"
-      DstPort		      2
     }
     Line {
       LineType		      "Connection"
@@ -6308,228 +6403,191 @@ Model {
 	ConnectType		"DEST_DEST"
 	SrcBlock		"Solver\nConfiguration"
 	SrcPort			RConn1
-	Points			[-141, 0; 0, -30]
+	Points			[-216, 0; 0, -30]
       }
     }
     Line {
-      ZOrder		      352
-      SrcBlock		      "From1"
-      SrcPort		      1
-      DstBlock		      "Mux"
-      DstPort		      1
-    }
-    Line {
-      ZOrder		      353
-      SrcBlock		      "From3"
-      SrcPort		      1
-      DstBlock		      "Mux"
-      DstPort		      2
-    }
-    Line {
-      ZOrder		      479
-      SrcBlock		      "Transfer Fcn"
-      SrcPort		      1
-      Points		      [5, 0]
-      Branch {
-	ZOrder			592
-	Points			[0, -35; -187, 0; 0, -35]
-	DstBlock		"Goto"
-	DstPort			1
-      }
-      Branch {
-	ZOrder			591
-	DstBlock		"Simulink-PS\nConverter2"
-	DstPort			1
-      }
-    }
-    Line {
-      ZOrder		      366
-      SrcBlock		      "Mux1"
-      SrcPort		      1
-      Points		      [20, 0]
-      DstBlock		      "Scope"
-      DstPort		      4
-    }
-    Line {
-      ZOrder		      364
-      SrcBlock		      "From4"
-      SrcPort		      1
-      DstBlock		      "Mux1"
-      DstPort		      1
-    }
-    Line {
-      ZOrder		      365
-      SrcBlock		      "From5"
-      SrcPort		      1
-      DstBlock		      "Mux1"
-      DstPort		      2
-    }
-    Line {
-      ZOrder		      376
-      SrcBlock		      "PID Controller"
-      SrcPort		      1
-      DstBlock		      "Max Valve\nArea1"
-      DstPort		      1
-    }
-    Line {
-      ZOrder		      559
-      SrcBlock		      "Mux2"
-      SrcPort		      1
-      Points		      [61, 0; 0, -30]
-      DstBlock		      "Scope1"
-      DstPort		      1
-    }
-    Line {
-      ZOrder		      410
-      SrcBlock		      "Pulse\nGenerator"
-      SrcPort		      1
-      Points		      [30, 0]
-      DstBlock		      "Sum1"
-      DstPort		      1
-    }
-    Line {
-      ZOrder		      411
-      SrcBlock		      "Sum1"
-      SrcPort		      1
-      Points		      [15, 0]
-      Branch {
-	ZOrder			413
-	Points			[0, -100]
-	DstBlock		"Mux2"
-	DstPort			1
-      }
-      Branch {
-	ZOrder			412
-	DstBlock		"Sum"
-	DstPort			1
-      }
-    }
-    Line {
-      ZOrder		      414
-      SrcBlock		      "Constant2"
-      SrcPort		      1
-      Points		      [85, 0]
-      DstBlock		      "Sum1"
-      DstPort		      2
-    }
-    Line {
-      ZOrder		      451
-      SrcBlock		      "From7"
-      SrcPort		      1
-      DstBlock		      "Mux3"
-      DstPort		      2
-    }
-    Line {
-      ZOrder		      561
-      SrcBlock		      "Mux3"
-      SrcPort		      1
-      Points		      [45, 0; 0, -14; 147, 0; 0, 9]
-      DstBlock		      "Scope1"
-      DstPort		      2
-    }
-    Line {
-      ZOrder		      453
-      SrcBlock		      "From6"
-      SrcPort		      1
-      DstBlock		      "Mux3"
-      DstPort		      1
-    }
-    Line {
-      ZOrder		      521
-      SrcBlock		      "Sum"
-      SrcPort		      1
-      DstBlock		      "Switch"
-      DstPort		      1
-    }
-    Line {
-      ZOrder		      522
-      SrcBlock		      "Switch"
-      SrcPort		      1
-      Points		      [33, 0; 0, 10]
-      DstBlock		      "PID Controller"
-      DstPort		      1
-    }
-    Line {
-      ZOrder		      523
-      SrcBlock		      "Switch"
+      ZOrder		      503
+      SrcBlock		      "Sensors1"
       SrcPort		      2
-      Points		      [19, 0; 0, 58; -83, 0; 0, 32]
-      DstBlock		      "PID Controller1"
-      DstPort		      1
-    }
-    Line {
-      ZOrder		      562
-      SrcBlock		      "From8"
-      SrcPort		      1
-      Points		      [29, 0; 0, -40]
-      DstBlock		      "Scope1"
-      DstPort		      3
-    }
-    Line {
-      ZOrder		      560
-      SrcBlock		      "From9"
-      SrcPort		      1
-      Points		      [18, 0; 0, -50]
-      DstBlock		      "Scope1"
-      DstPort		      4
-    }
-    Line {
-      ZOrder		      556
-      SrcBlock		      "PID Controller1"
-      SrcPort		      1
-      DstBlock		      "Subsystem"
-      DstPort		      1
+      Points		      [16, 0; 0, 271; -996, 0; 0, -146]
+      Branch {
+	ZOrder			642
+	DstBlock		"Mux2"
+	DstPort			2
+      }
+      Branch {
+	ZOrder			641
+	DstBlock		"Sum"
+	DstPort			2
+      }
     }
     Line {
       ZOrder		      558
       SrcBlock		      "Transfer Fcn1"
       SrcPort		      1
-      Points		      [24, 0]
-      Branch {
-	ZOrder			608
-	Points			[0, -15]
-	DstBlock		"Simulink-PS\nConverter1"
-	DstPort			1
-      }
-      Branch {
-	ZOrder			590
-	Points			[0, 80]
-	DstBlock		"Goto1"
-	DstPort			1
-      }
-    }
-    Line {
-      ZOrder		      593
-      SrcBlock		      "Max Valve\nArea"
-      SrcPort		      1
-      Points		      [20, 0; 0, 15]
-      DstBlock		      "Transfer Fcn1"
+      DstBlock		      "Simulink-PS\nConverter1"
       DstPort		      1
     }
     Line {
+      ZOrder		      611
+      SrcBlock		      "Controller"
+      SrcPort		      2
+      Points		      [3, 0; 0, 80; 200, 0]
+      Branch {
+	ZOrder			613
+	Points			[0, 60]
+	DstBlock		"Goto1"
+	DstPort			1
+      }
+      Branch {
+	ZOrder			557
+	DstBlock		"Max Valve\nArea"
+	DstPort			1
+      }
+    }
+    Line {
+      Name		      "P_error"
+      ZOrder		      609
+      Labels		      [1, 1]
+      SrcBlock		      "Sum"
+      SrcPort		      1
+      Points		      [97, 0]
+      Branch {
+	ZOrder			669
+	Points			[0, 130]
+	DstBlock		"Scope1"
+	DstPort			4
+      }
+      Branch {
+	ZOrder			651
+	DstBlock		"Controller"
+	DstPort			1
+      }
+    }
+    Line {
+      ZOrder		      621
+      SrcBlock		      "Actuator MFC"
+      SrcPort		      1
+      Points		      [14, 0; 0, 34; 1, 0]
+      Branch {
+	ZOrder			650
+	Points			[0, 16]
+	DstBlock		"Goto"
+	DstPort			1
+      }
+      Branch {
+	ZOrder			649
+	Points			[99, 0; 0, -24]
+	DstBlock		"Simulink-PS\nConverter2"
+	DstPort			1
+      }
+    }
+    Line {
+      ZOrder		      663
+      SrcBlock		      "Sensors1"
+      SrcPort		      1
+      Points		      [19, 0; 0, -40; -480, 0]
+      Branch {
+	ZOrder			671
+	Points			[0, -30]
+	DstBlock		"Scope2"
+	DstPort			1
+      }
+      Branch {
+	ZOrder			670
+	DstBlock		"Memory"
+	DstPort			1
+      }
+    }
+    Line {
       LineType		      "Connection"
-      ZOrder		      600
-      SrcBlock		      "Check Valve 1"
+      ZOrder		      662
+      SrcBlock		      "Expiratory Valve1"
       SrcPort		      RConn1
       DstBlock		      "Sensors1"
       DstPort		      LConn1
     }
     Line {
-      ZOrder		      602
-      SrcBlock		      "Sensors1"
-      SrcPort		      2
-      Points		      [34, 0; 0, 100; -944, 0; 0, -21]
+      ZOrder		      637
+      SrcBlock		      "Mux2"
+      SrcPort		      1
+      DstBlock		      "Scope1"
+      DstPort		      1
+    }
+    Line {
+      ZOrder		      638
+      SrcBlock		      "Pressure Reference signal"
+      SrcPort		      1
+      Points		      [42, 0]
       Branch {
-	ZOrder			606
-	Points			[-30, 0; 0, -114]
+	ZOrder			640
+	Points			[0, 60]
 	DstBlock		"Mux2"
-	DstPort			2
+	DstPort			1
       }
       Branch {
-	ZOrder			605
+	ZOrder			639
 	DstBlock		"Sum"
-	DstPort			2
+	DstPort			1
       }
+    }
+    Line {
+      ZOrder		      643
+      SrcBlock		      "From6"
+      SrcPort		      1
+      Points		      [70, 0; 0, -20]
+      DstBlock		      "Scope1"
+      DstPort		      2
+    }
+    Line {
+      ZOrder		      644
+      SrcBlock		      "From9"
+      SrcPort		      1
+      Points		      [220, 0]
+      DstBlock		      "Scope1"
+      DstPort		      3
+    }
+    Line {
+      ZOrder		      656
+      SrcBlock		      "Controller"
+      SrcPort		      1
+      DstBlock		      "Max Valve\nArea1"
+      DstPort		      1
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      661
+      SrcBlock		      "Check Valve 3"
+      SrcPort		      RConn1
+      Points		      [0, 41]
+      Branch {
+	ConnectType		"DEST_DEST"
+	SrcBlock		"Mask"
+	SrcPort			LConn3
+	Points			[0, -142; -110, 0; 0, -33]
+      }
+      Branch {
+	ConnectType		"DEST_DEST"
+	SrcBlock		"Moist Air Properties\n(MA)"
+	SrcPort			RConn1
+	Points			[25, 0]
+      }
+    }
+    Line {
+      ZOrder		      664
+      SrcBlock		      "Memory"
+      SrcPort		      1
+      Points		      [-235, 0]
+      DstBlock		      "Controller"
+      DstPort		      2
+    }
+    Line {
+      ZOrder		      665
+      SrcBlock		      "Max Valve\nArea1"
+      SrcPort		      1
+      DstBlock		      "Actuator MFC"
+      DstPort		      1
     }
     Annotation {
       SID		      "112"
@@ -6582,22 +6640,19 @@ Model {
 Stateflow {
   machine {
     id			    1
-    name		    "ssc_medical_ventilator_JW_R2018"
+    name		    "medical_ventilator_MASSFLOW"
     sfVersion		    80000032
     firstTarget		    10
   }
   chart {
     id			    2
     machine		    1
-    name		    "Subsystem/MATLAB Function"
+    name		    "Controller/Subsystem/MATLAB Function"
     windowPosition	    [422 539.941 189 413]
     viewLimits		    [0 156.75 0 153.75]
     screen		    [1 1 3600 1200 1.180555555555556]
     treeNode		    [0 3 0 0]
     viewObj		    2
-    visible		    1
-    subviewS {
-    }
     ssIdHighWaterMark	    6
     decomposition	    CLUSTER_CHART
     type		    EML_CHART
@@ -6738,7 +6793,7 @@ Stateflow {
   instance {
     id			    9
     machine		    1
-    name		    "Subsystem/MATLAB Function"
+    name		    "Controller/Subsystem/MATLAB Function"
     chart		    2
   }
   target {
