@@ -6,7 +6,7 @@ Model {
     NumRootInports	    0
     NumRootOutports	    0
     ParameterArgumentNames  ""
-    ComputedModelVersion    "1.104"
+    ComputedModelVersion    "1.108"
     NumModelReferences	    0
     NumTestPointedSignals   0
     NumProvidedFunctions    0
@@ -407,9 +407,9 @@ Model {
 	  ViewObjType		  "SimulinkTopLevel"
 	  LoadSaveID		  "0"
 	  Extents		  [1402.0, 648.0]
-	  ZoomFactor		  [0.82230439414323331]
-	  Offset		  [-794.65424648286012, -74.004027846124529]
-	  SceneRectInView	  [-794.65424648286012, -74.004027846124529, 1704.9647429657202, 788.02935338215877]
+	  ZoomFactor		  [1.0590959925815233]
+	  Offset		  [-903.1654644302962, -71.580001908885322]
+	  SceneRectInView	  [-903.1654644302962, -71.580001908885322, 1323.7704701182522, 611.84255680215938]
 	}
 	Object {
 	  $ObjectID		  9
@@ -418,9 +418,9 @@ Model {
 	  ViewObjType		  "SimulinkSubsys"
 	  LoadSaveID		  "292"
 	  Extents		  [1402.0, 648.0]
-	  ZoomFactor		  [1.8353648355318084]
-	  Offset		  [-10.924786208151374, -119.03165938864629]
-	  SceneRectInView	  [-10.924786208151374, -119.03165938864629, 763.88082241630275, 353.06331877729258]
+	  ZoomFactor		  [2.2762476703251191]
+	  Offset		  [-38.593636280931577, -28.079421397379836]
+	  SceneRectInView	  [-38.593636280931577, -28.079421397379836, 615.9259461426492, 284.67903930131]
 	}
 	Object {
 	  $ObjectID		  10
@@ -428,10 +428,10 @@ Model {
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
 	  LoadSaveID		  "276"
-	  Extents		  [1402.0, 648.0]
+	  Extents		  [1882.0, 828.0]
 	  ZoomFactor		  [0.81944739638682262]
 	  Offset		  [-682.95454545454538, -313.43386071845413]
-	  SceneRectInView	  [-682.95454545454538, -313.43386071845413, 1710.9090909090908, 790.77681234599913]
+	  SceneRectInView	  [-682.95454545454538, -313.43386071845413, 2296.669692646868, 1010.4370379976656]
 	}
 	Object {
 	  $ObjectID		  11
@@ -551,9 +551,9 @@ Model {
   ModifiedByFormat	  "%<Auto>"
   LastModifiedBy	  "danielvanhanswijk"
   ModifiedDateFormat	  "%<Auto>"
-  LastModifiedDate	  "Wed Mar 25 15:00:09 2020"
-  RTWModifiedTimeStamp	  507049161
-  ModelVersionFormat	  "1.%<AutoIncrement:104>"
+  LastModifiedDate	  "Wed Mar 25 16:28:33 2020"
+  RTWModifiedTimeStamp	  507054510
+  ModelVersionFormat	  "1.%<AutoIncrement:108>"
   SampleTimeColors	  off
   SampleTimeAnnotations	  off
   LibraryLinkDisplay	  "disabled"
@@ -1537,6 +1537,14 @@ Model {
   }
   BlockParameterDefaults {
     Block {
+      BlockType		      Backlash
+      BacklashWidth	      "1"
+      InitialOutput	      "0"
+      InputProcessing	      "Elements as channels (sample based)"
+      ZeroCross		      on
+      SampleTime	      "-1"
+    }
+    Block {
       BlockType		      Constant
       Value		      "1"
       VectorParams1D	      on
@@ -1600,9 +1608,6 @@ Model {
       GotoTag		      "A"
       IconDisplay	      "Tag"
       TagVisibility	      "local"
-    }
-    Block {
-      BlockType		      Ground
     }
     Block {
       BlockType		      Inport
@@ -1781,9 +1786,9 @@ Model {
     TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
     TiledPageScale	    1
     ShowPageBoundaries	    off
-    ZoomFactor		    "82"
+    ZoomFactor		    "106"
     ReportName		    "simulink-default.rpt"
-    SIDHighWatermark	    "330"
+    SIDHighWatermark	    "338"
     SimulinkSubDomain	    "Simulink"
     Block {
       BlockType		      Goto
@@ -1807,7 +1812,7 @@ Model {
       SID		      "148"
       Position		      [135, 162, 200, 198]
       ZOrder		      5748
-      Denominator	      "[0.2 1]"
+      Denominator	      "[0.01 1]"
     }
     Block {
       BlockType		      Reference
@@ -1878,7 +1883,7 @@ Model {
       SID		      "4"
       Tag		      "PublishSubsystem"
       Ports		      [0, 0, 0, 0, 0, 1, 1]
-      Position		      [329, 29, 369, 61]
+      Position		      [329, -6, 369, 26]
       ZOrder		      21
       RequestExecContextInheritance off
       ContentPreviewEnabled   on
@@ -2394,7 +2399,7 @@ Model {
       Name		      "Check Valve 2"
       SID		      "29"
       Ports		      [0, 0, 0, 0, 0, 1, 1]
-      Position		      [625, 239, 665, 271]
+      Position		      [480, 194, 520, 226]
       ZOrder		      24
       BlockMirror	      on
       RequestExecContextInheritance off
@@ -2858,18 +2863,11 @@ Model {
       BlockType		      SubSystem
       Name		      "Controller"
       SID		      "292"
-      Ports		      [3, 2]
-      Position		      [-255, 68, -43, 177]
+      Ports		      [2, 2]
+      Position		      [-255, 68, -45, 177]
       ZOrder		      5827
       RequestExecContextInheritance off
       ContentPreviewEnabled   on
-      PortSchema	      "{\"entries\":[{\"content\":{\"sides\":[{\"content\":{\"connectorIds\":[\"In1\",\"In2\"]},\"typ"
-      "e\":\"ConnectorPlacement.EquallySpacedRectSide\",\"uuid\":\"83cd1c9b-4903-45c5-b15b-dd67173ffefd\"},{\"content\""
-      ":{\"connectorIds\":[\"Out1\",\"Out2\"],\"side\":\"RIGHT\"},\"type\":\"ConnectorPlacement.EquallySpacedRectSide\""
-      ",\"uuid\":\"273b2153-672b-49a4-806a-19292bfa425d\"},{\"content\":{\"connectorIds\":[\"In3\"],\"side\":\"TOP\"},\""
-      "type\":\"ConnectorPlacement.EquallySpacedRectSide\",\"uuid\":\"07f05275-62e8-4d64-9fd4-e3fbc813d032\"}]},\"type\""
-      ":\"ConnectorPlacement.EquallySpacedConnector\",\"uuid\":\"baf11428-f7cd-4497-8c68-6a3d175d3033\"}],\"packageUris"
-      "\":[\"http://schema.mathworks.com/mf0/Connector/19700101\"],\"version\":\"1.0\"}"
       System {
 	Name			"Controller"
 	Location		[0, 23, 1440, 900]
@@ -2887,7 +2885,7 @@ Model {
 	TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
 	TiledPageScale		1
 	ShowPageBoundaries	off
-	ZoomFactor		"184"
+	ZoomFactor		"228"
 	SimulinkSubDomain	"Simulink"
 	Block {
 	  BlockType		  Inport
@@ -2905,35 +2903,247 @@ Model {
 	  Port			  "2"
 	}
 	Block {
-	  BlockType		  Inport
-	  Name			  "Current Mass Flow"
-	  SID			  "296"
-	  Position		  [20, -17, 50, -3]
-	  ZOrder		  5823
-	  Port			  "3"
+	  BlockType		  Constant
+	  Name			  "Constant"
+	  SID			  "337"
+	  Position		  [30, 190, 60, 220]
+	  ZOrder		  5831
+	  Value			  "0"
 	}
 	Block {
-	  BlockType		  Ground
-	  Name			  "Ground"
-	  SID			  "300"
-	  Position		  [345, 70, 365, 90]
-	  ZOrder		  5827
+	  BlockType		  Constant
+	  Name			  "Constant1"
+	  SID			  "338"
+	  Position		  [30, 220, 60, 250]
+	  ZOrder		  5832
 	}
 	Block {
-	  BlockType		  Memory
-	  Name			  "Memory"
-	  SID			  "297"
-	  Position		  [250, -25, 280, 5]
-	  ZOrder		  5824
-	  Commented		  "on"
-	  InitialCondition	  "100"
+	  BlockType		  SubSystem
+	  Name			  "On Off "
+	  SID			  "276"
+	  Ports			  [1, 1]
+	  Position		  [370, 87, 450, 133]
+	  ZOrder		  5819
+	  RequestExecContextInheritance	off
+	  ContentPreviewEnabled	  on
+	  System {
+	    Name		    "On Off "
+	    Location		    [0, 23, 1920, 1080]
+	    Open		    off
+	    PortBlocksUseCompactNotation off
+	    SetExecutionDomain	    off
+	    ExecutionDomainType	    "Deduce"
+	    ModelBrowserVisibility  off
+	    ModelBrowserWidth	    200
+	    ScreenColor		    "white"
+	    PaperOrientation	    "landscape"
+	    PaperPositionMode	    "auto"
+	    PaperType		    "usletter"
+	    PaperUnits		    "inches"
+	    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
+	    TiledPageScale	    1
+	    ShowPageBoundaries	    off
+	    ZoomFactor		    "82"
+	    SimulinkSubDomain	    "Simulink"
+	    Block {
+	      BlockType		      Inport
+	      Name		      "error"
+	      SID		      "277"
+	      Position		      [20, 43, 50, 57]
+	      ZOrder		      5819
+	    }
+	    Block {
+	      BlockType		      Backlash
+	      Name		      "Backlash"
+	      SID		      "334"
+	      Position		      [330, -80, 360, -50]
+	      ZOrder		      5821
+	      Commented		      "on"
+	    }
+	    Block {
+	      BlockType		      SubSystem
+	      Name		      "MATLAB Function"
+	      SID		      "274"
+	      Ports		      [2, 1]
+	      Position		      [135, 39, 205, 86]
+	      ZOrder		      5817
+	      ErrorFcn		      "Stateflow.Translate.translate"
+	      PermitHierarchicalResolution "ExplicitOnly"
+	      TreatAsAtomicUnit	      on
+	      RequestExecContextInheritance off
+	      SFBlockType	      "MATLAB Function"
+	      ContentPreviewEnabled   on
+	      System {
+		Name			"MATLAB Function"
+		Location		[223, 338, 826, 833]
+		Open			off
+		PortBlocksUseCompactNotation off
+		SetExecutionDomain	off
+		ExecutionDomainType	"Deduce"
+		ModelBrowserVisibility	off
+		ModelBrowserWidth	200
+		ScreenColor		"white"
+		PaperOrientation	"landscape"
+		PaperPositionMode	"auto"
+		PaperType		"usletter"
+		PaperUnits		"inches"
+		TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
+		TiledPageScale		1
+		ShowPageBoundaries	off
+		ZoomFactor		"100"
+		SIDHighWatermark	"22"
+		SimulinkSubDomain	"Simulink"
+		Block {
+		  BlockType		  Inport
+		  Name			  "error"
+		  SID			  "274::1"
+		  Position		  [20, 101, 40, 119]
+		  ZOrder		  -1
+		}
+		Block {
+		  BlockType		  Inport
+		  Name			  "valve_state"
+		  SID			  "274::22"
+		  Position		  [20, 136, 40, 154]
+		  ZOrder		  13
+		  Port			  "2"
+		}
+		Block {
+		  BlockType		  Demux
+		  Name			  " Demux "
+		  SID			  "274::20"
+		  Ports			  [1, 1]
+		  Position		  [270, 230, 320, 270]
+		  ZOrder		  11
+		  Outputs		  "1"
+		}
+		Block {
+		  BlockType		  S-Function
+		  Name			  " SFunction "
+		  SID			  "274::19"
+		  Tag			  "Stateflow S-Function 2"
+		  Ports			  [2, 2]
+		  Position		  [180, 100, 230, 160]
+		  ZOrder		  10
+		  FunctionName		  "sf_sfun"
+		  PortCounts		  "[2 2]"
+		  SFunctionDeploymentMode off
+		  EnableBusSupport	  on
+		  SFcnIsStateOwnerBlock	  off
+		  Port {
+		    PortNumber		    2
+		    Name		    "y"
+		  }
+		}
+		Block {
+		  BlockType		  Terminator
+		  Name			  " Terminator "
+		  SID			  "274::21"
+		  Position		  [460, 241, 480, 259]
+		  ZOrder		  12
+		}
+		Block {
+		  BlockType		  Outport
+		  Name			  "y"
+		  SID			  "274::5"
+		  Position		  [460, 101, 480, 119]
+		  ZOrder		  -5
+		}
+		Line {
+		  ZOrder		  9
+		  SrcBlock		  "error"
+		  SrcPort		  1
+		  DstBlock		  " SFunction "
+		  DstPort		  1
+		}
+		Line {
+		  ZOrder		  10
+		  SrcBlock		  "valve_state"
+		  SrcPort		  1
+		  DstBlock		  " SFunction "
+		  DstPort		  2
+		}
+		Line {
+		  Name			  "y"
+		  ZOrder		  11
+		  Labels		  [0, 0]
+		  SrcBlock		  " SFunction "
+		  SrcPort		  2
+		  DstBlock		  "y"
+		  DstPort		  1
+		}
+		Line {
+		  ZOrder		  12
+		  SrcBlock		  " Demux "
+		  SrcPort		  1
+		  DstBlock		  " Terminator "
+		  DstPort		  1
+		}
+		Line {
+		  ZOrder		  13
+		  SrcBlock		  " SFunction "
+		  SrcPort		  1
+		  DstBlock		  " Demux "
+		  DstPort		  1
+		}
+	      }
+	    }
+	    Block {
+	      BlockType		      Memory
+	      Name		      "Memory"
+	      SID		      "275"
+	      Position		      [155, 110, 185, 140]
+	      ZOrder		      5818
+	      BlockMirror	      on
+	      NameLocation	      "top"
+	    }
+	    Block {
+	      BlockType		      Outport
+	      Name		      "y"
+	      SID		      "278"
+	      Position		      [295, 58, 325, 72]
+	      ZOrder		      5820
+	    }
+	    Line {
+	      ZOrder		      536
+	      SrcBlock		      "MATLAB Function"
+	      SrcPort		      1
+	      Points		      [15, 0]
+	      Branch {
+		ZOrder			553
+		DstBlock		"y"
+		DstPort			1
+	      }
+	      Branch {
+		ZOrder			550
+		Points			[0, 60]
+		DstBlock		"Memory"
+		DstPort			1
+	      }
+	    }
+	    Line {
+	      ZOrder		      539
+	      SrcBlock		      "Memory"
+	      SrcPort		      1
+	      Points		      [-30, 0]
+	      DstBlock		      "MATLAB Function"
+	      DstPort		      2
+	    }
+	    Line {
+	      ZOrder		      552
+	      SrcBlock		      "error"
+	      SrcPort		      1
+	      DstBlock		      "MATLAB Function"
+	      DstPort		      1
+	    }
+	  }
 	}
 	Block {
 	  BlockType		  Reference
 	  Name			  "PID Controller"
 	  SID			  "220"
 	  Ports			  [1, 1]
-	  Position		  [220, 22, 300, 58]
+	  Position		  [230, 22, 310, 58]
 	  ZOrder		  5779
 	  LibraryVersion	  "1.465"
 	  SourceBlock		  "simulink/Continuous/PID Controller"
@@ -2955,7 +3165,7 @@ Model {
 	  ControllerParametersSource "internal"
 	  P			  "0.0075"
 	  I			  "0"
-	  D			  "0"
+	  D			  "0.000001"
 	  UseFilter		  on
 	  N			  "100"
 	  TunerSelectOption	  "Transfer Function Based (PID Tuner App)"
@@ -2969,7 +3179,7 @@ Model {
 	  TrackingMode		  off
 	  Kt			  "1"
 	  LimitOutput		  on
-	  UpperSaturationLimit	  "0.1"
+	  UpperSaturationLimit	  "0.05"
 	  LowerSaturationLimit	  "0"
 	  LinearizeAsGain	  on
 	  AntiWindupMode	  "none"
@@ -3123,7 +3333,7 @@ Model {
 	  Name			  "PID Controller1"
 	  SID			  "227"
 	  Ports			  [1, 1]
-	  Position		  [260, 92, 300, 128]
+	  Position		  [230, 92, 310, 128]
 	  ZOrder		  5785
 	  LibraryVersion	  "1.465"
 	  SourceBlock		  "simulink/Continuous/PID Controller"
@@ -3143,7 +3353,7 @@ Model {
 	  IntegratorMethod	  "Forward Euler"
 	  FilterMethod		  "Forward Euler"
 	  ControllerParametersSource "internal"
-	  P			  "0.5"
+	  P			  "1"
 	  I			  "0"
 	  D			  "0"
 	  UseFilter		  on
@@ -3307,230 +3517,6 @@ Model {
 	  TsampNgainVariant	  "Passthrough"
 	  TsampIntegralVariant	  "Passthrough"
 	  InitialConditionSetting "Auto"
-	}
-	Block {
-	  BlockType		  SubSystem
-	  Name			  "Subsystem"
-	  SID			  "276"
-	  Ports			  [1, 1]
-	  Position		  [335, 130, 375, 190]
-	  ZOrder		  5819
-	  Commented		  "on"
-	  RequestExecContextInheritance	off
-	  ContentPreviewEnabled	  on
-	  System {
-	    Name		    "Subsystem"
-	    Location		    [0, 23, 1440, 900]
-	    Open		    off
-	    PortBlocksUseCompactNotation off
-	    SetExecutionDomain	    off
-	    ExecutionDomainType	    "Deduce"
-	    ModelBrowserVisibility  off
-	    ModelBrowserWidth	    200
-	    ScreenColor		    "white"
-	    PaperOrientation	    "landscape"
-	    PaperPositionMode	    "auto"
-	    PaperType		    "usletter"
-	    PaperUnits		    "inches"
-	    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
-	    TiledPageScale	    1
-	    ShowPageBoundaries	    off
-	    ZoomFactor		    "82"
-	    SimulinkSubDomain	    "Simulink"
-	    Block {
-	      BlockType		      Inport
-	      Name		      "error"
-	      SID		      "277"
-	      Position		      [20, 43, 50, 57]
-	      ZOrder		      5819
-	    }
-	    Block {
-	      BlockType		      SubSystem
-	      Name		      "MATLAB Function"
-	      SID		      "274"
-	      Ports		      [2, 1]
-	      Position		      [135, 39, 205, 86]
-	      ZOrder		      5817
-	      ErrorFcn		      "Stateflow.Translate.translate"
-	      PermitHierarchicalResolution "ExplicitOnly"
-	      TreatAsAtomicUnit	      on
-	      RequestExecContextInheritance off
-	      SFBlockType	      "MATLAB Function"
-	      ContentPreviewEnabled   on
-	      System {
-		Name			"MATLAB Function"
-		Location		[223, 338, 826, 833]
-		Open			off
-		PortBlocksUseCompactNotation off
-		SetExecutionDomain	off
-		ExecutionDomainType	"Deduce"
-		ModelBrowserVisibility	off
-		ModelBrowserWidth	200
-		ScreenColor		"white"
-		PaperOrientation	"landscape"
-		PaperPositionMode	"auto"
-		PaperType		"usletter"
-		PaperUnits		"inches"
-		TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
-		TiledPageScale		1
-		ShowPageBoundaries	off
-		ZoomFactor		"100"
-		SIDHighWatermark	"22"
-		SimulinkSubDomain	"Simulink"
-		Block {
-		  BlockType		  Inport
-		  Name			  "error"
-		  SID			  "274::1"
-		  Position		  [20, 101, 40, 119]
-		  ZOrder		  -1
-		}
-		Block {
-		  BlockType		  Inport
-		  Name			  "valve_state"
-		  SID			  "274::22"
-		  Position		  [20, 136, 40, 154]
-		  ZOrder		  13
-		  Port			  "2"
-		}
-		Block {
-		  BlockType		  Demux
-		  Name			  " Demux "
-		  SID			  "274::20"
-		  Ports			  [1, 1]
-		  Position		  [270, 230, 320, 270]
-		  ZOrder		  11
-		  Outputs		  "1"
-		}
-		Block {
-		  BlockType		  S-Function
-		  Name			  " SFunction "
-		  SID			  "274::19"
-		  Tag			  "Stateflow S-Function 2"
-		  Ports			  [2, 2]
-		  Position		  [180, 100, 230, 160]
-		  ZOrder		  10
-		  FunctionName		  "sf_sfun"
-		  PortCounts		  "[2 2]"
-		  SFunctionDeploymentMode off
-		  EnableBusSupport	  on
-		  SFcnIsStateOwnerBlock	  off
-		  Port {
-		    PortNumber		    2
-		    Name		    "y"
-		  }
-		}
-		Block {
-		  BlockType		  Terminator
-		  Name			  " Terminator "
-		  SID			  "274::21"
-		  Position		  [460, 241, 480, 259]
-		  ZOrder		  12
-		}
-		Block {
-		  BlockType		  Outport
-		  Name			  "y"
-		  SID			  "274::5"
-		  Position		  [460, 101, 480, 119]
-		  ZOrder		  -5
-		}
-		Line {
-		  ZOrder		  9
-		  SrcBlock		  "error"
-		  SrcPort		  1
-		  DstBlock		  " SFunction "
-		  DstPort		  1
-		}
-		Line {
-		  ZOrder		  10
-		  SrcBlock		  "valve_state"
-		  SrcPort		  1
-		  DstBlock		  " SFunction "
-		  DstPort		  2
-		}
-		Line {
-		  Name			  "y"
-		  ZOrder		  11
-		  Labels		  [0, 0]
-		  SrcBlock		  " SFunction "
-		  SrcPort		  2
-		  DstBlock		  "y"
-		  DstPort		  1
-		}
-		Line {
-		  ZOrder		  12
-		  SrcBlock		  " Demux "
-		  SrcPort		  1
-		  DstBlock		  " Terminator "
-		  DstPort		  1
-		}
-		Line {
-		  ZOrder		  13
-		  SrcBlock		  " SFunction "
-		  SrcPort		  1
-		  DstBlock		  " Demux "
-		  DstPort		  1
-		}
-	      }
-	    }
-	    Block {
-	      BlockType		      Memory
-	      Name		      "Memory"
-	      SID		      "275"
-	      Position		      [155, 110, 185, 140]
-	      ZOrder		      5818
-	      BlockMirror	      on
-	      NameLocation	      "top"
-	    }
-	    Block {
-	      BlockType		      Outport
-	      Name		      "y"
-	      SID		      "278"
-	      Position		      [295, 23, 325, 37]
-	      ZOrder		      5820
-	    }
-	    Line {
-	      ZOrder		      536
-	      SrcBlock		      "MATLAB Function"
-	      SrcPort		      1
-	      Points		      [15, 0]
-	      Branch {
-		ZOrder			553
-		Points			[0, -35]
-		DstBlock		"y"
-		DstPort			1
-	      }
-	      Branch {
-		ZOrder			550
-		Points			[0, 60]
-		DstBlock		"Memory"
-		DstPort			1
-	      }
-	    }
-	    Line {
-	      ZOrder		      539
-	      SrcBlock		      "Memory"
-	      SrcPort		      1
-	      Points		      [-30, 0]
-	      DstBlock		      "MATLAB Function"
-	      DstPort		      2
-	    }
-	    Line {
-	      ZOrder		      552
-	      SrcBlock		      "error"
-	      SrcPort		      1
-	      DstBlock		      "MATLAB Function"
-	      DstPort		      1
-	    }
-	  }
-	}
-	Block {
-	  BlockType		  Sum
-	  Name			  "Sum"
-	  SID			  "298"
-	  Ports			  [2, 1]
-	  Position		  [345, 30, 365, 50]
-	  ZOrder		  5825
-	  Inputs		  "++|"
 	}
 	Block {
 	  BlockType		  SubSystem
@@ -3744,11 +3730,11 @@ Model {
 	Block {
 	  BlockType		  Switch
 	  Name			  "Switch1"
-	  SID			  "299"
-	  Position		  [435, -70, 480, -10]
-	  ZOrder		  5826
+	  SID			  "336"
+	  Position		  [120, 200, 185, 240]
+	  ZOrder		  5830
 	  Criteria		  "u2 > Threshold"
-	  Threshold		  "1"
+	  Threshold		  "30"
 	  InputSameDT		  off
 	  SaturateOnIntegerOverflow off
 	}
@@ -3756,37 +3742,16 @@ Model {
 	  BlockType		  Outport
 	  Name			  "FlowReference [inhale]"
 	  SID			  "294"
-	  Position		  [520, 53, 550, 67]
+	  Position		  [520, 33, 550, 47]
 	  ZOrder		  5821
 	}
 	Block {
 	  BlockType		  Outport
 	  Name			  "valveReference [exhale]"
 	  SID			  "295"
-	  Position		  [520, 103, 550, 117]
+	  Position		  [520, 213, 550, 227]
 	  ZOrder		  5822
 	  Port			  "2"
-	}
-	Line {
-	  ZOrder		  633
-	  SrcBlock		  "Error [cmH20]"
-	  SrcPort		  1
-	  DstBlock		  "Switch"
-	  DstPort		  1
-	}
-	Line {
-	  ZOrder		  522
-	  SrcBlock		  "Switch"
-	  SrcPort		  1
-	  DstBlock		  "PID Controller"
-	  DstPort		  1
-	}
-	Line {
-	  ZOrder		  646
-	  SrcBlock		  "PID Controller1"
-	  SrcPort		  1
-	  DstBlock		  "valveReference [exhale]"
-	  DstPort		  1
 	}
 	Line {
 	  ZOrder		  523
@@ -3796,66 +3761,72 @@ Model {
 	  DstPort		  1
 	}
 	Line {
-	  ZOrder		  636
-	  SrcBlock		  "Current Mass Flow"
-	  SrcPort		  1
-	  DstBlock		  "Memory"
-	  DstPort		  1
-	}
-	Line {
-	  ZOrder		  640
-	  SrcBlock		  "Memory"
-	  SrcPort		  1
-	  Points		  [70, 0]
-	  DstBlock		  "Sum"
-	  DstPort		  1
-	}
-	Line {
-	  ZOrder		  653
-	  SrcBlock		  "Sum"
-	  SrcPort		  1
-	  Points		  [80, 0]
-	}
-	Line {
-	  ZOrder		  651
-	  SrcBlock		  "Ground"
-	  SrcPort		  1
-	  Points		  [65, 0]
-	}
-	Line {
 	  ZOrder		  647
 	  SrcBlock		  "Reference"
 	  SrcPort		  1
-	  DstBlock		  "Switch"
-	  DstPort		  2
+	  Points		  [26, 0]
+	  Branch {
+	    ZOrder		    662
+	    Points		    [0, 110]
+	    DstBlock		    "Switch1"
+	    DstPort		    2
+	  }
+	  Branch {
+	    ZOrder		    661
+	    DstBlock		    "Switch"
+	    DstPort		    2
+	  }
 	}
 	Line {
 	  ZOrder		  638
 	  SrcBlock		  "PID Controller"
 	  SrcPort		  1
-	  Points		  [17, 0]
-	  Branch {
-	    ZOrder		    654
-	    Points		    [0, 20]
-	    DstBlock		    "FlowReference [inhale]"
-	    DstPort		    1
-	  }
-	  Branch {
-	    ZOrder		    644
-	    DstBlock		    "Sum"
-	    DstPort		    2
-	  }
+	  DstBlock		  "FlowReference [inhale]"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  659
+	  SrcBlock		  "PID Controller1"
+	  SrcPort		  1
+	  DstBlock		  "On Off "
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  660
+	  SrcBlock		  "On Off "
+	  SrcPort		  1
+	  Points		  [65, 0]
+	}
+	Line {
+	  ZOrder		  663
+	  SrcBlock		  "Constant"
+	  SrcPort		  1
+	  DstBlock		  "Switch1"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  664
+	  SrcBlock		  "Constant1"
+	  SrcPort		  1
+	  DstBlock		  "Switch1"
+	  DstPort		  3
+	}
+	Line {
+	  ZOrder		  665
+	  SrcBlock		  "Switch1"
+	  SrcPort		  1
+	  DstBlock		  "valveReference [exhale]"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  666
+	  SrcBlock		  "Error [cmH20]"
+	  SrcPort		  1
+	  Points		  [23, 0; 0, -61; 122, 0; 0, 61]
+	  DstBlock		  "PID Controller"
+	  DstPort		  1
 	}
       }
-    }
-    Block {
-      BlockType		      Display
-      Name		      "Display"
-      SID		      "306"
-      Ports		      [1]
-      Position		      [-245, 240, -155, 270]
-      ZOrder		      5830
-      Decimation	      "1"
     }
     Block {
       BlockType		      Reference
@@ -3969,7 +3940,14 @@ Model {
       ZOrder		      5736
       ShowName		      off
       GotoTag		      "p_lung"
-      TagVisibility	      "global"
+    }
+    Block {
+      BlockType		      From
+      Name		      "From10"
+      SID		      "333"
+      Position		      [-660, 405, -575, 435]
+      ZOrder		      5853
+      GotoTag		      "Valve_input"
     }
     Block {
       BlockType		      From
@@ -4021,7 +3999,7 @@ Model {
       BlockType		      From
       Name		      "From7"
       SID		      "326"
-      Position		      [-660, 215, -580, 245]
+      Position		      [-660, 210, -580, 240]
       ZOrder		      5847
       GotoTag		      "Reference"
     }
@@ -4029,7 +4007,7 @@ Model {
       BlockType		      From
       Name		      "From8"
       SID		      "327"
-      Position		      [-660, 265, -580, 295]
+      Position		      [-660, 260, -580, 290]
       ZOrder		      5848
       GotoTag		      "Pressure"
     }
@@ -4056,6 +4034,25 @@ Model {
       Position		      [270, 115, 335, 145]
       ZOrder		      5840
       GotoTag		      "Value_position"
+    }
+    Block {
+      BlockType		      Goto
+      Name		      "Goto2"
+      SID		      "331"
+      Position		      [145, 232, 225, 258]
+      ZOrder		      5851
+      GotoTag		      "Valve_input"
+    }
+    Block {
+      BlockType		      Goto
+      Name		      "Goto3"
+      SID		      "335"
+      Position		      [180, 332, 250, 348]
+      ZOrder		      5854
+      BlockMirror	      on
+      NameLocation	      "top"
+      ShowName		      off
+      GotoTag		      "p_lung"
     }
     Block {
       BlockType		      Reference
@@ -4241,7 +4238,7 @@ Model {
       Name		      "Mask"
       SID		      "164"
       Ports		      [0, 0, 0, 0, 0, 3, 3]
-      Position		      [700, 440, 740, 500]
+      Position		      [555, 395, 595, 455]
       ZOrder		      5738
       BlockRotation	      270
       BlockMirror	      on
@@ -4402,7 +4399,7 @@ Model {
       BlockType		      Gain
       Name		      "Max Valve\nArea"
       SID		      "147"
-      Position		      [30, 165, 60, 195]
+      Position		      [30, 157, 90, 203]
       ZOrder		      5747
       Gain		      "pi*D_tube^2/4"
     }
@@ -4434,7 +4431,7 @@ Model {
       Name		      "Moist Air Properties\n(MA)"
       SID		      "3"
       Ports		      [0, 0, 0, 0, 0, 0, 1]
-      Position		      [625, 161, 665, 189]
+      Position		      [480, 116, 520, 144]
       ZOrder		      15
       LibraryVersion	      "10001000.1"
       SourceBlock	      "fl_lib/Moist Air/Utilities/Moist Air Properties\n(MA)"
@@ -4661,8 +4658,18 @@ Model {
       Name		      "Mux2"
       SID		      "329"
       Ports		      [2, 1]
-      Position		      [-535, 206, -530, 304]
+      Position		      [-535, 201, -530, 299]
       ZOrder		      5849
+      Inputs		      "2"
+      DisplayOption	      "bar"
+    }
+    Block {
+      BlockType		      Mux
+      Name		      "Mux3"
+      SID		      "332"
+      Ports		      [2, 1]
+      Position		      [-525, 371, -520, 409]
+      ZOrder		      5852
       Inputs		      "2"
       DisplayOption	      "bar"
     }
@@ -4697,7 +4704,7 @@ Model {
       Name		      "Perfect Insulator"
       SID		      "72"
       Ports		      [0, 0, 0, 0, 0, 1]
-      Position		      [725, 525, 745, 545]
+      Position		      [580, 480, 600, 500]
       ZOrder		      49
       BlockRotation	      270
       BlockMirror	      on
@@ -4767,7 +4774,7 @@ Model {
 	  Position		  [95, 24, 160, 56]
 	  ZOrder		  5742
 	  PulseType		  "Time based"
-	  Amplitude		  "40"
+	  Amplitude		  "60"
 	  Period		  "60 / respiratory_rate"
 	  PulseWidth		  "IE_ratio/(IE_ratio+1) * 100"
 	}
@@ -4993,38 +5000,38 @@ Model {
       ScopeSpecificationString "Simulink.scopes.TimeScopeBlockCfg('CurrentConfiguration', extmgr.ConfigurationSet(extm"
       "gr.Configuration('Core','General UI',true),extmgr.Configuration('Core','Source UI',true),extmgr.Configuration('S"
       "ources','WiredSimulink',true),extmgr.Configuration('Visuals','Time Domain',true,'SerializedDisplays',{struct('Mi"
-      "nYLimReal','-467.14799','MaxYLimReal','562.70168','YLabelReal','','MinYLimMag',' 0.00000','MaxYLimMag','562.7016"
-      "8','LegendVisibility','Off','XGrid',true,'YGrid',true,'PlotMagPhase',false,'AxesColor',[0 0 0],'AxesTickColor',["
-      "0.686274509803922 0.686274509803922 0.686274509803922],'ColorOrder',[1 1 0.0666666666666667;0.0745098039215686 0"
-      ".623529411764706 1;1 0.411764705882353 0.16078431372549;0.392156862745098 0.831372549019608 0.0745098039215686;0"
-      ".717647058823529 0.274509803921569 1;0.0588235294117647 1 1;1 0.0745098039215686 0.650980392156863],'Title','Flo"
-      "w (L/min)','LinePropertiesCache',{{}},'UserDefinedChannelNames',{{}},'NumLines',1,'LineNames',{{'PS-Simulink Con"
-      "verter'}},'ShowContent',true,'Placement',1),struct('MinYLimReal','-6.17462','MaxYLimReal','55.57159','YLabelReal"
-      "','','MinYLimMag','0.00000','MaxYLimMag','1.00000','LegendVisibility','Off','XGrid',true,'YGrid',true,'PlotMagPh"
-      "ase',false,'AxesColor',[0 0 0],'AxesTickColor',[0.686274509803922 0.686274509803922 0.686274509803922],'ColorOrd"
-      "er',[1 1 0.0666666666666667;0.0745098039215686 0.623529411764706 1;1 0.411764705882353 0.16078431372549;0.392156"
-      "862745098 0.831372549019608 0.0745098039215686;0.717647058823529 0.274509803921569 1;0.0588235294117647 1 1;1 0."
-      "0745098039215686 0.650980392156863],'Title','Pressure (cm H2O)','LinePropertiesCache',{{}},'UserDefinedChannelNa"
-      "mes',{{}},'NumLines',2,'LineNames',{{'Convert to cmH2O','Convert to cmH2O'}},'ShowContent',true,'Placement',2),s"
-      "truct('MinYLimReal','1.53749','MaxYLimReal','6.16256','YLabelReal','','MinYLimMag','0.00000','MaxYLimMag','1.000"
-      "00','LegendVisibility','Off','XGrid',true,'YGrid',true,'PlotMagPhase',false,'AxesColor',[0 0 0],'AxesTickColor',"
-      "[0.686274509803922 0.686274509803922 0.686274509803922],'ColorOrder',[1 1 0.0666666666666667;0.0745098039215686 "
-      "0.623529411764706 1;1 0.411764705882353 0.16078431372549;0.392156862745098 0.831372549019608 0.0745098039215686;"
-      "0.717647058823529 0.274509803921569 1;0.0588235294117647 1 1;1 0.0745098039215686 0.650980392156863],'Title','Vo"
-      "lume (L)','LinePropertiesCache',{{}},'UserDefinedChannelNames',{{}},'NumLines',1,'LineNames',{{'Convert to L'}},"
-      "'ShowContent',true,'Placement',3),struct('MinYLimReal','-0.125','MaxYLimReal','1.125','YLabelReal','','MinYLimMa"
-      "g','0.00000','MaxYLimMag','1.00000','LegendVisibility','Off','XGrid',true,'YGrid',true,'PlotMagPhase',false,'Axe"
-      "sColor',[0 0 0],'AxesTickColor',[0.686274509803922 0.686274509803922 0.686274509803922],'ColorOrder',[1 1 0.0666"
-      "666666666667;0.0745098039215686 0.623529411764706 1;1 0.411764705882353 0.16078431372549;0.392156862745098 0.831"
-      "372549019608 0.0745098039215686;0.717647058823529 0.274509803921569 1;0.0588235294117647 1 1;1 0.074509803921568"
-      "6 0.650980392156863],'Title','','LinePropertiesCache',{{}},'UserDefinedChannelNames',{{}},'NumLines',2,'LineName"
-      "s',{{'PID Controller','<y>'}},'ShowContent',true,'Placement',4)},'DisplayPropertyDefaults',struct('YLabelReal','"
+      "nYLimReal','-776.55506','MaxYLimReal','1600.14993','YLabelReal','','MinYLimMag',' 0.00000','MaxYLimMag','1600.14"
+      "993','LegendVisibility','Off','XGrid',true,'YGrid',true,'PlotMagPhase',false,'AxesColor',[0 0 0],'AxesTickColor'"
+      ",[0.686274509803922 0.686274509803922 0.686274509803922],'ColorOrder',[1 1 0.0666666666666667;0.0745098039215686"
+      " 0.623529411764706 1;1 0.411764705882353 0.16078431372549;0.392156862745098 0.831372549019608 0.0745098039215686"
+      ";0.717647058823529 0.274509803921569 1;0.0588235294117647 1 1;1 0.0745098039215686 0.650980392156863],'Title','F"
+      "low (L/min)','LinePropertiesCache',{{}},'UserDefinedChannelNames',{{}},'NumLines',1,'LineNames',{{'PS-Simulink C"
+      "onverter'}},'ShowContent',true,'Placement',1),struct('MinYLimReal','-8.70176','MaxYLimReal','78.31587','YLabelRe"
+      "al','','MinYLimMag','0.00000','MaxYLimMag','1.00000','LegendVisibility','Off','XGrid',true,'YGrid',true,'PlotMag"
+      "Phase',false,'AxesColor',[0 0 0],'AxesTickColor',[0.686274509803922 0.686274509803922 0.686274509803922],'ColorO"
+      "rder',[1 1 0.0666666666666667;0.0745098039215686 0.623529411764706 1;1 0.411764705882353 0.16078431372549;0.3921"
+      "56862745098 0.831372549019608 0.0745098039215686;0.717647058823529 0.274509803921569 1;0.0588235294117647 1 1;1 "
+      "0.0745098039215686 0.650980392156863],'Title','Pressure (cm H2O)','LinePropertiesCache',{{}},'UserDefinedChannel"
+      "Names',{{}},'NumLines',2,'LineNames',{{'Sensors/1','Convert to cmH2O'}},'ShowContent',true,'Placement',2),struct"
+      "('MinYLimReal','1.21961','MaxYLimReal','9.02354','YLabelReal','','MinYLimMag','0.00000','MaxYLimMag','1.00000','"
+      "LegendVisibility','Off','XGrid',true,'YGrid',true,'PlotMagPhase',false,'AxesColor',[0 0 0],'AxesTickColor',[0.68"
+      "6274509803922 0.686274509803922 0.686274509803922],'ColorOrder',[1 1 0.0666666666666667;0.0745098039215686 0.623"
+      "529411764706 1;1 0.411764705882353 0.16078431372549;0.392156862745098 0.831372549019608 0.0745098039215686;0.717"
+      "647058823529 0.274509803921569 1;0.0588235294117647 1 1;1 0.0745098039215686 0.650980392156863],'Title','Volume "
+      "(L)','LinePropertiesCache',{{}},'UserDefinedChannelNames',{{}},'NumLines',1,'LineNames',{{'Convert to L'}},'Show"
+      "Content',true,'Placement',3),struct('MinYLimReal','-1.00000','MaxYLimReal','1.00000','YLabelReal','','MinYLimMag"
+      "','0.00000','MaxYLimMag','1.00000','LegendVisibility','Off','XGrid',true,'YGrid',true,'PlotMagPhase',false,'Axes"
+      "Color',[0 0 0],'AxesTickColor',[0.686274509803922 0.686274509803922 0.686274509803922],'ColorOrder',[1 1 0.06666"
+      "66666666667;0.0745098039215686 0.623529411764706 1;1 0.411764705882353 0.16078431372549;0.392156862745098 0.8313"
+      "72549019608 0.0745098039215686;0.717647058823529 0.274509803921569 1;0.0588235294117647 1 1;1 0.0745098039215686"
+      " 0.650980392156863],'Title','','LinePropertiesCache',{{}},'UserDefinedChannelNames',{{}},'NumLines',2,'LineNames"
+      "',{{'Channel 5','Channel 6'}},'ShowContent',true,'Placement',4)},'DisplayPropertyDefaults',struct('YLabelReal','"
       "','AxesColor',[0 0 0],'AxesTickColor',[0.686274509803922 0.686274509803922 0.686274509803922],'ColorOrder',[0.07"
       "45098039215686 0.623529411764706 1;1 0.411764705882353 0.16078431372549;1 1 0.0666666666666667;0.717647058823529"
       " 0.274509803921569 1;0.392156862745098 0.831372549019608 0.0745098039215686;0.0588235294117647 1 1;1 0.074509803"
       "9215686 0.650980392156863]),'DisplayLayoutDimensions',[4 1]),extmgr.Configuration('Tools','Plot Navigation',true"
       ",'OnceAtStop',false,'PreviousZoomMode','ZoomY'),extmgr.Configuration('Tools','Measurements',true,'Version','2020"
-      "a')),'Version','2020a','Position',[421 79 1409 574])"
+      "a')),'Version','2020a','Position',[32 259 1409 574])"
       NumInputPorts	      "4"
       Floating		      off
     }
@@ -5033,13 +5040,13 @@ Model {
       Name		      "Scope1"
       SID		      "330"
       Ports		      [3]
-      Position		      [-455, 214, -380, 416]
+      Position		      [-455, 238, -390, 342]
       ZOrder		      5846
       ScopeSpecificationString "Simulink.scopes.TimeScopeBlockCfg('CurrentConfiguration', extmgr.ConfigurationSet(extm"
       "gr.Configuration('Core','General UI',true),extmgr.Configuration('Core','Source UI',true),extmgr.Configuration('S"
       "ources','WiredSimulink',true,'DataLoggingVariableName','ScopeData1'),extmgr.Configuration('Visuals','Time Domain"
-      "',true,'SerializedDisplays',{struct('MinYLimReal','-6.25','MaxYLimReal','56.25','YLabelReal','','MinYLimMag','0."
-      "00000','MaxYLimMag','56.25','LegendVisibility','off','XGrid',true,'YGrid',true,'PlotMagPhase',false,'AxesColor',"
+      "',true,'SerializedDisplays',{struct('MinYLimReal','-8.75','MaxYLimReal','78.75','YLabelReal','','MinYLimMag','0."
+      "00000','MaxYLimMag','78.75','LegendVisibility','off','XGrid',true,'YGrid',true,'PlotMagPhase',false,'AxesColor',"
       "[0 0 0],'AxesTickColor',[0.686274509803922 0.686274509803922 0.686274509803922],'ColorOrder',[1 1 0.066666666666"
       "6667;0.0745098039215686 0.623529411764706 1;1 0.411764705882353 0.16078431372549;0.392156862745098 0.83137254901"
       "9608 0.0745098039215686;0.717647058823529 0.274509803921569 1;0.0588235294117647 1 1;1 0.0745098039215686 0.6509"
@@ -5047,28 +5054,28 @@ Model {
       "','-','LineWidth',0.75,'Marker','none','Visible','on','MarkerSize',8),struct('Color',[0.0745098039215686 0.62352"
       "9411764706 1],'LineStyle','-','LineWidth',0.75,'Marker','none','Visible','on','MarkerSize',8),[],[]}},'UserDefin"
       "edChannelNames',{{}},'NumLines',2,'LineNames',{{'Reference','Sensors1/2'}},'ShowContent',true,'Placement',1),str"
-      "uct('MinYLimReal','-0.0125','MaxYLimReal','0.1125','YLabelReal','','MinYLimMag','0.00000','MaxYLimMag','56.25','"
-      "LegendVisibility','off','XGrid',true,'YGrid',true,'PlotMagPhase',false,'AxesColor',[0 0 0],'AxesTickColor',[0.68"
-      "6274509803922 0.686274509803922 0.686274509803922],'ColorOrder',[1 1 0.0666666666666667;0.0745098039215686 0.623"
-      "529411764706 1;1 0.411764705882353 0.16078431372549;0.392156862745098 0.831372549019608 0.0745098039215686;0.717"
-      "647058823529 0.274509803921569 1;0.0588235294117647 1 1;1 0.0745098039215686 0.650980392156863],'Title','%<Signa"
-      "lLabel>','LinePropertiesCache',{{struct('Color',[1 0.411764705882353 0.16078431372549],'LineStyle','-','LineWidt"
-      "h',0.75,'Marker','none','Visible','on','MarkerSize',8)}},'UserDefinedChannelNames',{{}},'NumLines',1,'LineNames'"
-      ",{{'Controller/1'}},'ShowContent',true,'Placement',2),struct('MinYLimReal','-0.000009','MaxYLimReal','0.00008','"
-      "YLabelReal','','MinYLimMag','0.00000','MaxYLimMag','56.25','LegendVisibility','off','XGrid',true,'YGrid',true,'P"
-      "lotMagPhase',false,'AxesColor',[0 0 0],'AxesTickColor',[0.686274509803922 0.686274509803922 0.686274509803922],'"
-      "ColorOrder',[1 1 0.0666666666666667;0.0745098039215686 0.623529411764706 1;1 0.411764705882353 0.16078431372549;"
-      "0.392156862745098 0.831372549019608 0.0745098039215686;0.717647058823529 0.274509803921569 1;0.0588235294117647 "
-      "1 1;1 0.0745098039215686 0.650980392156863],'Title','%<SignalLabel>','LinePropertiesCache',{{struct('Color',[0.3"
-      "92156862745098 0.831372549019608 0.0745098039215686],'LineStyle','-','LineWidth',0.75,'Marker','none','Visible',"
-      "'on','MarkerSize',8)}},'UserDefinedChannelNames',{{}},'NumLines',1,'LineNames',{{'Actuator dynamics valve'}},'Sh"
-      "owContent',true,'Placement',3)},'DisplayPropertyDefaults',struct('YLabelReal','','LegendVisibility','off','XGrid"
-      "',true,'YGrid',true,'PlotMagPhase',false,'AxesColor',[0 0 0],'AxesTickColor',[0.686274509803922 0.68627450980392"
-      "2 0.686274509803922],'ColorOrder',[0.0745098039215686 0.623529411764706 1;1 0.411764705882353 0.16078431372549;1"
-      " 1 0.0666666666666667;0.717647058823529 0.274509803921569 1;0.392156862745098 0.831372549019608 0.07450980392156"
-      "86;0.0588235294117647 1 1;1 0.0745098039215686 0.650980392156863]),'DisplayLayoutDimensions',[3 1]),extmgr.Confi"
-      "guration('Tools','Plot Navigation',true),extmgr.Configuration('Tools','Measurements',true,'Version','2020a')),'V"
-      "ersion','2020a','Position',[277 197 1019 420])"
+      "uct('MinYLimReal','-0.00625','MaxYLimReal','0.05625','YLabelReal','','MinYLimMag','0.00000','MaxYLimMag','56.25'"
+      ",'LegendVisibility','off','XGrid',true,'YGrid',true,'PlotMagPhase',false,'AxesColor',[0 0 0],'AxesTickColor',[0."
+      "686274509803922 0.686274509803922 0.686274509803922],'ColorOrder',[1 1 0.0666666666666667;0.0745098039215686 0.6"
+      "23529411764706 1;1 0.411764705882353 0.16078431372549;0.392156862745098 0.831372549019608 0.0745098039215686;0.7"
+      "17647058823529 0.274509803921569 1;0.0588235294117647 1 1;1 0.0745098039215686 0.650980392156863],'Title','%<Sig"
+      "nalLabel>','LinePropertiesCache',{{struct('Color',[1 0.411764705882353 0.16078431372549],'LineStyle','-','LineWi"
+      "dth',0.75,'Marker','none','Visible','on','MarkerSize',8)}},'UserDefinedChannelNames',{{}},'NumLines',1,'LineName"
+      "s',{{'Controller/1'}},'ShowContent',true,'Placement',2),struct('MinYLimReal','-0.00001','MaxYLimReal','0.000088'"
+      ",'YLabelReal','','MinYLimMag','0.00000','MaxYLimMag','56.25','LegendVisibility','off','XGrid',true,'YGrid',true,"
+      "'PlotMagPhase',false,'AxesColor',[0 0 0],'AxesTickColor',[0.686274509803922 0.686274509803922 0.686274509803922]"
+      ",'ColorOrder',[1 1 0.0666666666666667;0.0745098039215686 0.623529411764706 1;1 0.411764705882353 0.1607843137254"
+      "9;0.392156862745098 0.831372549019608 0.0745098039215686;0.717647058823529 0.274509803921569 1;0.058823529411764"
+      "7 1 1;1 0.0745098039215686 0.650980392156863],'Title','%<SignalLabel>','LinePropertiesCache',{{struct('Color',[0"
+      ".392156862745098 0.831372549019608 0.0745098039215686],'LineStyle','-','LineWidth',0.75,'Marker','none','Visible"
+      "','on','MarkerSize',8)}},'UserDefinedChannelNames',{{}},'NumLines',2,'LineNames',{{'Actuator dynamics valve','Ma"
+      "x Valve Area'}},'ShowContent',true,'Placement',3)},'DisplayPropertyDefaults',struct('YLabelReal','','LegendVisib"
+      "ility','off','XGrid',true,'YGrid',true,'PlotMagPhase',false,'AxesColor',[0 0 0],'AxesTickColor',[0.6862745098039"
+      "22 0.686274509803922 0.686274509803922],'ColorOrder',[0.0745098039215686 0.623529411764706 1;1 0.411764705882353"
+      " 0.16078431372549;1 1 0.0666666666666667;0.717647058823529 0.274509803921569 1;0.392156862745098 0.8313725490196"
+      "08 0.0745098039215686;0.0588235294117647 1 1;1 0.0745098039215686 0.650980392156863]),'DisplayLayoutDimensions',"
+      "[3 1]),extmgr.Configuration('Tools','Plot Navigation',true),extmgr.Configuration('Tools','Measurements',true,'Ve"
+      "rsion','2020a')),'Version','2020a','Position',[1 1 1440 804])"
       NumInputPorts	      "3"
       Floating		      off
     }
@@ -5077,7 +5084,7 @@ Model {
       Name		      "Sensors"
       SID		      "90"
       Ports		      [0, 2, 0, 0, 0, 1, 1]
-      Position		      [280, 395, 430, 455]
+      Position		      [280, 330, 430, 390]
       ZOrder		      63
       BlockMirror	      on
       RequestExecContextInheritance off
@@ -5476,7 +5483,7 @@ Model {
       Name		      "Sensors1"
       SID		      "186"
       Ports		      [0, 2, 0, 0, 0, 1, 1]
-      Position		      [415, 15, 565, 75]
+      Position		      [420, -20, 570, 40]
       ZOrder		      5759
       NameLocation	      "top"
       RequestExecContextInheritance off
@@ -6009,18 +6016,9 @@ Model {
     }
     Block {
       BlockType		      Terminator
-      Name		      "Terminator"
-      SID		      "301"
-      Position		      [230, 395, 250, 415]
-      ZOrder		      5828
-      BlockMirror	      on
-      NameLocation	      "top"
-    }
-    Block {
-      BlockType		      Terminator
       Name		      "Terminator1"
       SID		      "302"
-      Position		      [230, 415, 250, 435]
+      Position		      [230, 350, 250, 370]
       ZOrder		      5829
       BlockMirror	      on
       NameLocation	      "top"
@@ -6368,7 +6366,7 @@ Model {
 	ConnectType		"DEST_DEST"
 	SrcBlock		"Sensors1"
 	SrcPort			RConn1
-	Points			[154, 0; 0, 110]
+	Points			[4, 0; 0, 100]
       }
       Branch {
 	ConnectType		"DEST_DEST"
@@ -6530,6 +6528,7 @@ Model {
       ZOrder		      166
       SrcBlock		      "Mask"
       SrcPort		      LConn1
+      Points		      [0, -9; -15, 0; 0, -11]
       DstBlock		      "Sensors"
       DstPort		      LConn1
     }
@@ -6562,15 +6561,25 @@ Model {
       ZOrder		      248
       SrcBlock		      "Max Valve\nArea"
       SrcPort		      1
-      DstBlock		      "Actuator dynamics valve"
-      DstPort		      1
+      Points		      [4, 0]
+      Branch {
+	ZOrder			686
+	Points			[0, -39; -86, 0; 0, 104]
+	DstBlock		"Goto2"
+	DstPort			1
+      }
+      Branch {
+	ZOrder			685
+	DstBlock		"Actuator dynamics valve"
+	DstPort			1
+      }
     }
     Line {
       LineType		      "Connection"
       ZOrder		      262
       SrcBlock		      "Expiratory Valve"
       SrcPort		      RConn1
-      Points		      [13, 0; 0, 60]
+      Points		      [13, 0; 0, 15]
       DstBlock		      "Check Valve 2"
       DstPort		      RConn1
     }
@@ -6657,7 +6666,7 @@ Model {
       ZOrder		      585
       SrcBlock		      "Sensors1"
       SrcPort		      2
-      Points		      [19, 0; 0, -102; -899, 0; 0, 77]
+      Points		      [19, 0; 0, -68; -904, 0; 0, 78]
       Branch {
 	ZOrder			658
 	DstBlock		"Actual"
@@ -6717,7 +6726,6 @@ Model {
       ZOrder		      628
       SrcBlock		      "Mass Flow Controller"
       SrcPort		      RConn1
-      Points		      [20, 0; 0, 35]
       DstBlock		      "Check Valve 1"
       DstPort		      LConn1
     }
@@ -6733,24 +6741,14 @@ Model {
       ZOrder		      633
       SrcBlock		      "Sum"
       SrcPort		      1
-      Points		      [9, 0]
-      Branch {
-	ZOrder			647
-	Points			[0, 160]
-	DstBlock		"Display"
-	DstPort			1
-      }
-      Branch {
-	ZOrder			646
-	DstBlock		"Controller"
-	DstPort			1
-      }
+      DstBlock		      "Controller"
+      DstPort		      1
     }
     Line {
       ZOrder		      634
       SrcBlock		      "Controller"
       SrcPort		      1
-      Points		      [14, 0]
+      Points		      [16, 0]
       Branch {
 	ZOrder			652
 	Points			[0, -55]
@@ -6767,15 +6765,15 @@ Model {
       ZOrder		      635
       SrcBlock		      "Controller"
       SrcPort		      2
-      Points		      [31, 0; 0, 30]
+      Points		      [33, 0; 0, 30]
       DstBlock		      "Max Valve\nArea"
       DstPort		      1
     }
     Line {
-      ZOrder		      641
+      ZOrder		      692
       SrcBlock		      "Sensors"
       SrcPort		      1
-      DstBlock		      "Terminator"
+      DstBlock		      "Goto3"
       DstPort		      1
     }
     Line {
@@ -6796,7 +6794,7 @@ Model {
       ZOrder		      681
       SrcBlock		      "From6"
       SrcPort		      1
-      Points		      [77, 0; 0, -15]
+      Points		      [82, 0; 0, -40]
       DstBlock		      "Scope1"
       DstPort		      2
     }
@@ -6808,17 +6806,17 @@ Model {
       DstPort		      2
     }
     Line {
-      ZOrder		      682
+      ZOrder		      688
       SrcBlock		      "From9"
       SrcPort		      1
-      DstBlock		      "Scope1"
-      DstPort		      3
+      DstBlock		      "Mux3"
+      DstPort		      1
     }
     Line {
       ZOrder		      679
       SrcBlock		      "Mux2"
       SrcPort		      1
-      Points		      [15, 0; 0, -5]
+      Points		      [32, 0; 0, 5]
       DstBlock		      "Scope1"
       DstPort		      1
     }
@@ -6829,6 +6827,22 @@ Model {
       SrcPort		      RConn1
       DstBlock		      "Sensors1"
       DstPort		      LConn1
+    }
+    Line {
+      ZOrder		      693
+      SrcBlock		      "From10"
+      SrcPort		      1
+      Points		      [20, 0; 0, -20]
+      DstBlock		      "Mux3"
+      DstPort		      2
+    }
+    Line {
+      ZOrder		      690
+      SrcBlock		      "Mux3"
+      SrcPort		      1
+      Points		      [28, 0; 0, -65]
+      DstBlock		      "Scope1"
+      DstPort		      3
     }
     Annotation {
       SID		      "112"
@@ -6888,12 +6902,15 @@ Stateflow {
   chart {
     id			    2
     machine		    1
-    name		    "Controller/Subsystem/MATLAB Function"
+    name		    "Controller/On Off /MATLAB Function"
     windowPosition	    [422 539.941 189 413]
     viewLimits		    [0 156.75 0 153.75]
     screen		    [1 1 3600 1200 1.180555555555556]
     treeNode		    [0 3 0 0]
     viewObj		    2
+    visible		    1
+    subviewS {
+    }
     ssIdHighWaterMark	    6
     decomposition	    CLUSTER_CHART
     type		    EML_CHART
@@ -6920,9 +6937,9 @@ Stateflow {
     decomposition	    CLUSTER_STATE
     eml {
       isEML		      1
-      script		      "function y = fcn(error, valve_state)\nthres_low = 0.005;\nthres_high = 0.5;\ny = 0;\n    if valve"
-      "_state == 1 && error > thres_low\n        y = 1;\n%         valve_state == 1;\n    elseif valve_state == 1 && er"
-      "ror < thres_low\n        y = 0;\n%         valve_state == 0;\n    elseif valve_state == 0 && error > thres_high\n"
+      script		      "function y = fcn(error, valve_state)\nthres_low = 0.05;\nthres_high = 0.5;\ny = 0;\n    if valve_"
+      "state == 1 && error > thres_low\n        y = 1;\n%         valve_state == 1;\n    elseif valve_state == 1 && err"
+      "or < thres_low\n        y = 0;\n%         valve_state == 0;\n    elseif valve_state == 0 && error > thres_high\n"
       "        y = 1;\n%         valve_State == 1;\n    elseif valve_state == 0 && error > thres_low\n        y = 0;\n%"
       "         valve_state == 0\n    end\n        \nend\n\n"
       editorLayout	      "100 M4x1[10 5 700 500]"
@@ -7034,7 +7051,7 @@ Stateflow {
   instance {
     id			    9
     machine		    1
-    name		    "Controller/Subsystem/MATLAB Function"
+    name		    "Controller/On Off /MATLAB Function"
     chart		    2
   }
   target {
